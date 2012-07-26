@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Oncoguía</title>
+        <meta charset="utf-8" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <link rel="stylesheet" href="../css/jquery.mobile-1.1.0.min.css" />
+        <link rel="stylesheet" href="../css/jquery.mobile.scrollview.css" />
+        <link rel="stylesheet" href="../css/imo.css"/>
+        <link rel="stylesheet" href="../css/custom.css"/>
+        <link rel="stylesheet" href="../css/grid/jquery-mobile-fluid960.min.css"/>
+        <script src="../js/jquery.min.js"></script>
+        <script src="../js/general.functions.js"></script>
+        <script src="../js/jquery.mobile-1.1.0.min.js"></script>
+        <script src="../js/jquery.easing.1.3.js"></script>
+        <script src="../js/jquery.mobile.scrollview.js"></script>
+        <script src="../js/scrollview.js"></script>
+    </head>
+    <body>
+        <div data-role="page" id="detalle-cancer" data-theme="c">
+            <div data-role="header" data-id="cabecera"  data-position="fixed">
+            <a href="#" data-theme="c" data-icon="back" data-rel="back" data-position="inline">Volver</a>
+                <h1>
+                    Oncoguía - Tratamientos contra el cáncer
+                </h1>
+            </div>
+            <div data-role="content" class="container_12 ui-scrollview-clip">
+            <div class="grid_4">
+                <div data-scroll="y" class="scrolling-content w-background">
+				<ul id="cancer-list" data-filter="true" data-shadow="false" data-filter-theme="f" data-inset="true" data-role="listview" data-theme="a">
+					<li>
+					<a href="../tipos/adenoma-de-hipofisis.html">
+					<img src="../images/cancer/adenoma-hipofisis-thumb.jpg" alt="Adenoma de Hipófisis" />
+					<div class="ui-li-heading">Adenoma de Hipófisis</div>
+					<div class="ui-li-desc">Glándula situada en la silla turca</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/colon.html">
+					<img src="../images/cancer/colon-thumb.jpg" alt="Colon" />
+					<div class="ui-li-heading">Colon</div>
+					<div class="ui-li-desc">La última porción del aparato digestivo</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/cuello-uterino-cervix.html">
+					<img src="../images/cancer/cuello-uterino-cervix-thumb.jpg" alt="Cuello Uterino/Cérvix" />
+					<div class="ui-li-heading">Cuello Uterino/Cérvix</div>
+					<div class="ui-li-desc">parte más inferior del aparato rep. femenino</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/endometrio-utero.html">
+						<img src="../images/cancer/endometrio-utero-thumb.jpg" alt="Endometrio/útero" />
+					<div class="ui-li-heading">Endometrio/útero</div>
+					<div class="ui-li-desc">órgano hueco, situado en la pelvis.</div>
+					</a>
+					</li>
+					
+					<li data-theme="b">
+					<a href="../tipos/esofago.html">
+						<img src="../images/cancer/esofago-thumb.jpg" alt="Esófago" />
+					<div class="ui-li-heading">Esófago</div>
+					<div class="ui-li-desc">tubo hueco que transporta los alimentos</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/estomago.html">
+						<img src="../images/cancer/estomago-thumb.jpg" alt="Estómago" />
+					<div class="ui-li-heading">Estómago</div>
+					<div class="ui-li-desc">sitúado en la parte alta del abdomen</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/gliomas.html">
+						<img src="../images/cancer/gliomas-thumb.jpg" alt="Gliomas" />
+					<div class="ui-li-heading">Gliomas</div>
+					<div class="ui-li-desc">Se produce en el cerebro o en la médula espinal</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/mama.html">
+						<img src="../images/cancer/mama-thumb.jpg" alt="Mama" />
+					<div class="ui-li-heading">Mama</div>
+					<div class="ui-li-desc">Glándula destinada a la producción de leche</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/meningiomas.html">
+						<img src="../images/cancer/meningiomas-thumb.jpg" alt="Meningiomas" />
+					<div class="ui-li-heading">Meningiomas</div>
+					<div class="ui-li-desc">Tumor cerebral usualmente benigno</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/pancreas.html">
+						<img src="../images/cancer/pancreas-thumb.jpg" alt="Páncreas" />
+					<div class="ui-li-heading">Páncreas</div>
+					<div class="ui-li-desc">Glándula que participa en el proceso de la digestión</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/prostata.html">
+						<img src="../images/cancer/prostata-thumb.jpg" alt="Próstata" />
+					<div class="ui-li-heading">Próstata</div>
+					<div class="ui-li-desc">Glándula sexual exclusiva de los varones</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/recto.html">
+						<img src="../images/cancer/recto-thumb.jpg" alt="Recto" />
+					<div class="ui-li-heading">Recto</div>
+					<div class="ui-li-desc">La última porción del aparato digestivo</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/vejiga.html">
+						<img src="../images/cancer/vejiga-thumb.jpg" alt="Vejiga" />
+					<div class="ui-li-heading">Vejiga</div>
+					<div class="ui-li-desc">órgano situado en la parte baja de la pelvis</div>
+					</a>
+					</li>
+				</ul>
+                </div>
+            </div><!--fin container_4-->
+            <div class="grid_8 info-cancer">
+                <div data-scroll="y" class="scrolling-content">
+				<h1>Cáncer de esófago</h1>
+				<div data-role="controlgroup" data-type="horizontal">
+					<a href="../tipos/esofago.html" data-role="button">Ficha</a>
+					<a href="../tratamiento/esofago.html" data-role="button" class="ui-btn-active">Tratamiento</a>
+				</div>
+				<h2>Tratamiento</h2>						
+				<p>El tratamiento del cáncer de esófago es multidisciplinar y depende de la fase en la que se encuentre la enfermedad en el momento del diagnóstico, edad del paciente, y localización del tumor (tercio superior, medio o inferior).</p>
+				<p>En general, el tratamiento está basado en la combinación de alguno de estos tratamientos: cirugía, tratamiento con radiaciones y <strong>quimioterapia</strong> </p>
+				
+				<!--imagen-->
+				<div class="half-width-image-container float-left">
+				<a href="#"><img src="../images/cancer/esofago-04.jpg" alt="Esófago" class="half-width-image float-left"/></a>
+				</div>
+				
+					
+				<h3>Cirugía</h3>
+				<p>Se realiza cuando el tumor no invade por fuera del propio esófago. El procedimiento se llama esofagectomía, y  consiste en extirpar  la zona del esófago que contiene el tumor con un margen de tejido sano y unir el extremo del esófago con el estómago. </p>
+				<p> En ocasiones, para poder realizar esta conexión, es preciso usar un tubo de plástico (prótesis) o bien parte del intestino del paciente, que suplirá la porción de esófago extirpado.</p>
+				<p> Parte de este procedimiento es la linfadenectomía o extirpación de los ganglios linfáticos próximos al esófago, para analizar su probable invasión por la enfermedad. </p>
+				<p>Cuando no es posible llevar a cabo la esofagectomía, se puede colocar un stent o cánula metálica extensible, en el interior del esófago en la zona del tumor. La finalidad de esta cánula es mantener el calibre adecuado del esófago para que el paciente pueda continuar alimentándose.</p>
+				
+				<!--imagen-->
+				<div class="half-width-image-container float-left">
+				<a href="#"><img src="../images/cancer/esofago-05.jpg" alt="Esófago" class="half-width-image float-left"/></a>
+				</div>
+				
+				
+				<h3>Quimioterapia y tratamiento con radiaciones</h3>
+				<p>En cánceres localmente avanzados <em>(por invasión del tumor o por la existencia de afectación ganglionar en las pruebas de imagen diagnósticas)</em>, es preferible realizar un tratamiento inicial (neoadyuvante) con radioquimioterapia concomitante, con el fin de reducir el tamaño de la lesión y que pueda ser operado en una segunda fase. Incluso en algunas ocasiones, si con el tratamiento de <strong>Radioterapia</strong> y <strong>Quimioterapia</strong> se consigue una respuesta completa, se puede obviar la cirugía.</p>
+				<p><strong>La quimioterapia</strong> es un tratamiento sistémico, y los fármacos más utilizados son el 5 -FU y el cisplatino, y se pueden utilizar tanto solos como en combinación con la <strong>Radioterapia</strong>.</p>
+				<p> <strong>La radioterapia</strong> es un tratamiento locorregional, que utiliza radiaciones ionizantes. </p>
+				<p> Este tratamiento se puede realizar, en la gran mayoría de los casos, mediante <strong>radioterapia</strong> externa o bien mediante braquiterapia <em>(radioterapia interna)</em>, en un porcentaje escaso de los casos. </p>
+				<p> El avance tecnológico en <strong>radioterapia</strong> permite que los tratamientos actualmente administrados se realicen con una alta precisión y seguridad, teniendo en cuenta la dificultad del tratamiento debido, entre otras causas, a la proximidad de órganos sanos adyacentes al esófago, altamente sensibles a la radiación (médula, pulmones, corazón, etc).</p>
+				<p>Las diferentes técnicas de radioterapia son:</p>
+				
+				<!--imagen-->
+				<div class="half-width-image-container float-right">
+				<a href="#"><img src="../images/cancer/esofago-06.jpg" alt="Esófago" class="half-width-image float-right"/></a>
+				</div>
+				
+				<ul>
+				<li> <strong>Radioterapia 3D conformada:</strong> Se realiza la planificación empleando un TAC (Tomografía Axial Computerizada o scanner) . Para administrar el tratamiento se utiliza aceleradores lineales.</li>
+				<li><strong>Radioterapia con intensidad modulada de dosis (IMRT):</strong> Es una forma de radiación más avanzada que la <strong>radioterapia 3D</strong>, consigue reducir dosis sobre el tejido sano que rodea al tumor como son los pulmones, el corazón y la médula.</li>
+				<li><strong>Radioterapia Guiada por Imagen-IGRT-Tomoterapia:</strong> Es el procedimiento más avanzado con alta tecnología que permite administrar un tratamiento de <strong>radioterapia helicoidal</strong>, altamente adaptado a cada paciente. Con esta técnica se consigue reducir al máximo la dosis de radiación que llega a los órganos sanos vecinos mientras que el tumor recibe la dosis prescrita. La Tomoterapia incluye un sistema de TAC (scanner) que se realiza diariamente para conocer la posición  exacta del tumor, de los órganos sanos y del paciente. Con este TAC, se ajusta la posición de tratamiento y se minimiza el riesgo de error de colocación. Los efectos secundarios derivados de este tratamiento son mínimos, por lo que la calidad de vida de la paciente, durante y tras el tratamiento son excelentes.</li>
+				<li><strong>Braquiterapia:</strong> El tratamiento de braquiterapia en esta localización, se aplica  fundamentalmente con la finalidad de controlar síntomas. Se realiza en pocas sesiones (4 ó 5) y no es preciso que el paciente esté ingresado. Se coloca un tubo estrecho, largo y flexible  en el esófago por el que pasará la fuente radiactiva y depositará la radiación en el tumor en tan sólo unos minutos.</li>
+				<li>Los pacientes con afectación metastásica única, o una recidiva, pero con buen estado general, se pueden beneficiar de un innovador tratamiento de <strong>radioterapia</strong> externa de altísima precisión como es la <strong>Radioterapia Robotizada Guiada por Imagen -  CyberKnife</strong>. Con esta técnica es posible administrar una dosis alta de radiación en muy pocas sesiones controlando el movimiento de los los órganos y del paciente en cada sesión.</li>
+				</ul>
+				
+				<p>En aquellos casos en los que la enfermedad está diseminada (afecta a otros órganos), la quimioterapia es el tratamiento de elección.</p>
+				<p> <strong>La radioterapia</strong>, en esta fase de la enfermedad tiene una finalidad más paliativa y fundamental en el control de síntomas como el dolor o la disfagia (dificultad para tragar) mejorando la calidad de vida de los pacientes.</p>
+				
+				<h3>Pronóstico</h3>
+				<p>La supervivencia por carcinoma de esófago se mantiene estable en los últimos años. Sin embargo la mejora en los tratamientos permite que los pacientes con cáncer de esófago tengan una calidad de vida adecuada.</p>
+				
+				<h3>Aspecto Psico-Oncológico</h3>
+				<p>La calidad de vida del paciente con cáncer de esófago ha mejorado notablemente en la última década y la tendencia continúa gracias a los avances en el abordaje terapéutico de esta enfermedad.</p>
+				<p> Las estrategias quirúrgicas para el tratamiento del cáncer de esófago han avanzado notablemente, aunque pueden condicionar la calidad de vida del paciente. El paciente tendrá que afrontar ciertos cambios en sus hábitos dietéticos y adaptarse a las posibles modificaciones en las pautas de alimentación y nutrición.</p>
+				<p> Reacciones emocionales de inseguridad, preocupación y dudas ante el diagnóstico y los efectos secundarios de los tratamientos son normales y frecuentes. Compartirlas con el equipo médico y el entorno más cercano puede ayudar al paciente a afrontar su enfermedad, disminuir el malestar generado por los cambios necesarios en las pautas nutricionales, evitar situaciones de aislamiento y mejorar la comunicación con su entorno.</p>
+				<p>Si necesita más información sobre cómo afrontar un diagnóstico de un cáncer de cuello de útero, le ofrecemos unas pautas que le podrán ayudar a asumir y a adaptarse a la nueva situación. Puede consultarlas en el apartado de <a href="../apoyo.html">Apoyo Psicológico</a>.
+				Asimismo, si quiere conocer las experiencias y testimonios de personas que han superado esta enfermedad puede consultar en <a href="http://www.curadosdecancer.com">Curados de cáncer</a>.</p>
+			</div>
+        </div><!--fin container_12-->
+    <div data-role="footer" id="footer" data-id="main-footer" class="ui-body-d" data-position="fixed" role="contentinfo">
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="../index.html" id="tab-bar-home" data-icon="libro">
+                        Oncoguia
+                    </a>
+                </li>
+                <li>
+                    <a href="../prevencion.html" id="tab-bar-prevencion" data-icon="cruz">
+                        El cáncer. Prevención
+                    </a>
+                </li>
+                <li>
+                    <a href="#" id="tab-bar-tipos" data-icon="ficha" class="ui-btn-active ui-state-persist" >
+                        Tipos de cáncer
+                    </a>
+                </li>
+                <li>
+                    <a href="../apoyo.html" id="tab-bar-apoyo" data-icon="corazon">
+                        Apoyo Psicológico
+                    </a>
+                </li>
+                <li>
+                    <a href="../imo.html" id="tab-bar-imo" data-icon="imo">
+                        Fundación Grupo IMO
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div><!--fin footer-->
+    </div><!--fin home-->
+</body>
+</html>
