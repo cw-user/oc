@@ -87,9 +87,17 @@
 		float: right;
 		margin-left: 2em;
 	}
-	//Image Scaling
+	/*Image Scaling*/
 	img{max-width: 100%; height: auto;}
 	img{ -ms-interpolation-mode: bicubic; }
+
+   /*Fix Blinking*/
+   div {
+      backface-visibility:hidden;
+      -webkit-backface-visibility:hidden; /* Chrome and Safari */
+      -moz-backface-visibility:hidden; /* Firefox */
+   }
+
 	
 /* =============================================================================
 	Basic Styles
