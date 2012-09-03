@@ -145,6 +145,11 @@
       color: #000000;
       text-align: center;
    }
+   .bullet {
+      clear: both;
+      padding-left: 20px;
+      background: url(../images/bullet.png) 0 10px no-repeat;
+   }
 /* =============================================================================
 	Welcome screen
    ========================================================================== */
