@@ -92,12 +92,38 @@
 	img{ -ms-interpolation-mode: bicubic; }
 
    /*Fix Blinking*/
-   div {
-      backface-visibility:hidden;
-      -webkit-backface-visibility:hidden; /* Chrome and Safari */
-      -moz-backface-visibility:hidden; /* Firefox */
-      overflow: hidden;
-   }
+ .ui-mobile, .ui-mobile .ui-page, .ui-mobile [data-role="page"],
+ .ui-mobile [data-role="dialog"], .ui-page, .ui-mobile .ui-page-active {
+       overflow: hidden;
+       -webkit-backface-visibility: hidden;
+ }
+
+ .ui-header {
+     position:fixed;
+     z-index:10;
+     top:0;
+     width:100%;
+     padding: 13px 0;
+     height: 15px;
+ }
+
+ .ui-content {
+     padding-top: 57px;
+     padding-bottom: 54px;
+     overflow: auto;
+     position: absolute;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+ }
+
+ .ui-footer {
+     position:fixed;
+     z-index:10;
+    bottom:0;
+    width:100%;
+ }
 
 	
 /* =============================================================================
