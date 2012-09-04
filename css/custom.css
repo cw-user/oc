@@ -1,7 +1,7 @@
 /* =============================================================================
 	Custom fonts
    ========================================================================== */
-/*	@font-face {
+	@font-face {
 	    font-family: 'FuturaStdBold';
 	    src: url('../fonts/futurastd-bold-webfont.eot');
 	    src: url('../fonts/futurastd-bold-webfont.eot?#iefix') format('embedded-opentype'),
@@ -47,7 +47,7 @@
 	    font-weight: normal;
 	    font-style: normal;
 	
-	}*/
+	}
 /* =============================================================================
 	Helpers
    ========================================================================== */
@@ -96,37 +96,40 @@
 /* =============================================================================
 	Basic Styles
    ========================================================================== */
-   body {
-      font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-   }
-
    h1, h2 {
+   	font-family:"FuturaStdBold";
    	letter-spacing: -1px;
    }
    h3 {
+	font-family:"FuturaStdBook";
 	line-height: 1.4em;
 	font-size: 1.3em;
    }
    h3 strong {
+   	font-family:"FuturaStdBold";
    }
    p {
+   	font-family:"FuturaStdBook";
    	line-height: 1.6em;
    	font-size: 1.1em;
    }
    p strong {
+   	font-family:"FuturaStdBold";
    }
    li {
    	margin-bottom: 1em;
    	line-height: 120%;
    	color: #505050;
-	font: 1em;
+	font: 1em "FuturaStdBook";
    }
    li strong {
    	color: #000;
    }
    .ui-btn-text {
+   	font-family:"FuturaStdBook";
    }
    .ui-link {
+   	font-family:"FuturaStdBold";
    }
    .ui-content {
    	padding: 0;
@@ -260,6 +263,7 @@
    	margin-bottom: 10px;
    }
     #cancer-list .ui-li-heading {
+   	font-family:"FuturaStdBold";
    	letter-spacing: -1px;
    }
     #cancer-list .ui-li-desc {
@@ -303,7 +307,7 @@
 	styles Portrait
    ========================================================================== */   
          
-   @media @media only screen and (min-device-width: 1024px) {
+   @media only screen and (orientation : portrait) {
    
    	#wrapper {
    		width:250px;
@@ -458,7 +462,7 @@
    }
    
    /*Video player*/
-   .video-theater {
+   .video-theater { 
    	padding: 0 40px;
    }
    .videoplayer {
@@ -487,12 +491,11 @@
 	styles Landscape
    ========================================================================== */   
 
-   @media only screen and (min-device-width: 768px) {
+   @media only screen and (orientation : landscape) {
    
    #wrapper {
    	width:400px;
    	height:300px;
-   
    	float:left;
    	position:relative;	/* On older OS versions "position" and "z-index" must be defined, */
    	z-index:1;			/* it seems that recent webkit is less picky and works anyway. */
