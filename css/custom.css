@@ -1,7 +1,7 @@
 /* =============================================================================
 	Custom fonts
    ========================================================================== */
-	@font-face {
+/*	@font-face {
 	    font-family: 'FuturaStdBold';
 	    src: url('../fonts/futurastd-bold-webfont.eot');
 	    src: url('../fonts/futurastd-bold-webfont.eot?#iefix') format('embedded-opentype'),
@@ -47,7 +47,7 @@
 	    font-weight: normal;
 	    font-style: normal;
 	
-	}
+	}*/
 /* =============================================================================
 	Helpers
    ========================================================================== */
@@ -96,40 +96,37 @@
 /* =============================================================================
 	Basic Styles
    ========================================================================== */
+   body {
+      font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+   }
+
    h1, h2 {
-   	font-family:"FuturaStdBold";
    	letter-spacing: -1px;
    }
    h3 {
-	font-family:"FuturaStdBook";
 	line-height: 1.4em;
 	font-size: 1.3em;
    }
    h3 strong {
-   	font-family:"FuturaStdBold";
    }
    p {
-   	font-family:"FuturaStdBook";
    	line-height: 1.6em;
    	font-size: 1.1em;
    }
    p strong {
-   	font-family:"FuturaStdBold";
    }
    li {
    	margin-bottom: 1em;
    	line-height: 120%;
    	color: #505050;
-	font: 1em "FuturaStdBook";
+	font: 1em;
    }
    li strong {
    	color: #000;
    }
    .ui-btn-text {
-   	font-family:"FuturaStdBook";
    }
    .ui-link {
-   	font-family:"FuturaStdBold";
    }
    .ui-content {
    	padding: 0;
@@ -263,7 +260,6 @@
    	margin-bottom: 10px;
    }
     #cancer-list .ui-li-heading {
-   	font-family:"FuturaStdBold";
    	letter-spacing: -1px;
    }
     #cancer-list .ui-li-desc {
@@ -307,10 +303,7 @@
 	styles Portrait
    ========================================================================== */   
          
-   @media only screen
-   and (min-device-width : 768px)
-   and (max-device-width : 1024px)
-   and (orientation : portrait) {
+   @media @media only screen and (min-device-width: 1024px) {
    
    	#wrapper {
    		width:250px;
@@ -494,10 +487,7 @@
 	styles Landscape
    ========================================================================== */   
 
-   @media only screen
-   and (min-device-width : 768px)
-   and (max-device-width : 1024px)
-   and (orientation : landscape) {
+   @media only screen and (min-device-width: 768px) {
    
    #wrapper {
    	width:400px;
