@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>OncoGuía</title>
+		<meta charset="utf-8" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" href="../css/jquery.mobile-1.1.0.min.css" />
+		<link rel="stylesheet" href="../css/jquery.mobile.scrollview.css" />
+		<link rel="stylesheet" href="../css/imo.css"/>
+		<link rel="stylesheet" href="../css/custom.css"/>
+		<link rel="stylesheet" href="../css/grid/jquery-mobile-fluid960.min.css"/>
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/general.functions.js"></script>
+		<script src="../js/jquery.mobile-1.1.0.min.js"></script>
+		<script src="../js/jquery.easing.1.3.js"></script>
+		<script src="../js/jquery.mobile.scrollview.js"></script>
+		<script src="../js/scrollview.js"></script>
+	</head>
+	<body>
+		<div data-role="page" id="detalle-cancer" data-theme="c">
+			<div data-role="header" data-id="cabecera"  data-position="fixed">
+			<a href="#" data-theme="c" data-icon="back" data-rel="back" data-position="inline">Volver</a>
+				<h1>
+					 OncoGuía - Tratamientos contra el cáncer
+				</h1>
+			</div>
+			<div data-role="content" class="container_12 ui-scrollview-clip">
+			<div class="grid_4">
+				<div data-scroll="y" class="scrolling-content w-background">
+				<ul id="cancer-list" data-filter="true" data-shadow="false" data-filter-theme="f" data-inset="true" data-role="listview" data-theme="a">
+					<li data-theme="b">
+					<a href="../tipos/adenoma-de-hipofisis.html">
+					<img src="../images/cancer/adenoma-hipofisis-thumb.jpg" alt="Adenoma de Hipófisis" />
+					<div class="ui-li-heading">Adenoma de Hipófisis</div>
+					<div class="ui-li-desc">Glándula situada en la silla turca</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/colon.html">
+					<img src="../images/cancer/colon-thumb.jpg" alt="Colon" />
+					<div class="ui-li-heading">Colon</div>
+					<div class="ui-li-desc">La última porción del aparato digestivo</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/cuello-uterino-cervix.html">
+					<img src="../images/cancer/cuello-uterino-cervix-thumb.jpg" alt="Cuello Uterino/Cérvix" />
+					<div class="ui-li-heading">Cuello Uterino/Cérvix</div>
+					<div class="ui-li-desc">parte más inferior del aparato rep. femenino</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/endometrio-utero.html">
+						<img src="../images/cancer/endometrio-utero-thumb.jpg" alt="Endometrio/útero" />
+					<div class="ui-li-heading">Endometrio/útero</div>
+					<div class="ui-li-desc">órgano hueco, situado en la pelvis.</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/esofago.html">
+						<img src="../images/cancer/esofago-thumb.jpg" alt="Esófago" />
+					<div class="ui-li-heading">Esófago</div>
+					<div class="ui-li-desc">tubo hueco que transporta los alimentos</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/estomago.html">
+						<img src="../images/cancer/estomago-thumb.jpg" alt="Estómago" />
+					<div class="ui-li-heading">Estómago</div>
+					<div class="ui-li-desc">sitúado en la parte alta del abdomen</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/gliomas.html">
+						<img src="../images/cancer/gliomas-thumb.jpg" alt="Gliomas" />
+					<div class="ui-li-heading">Gliomas</div>
+					<div class="ui-li-desc">Se produce en el cerebro o en la médula espinal</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/mama.html">
+						<img src="../images/cancer/mama-thumb.jpg" alt="Mama" />
+					<div class="ui-li-heading">Mama</div>
+					<div class="ui-li-desc">Glándula destinada a la producción de leche</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="../tipos/melanoma.html">
+						<img src="../images/cancer/melanoma-thumb.jpg" alt="Meningiomas" />
+					<div class="ui-li-heading">Melanoma</div>
+					<div class="ui-li-desc">Crecimiento de los melanocitos</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/meningiomas.html">
+						<img src="../images/cancer/meningiomas-thumb.jpg" alt="Meningiomas" />
+					<div class="ui-li-heading">Meningiomas</div>
+					<div class="ui-li-desc">Tumor cerebral usualmente benigno</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="../tipos/no-melanoma.html">
+						<img src="../images/cancer/no-melanoma-thumb.jpg" alt="Meningiomas" />
+					<div class="ui-li-heading">No Melanoma</div>
+					<div class="ui-li-desc">El tumor más frecuente del ser humano</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/pancreas.html">
+						<img src="../images/cancer/pancreas-thumb.jpg" alt="Páncreas" />
+					<div class="ui-li-heading">Páncreas</div>
+					<div class="ui-li-desc">Glándula que participa en el proceso de la digestión</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/prostata.html">
+						<img src="../images/cancer/prostata-thumb.jpg" alt="Próstata" />
+					<div class="ui-li-heading">Próstata</div>
+					<div class="ui-li-desc">Glándula sexual exclusiva de los varones</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/recto.html">
+						<img src="../images/cancer/recto-thumb.jpg" alt="Recto" />
+					<div class="ui-li-heading">Recto</div>
+					<div class="ui-li-desc">La última porción del aparato digestivo</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/vejiga.html">
+						<img src="../images/cancer/vejiga-thumb.jpg" alt="Vejiga" />
+					<div class="ui-li-heading">Vejiga</div>
+					<div class="ui-li-desc">órgano situado en la parte baja de la pelvis</div>
+					</a>
+					</li>
+				</ul>
+				</div>
+			</div><!--fin container_4-->
+			<div class="grid_8 info-cancer">
+				<div data-scroll="y" class="scrolling-content">
+								
+				<h1>Tumor Médula Espinal</h1>
+				<!--Menu de navegación-->
+				<div data-role="controlgroup" data-type="horizontal">
+					<a href="../tipos/tumor-medula-espinal.html" data-role="button">Ficha</a>
+					<a href="../tratamiento/tumor-medula-espinal.html" data-role="button" class="ui-btn-active">Tratamiento</a>
+				</div>
+						<h2>Tratamiento</h2>
+
+						<p>El tratamiento de los tumores en médula es multidisciplinar y depende de la localización, del tamaño al diagnóstico, del grado y del estado general del paciente.</p>
+
+						<p>En general el tratamiento está basado en la combinación de alguno de estos tratamientos: cirugía, tratamiento con radiaciones y tratamiento farmacológico <em>(quimioterapia).</em></p>
+
+						<p>El objetivo del tratamiento es reducir o prevenir el daño a los nervios por la presión o compresión de la médula espinal.</p>
+
+						<p>El tratamiento se debe suministrar rápidamente. Cuanto más rápida sea la evolución de los síntomas, más rápido es preciso administrar el tratamiento con la finalidad de prevenir una lesión permanente. Cualquier dolor de espalda nuevo o inexplicable en un paciente diagnosticado de un cáncer en otra localización debe ser valorado inmediatamente.</p>
+						
+						<!--imagen-->
+						<div class="full-width-image-container float-right">
+						<a href="#"><img src="../images/cancer/medula-espinal-01.jpg" alt="Tumor Médula Espinal" class="full-width-image float-right"/></a>
+						</div>
+
+						<h3>Cirugía</h3>
+
+						<p>Es el tratamiento de elección en la mayoría de los casos. Siempre que sea posible, la extirpación debe ser completa. Permite, por un lado conocer el tipo de tumor <em>(histología)</em> y por otro reducir  determinados síntomas que presenta el paciente por compresión del tumor sobre la médula.</p>
+						
+						
+
+						<h3>Tratamiento con radiaciones</h3>
+
+						<p>La radioterapia es un tratamiento local. Se emplea como tratamiento adyuvante o complementario a la cirugía en los casos con factores de alto riesgo de recaída o aquellos casos que han sido tratados con cirugía incompleta en la que no se ha podido extirpar toda la enfermedad.</p>
+
+						<!--imagen-->
+						<div class="half-width-image-container float-left">
+						<a href="#"><img src="../images/cancer/medula-espinal-06.jpg" alt="Tumor Médula Espinal" class="half-width-image float-left"/></a>
+						</div>	
+
+						<p>La médula es un órgano muy sensible a la radiación por lo que, en ocasiones, no es posible administrar altas dosis. Sin embargo la evolución tecnológica ha favorecido el desarrollo de técnicas de radioterapia, cada vez más eficaces, precisas y con menos efectos secundarios:</p>
+						
+
+						<ul>
+							<li><strong>Radioterapia 3D conformada:</strong> Se realiza la planificación empleando un TAC. Para administrar el tratamiento se utiliza aceleradores lineales.</li>
+
+							<li><strong>Radioterapia con intensidad modulada de dosis (IMRT):</strong> Es una forma de radiación más precisa que la radioterapia 3D, consigue reducir dosis sobre el tejido sano que rodea al tumor, como es la médula espinal y otros según la localización anatómica de la lesión.</li>
+
+							<li><strong>Tomoterapia:</strong> Es un procedimiento muy avanzado de alta tecnología que permite administrar un tratamiento de radioterapia helicoidal, altamente adaptado a cada paciente con lo que se alcanza una excelente dosis terapéutica sobre el tumor y se preserva el tejido neural normal (menores secuelas). La Tomoterapia incluye un sistema de TAC (scanner) que se realiza diariamente para conocer la posición  exacta del lecho quirúrgico o del tumor, de los órganos sanos y del paciente. Con este TAC, se ajusta la posición de tratamiento  y minimiza el riesgo de error de colocación. Los efectos secundarios derivados de este tratamiento son mínimos, por lo que la calidad de vida del paciente, durante y tras el tratamiento son excelentes. <br>
+							Ofrece una ventaja adicional, por si fuera necesario tratar lo que se conoce como “neuroeje” (irradiación de toda la médula espinal), considerándose una indicación clara para tratamiento con Tomoterapia.</li>
+
+							<li>En ocasiones se requiere una precisión aún mayor, como en el caso de pacientes irradiados previamente, por lo que se hace necesario un sistema de imágenes que nos permita saber, durante todo el tratamiento, la posición del paciente y de la lesión con una detección y corrección de los errores de forma automática. Generalmente, se administran altas dosis en pocas sesiones (de 1 a 5 ). El sistema <strong>CyberKnife</strong> cumple todos estos criterios.</li>
+						</ul>
+
+						<!--imagen-->
+						<div class="half-width-image-container float-right">
+						<a href="#"><img src="../images/cancer/medula-espinal-04.jpg" alt="Tumor Médula Espinal" class="half-width-image float-right"/></a>
+						</div>
+						
+						<!--imagen-->
+						<div class="half-width-image-container float-right">
+						<a href="#"><img src="../images/cancer/medula-espinal-03.jpg" alt="Tumor Médula Espinal" class="half-width-image float-right"/></a>
+						</div>	
+
+						<h3>Quimioterapia</h3>
+
+						<p>No se ha demostrado que la quimioterapia sea eficaz contra los tumores medulares, pero se podría recomendar en algunos casos.</p>
+
+						<h3>Pronóstico</h3>
+
+						<p>El pronóstico depende de la localización del tumor, características morfológicas e histológicas del tejido, así como de la progresión de los síntomas; y del estado neurológico del paciente en el momento del diagnóstico. Si la progresión de los síntomas es lenta y si el déficit es incompleto la recuperación puede ser expectante o buena.</p>
+
+						<h3>Aspecto psico-onocológico</h3>
+
+						<p>En los últimos años, se están realizando importantes avances en el tratamiento de los tumores de médula espinal, lo que está aumentando de forma notable la supervivencia y la calidad de vida de las personas que los presentan.</p>
+
+						<p>Las respuestas de ansiedad y el bajo estado de ánimo se han considerado las características psicológicas más frecuentes en pacientes con este tipo de lesiones. Se pueden asociar a la pérdida de independencia y autonomía que presentan aquellos pacientes con déficits en la movilidad. Junto a ello, es necesario considerar la presencia de dolor y las respuestas psicológicas y disminución del nivel funcional del paciente ante el mismo.</p>
+
+						<p>En la actualidad, se está poniendo de manifiesto la importancia de la rehabilitación neurológica y motora de estas lesiones, llegándose a conseguir importantes resultados que ayudan la mejoría de la enfermedad, disminuyen el dolor y fomentan la autonomía de los pacientes, mejorando su calidad de vida.</p>
+
+						<!--imagen-->
+						<div class="full-width-image-container float-right">
+						<a href="#"><img src="../images/cancer/medula-espinal-02.jpg" alt="Tumor Médula Espinal" class="full-width-image float-right"/></a>
+						</div>
+
+						<p>Si necesita más información sobre cómo afrontar un diagnóstico de un tumor medular, le ofrecemos unas pautas que le podrán ayudar a asumir y a adaptarse a la nueva situación. Puede consultarlas en el apartado de <a href="../apoyo.html">Apoyo Psicológico</a></p>
+
+						<p>Asimismo, si quiere conocer las experiencias y testimonios de personas que han superado esta enfermedad puede consultar en <a href="http://www.curadosdecancer.com" target="_blank">Curados de cáncer</a></p>
+
+					</div>
+				</div><!--fin grid_6-->
+		</div><!--fin container_12-->
+	<div data-role="footer" id="footer" data-id="main-footer" class="ui-body-d" data-position="fixed" role="contentinfo">
+		<div data-role="navbar" data-iconpos="top">
+			<ul>
+				<li>
+					<a href="../index.html" id="tab-bar-home" data-icon="libro">
+						Oncoguia
+					</a>
+				</li>
+				<li>
+					<a href="../prevencion.html" id="tab-bar-prevencion" data-icon="cruz">
+						El cáncer. Prevención
+					</a>
+				</li>
+				<li>
+					<a href="#" id="tab-bar-tipos" data-icon="ficha" class="ui-btn-active ui-state-persist" >
+						Tipos de cáncer
+					</a>
+				</li>
+				<li>
+					<a href="../apoyo.html" id="tab-bar-apoyo" data-icon="corazon">
+						Apoyo Psicológico
+					</a>
+				</li>
+				<li>
+					<a href="../imo.html" id="tab-bar-imo" data-icon="imo">
+						Fundación Grupo IMO
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div><!--fin footer-->
+	</div><!--fin home-->
+</body>
+</html>
