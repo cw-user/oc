@@ -1,0 +1,701 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"w",
+				"w	width"
+			],
+			[
+				"t",
+				"tj	text-justify"
+			],
+			[
+				"m",
+				"m	margin: 0 auto"
+			],
+			[
+				"po",
+				"pos:a	position:absolute"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"bgp",
+				"bgpy	background-position-y"
+			],
+			[
+				"pr",
+				"pr	padding-right"
+			],
+			[
+				"p",
+				"p	padding: 0"
+			],
+			[
+				"h",
+				"h:a	height:auto"
+			],
+			[
+				"mb",
+				"mb	margin-bottom"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"pb",
+				"pb	padding-bottom"
+			],
+			[
+				"lsi",
+				"lisi:n	list-style-image:none"
+			],
+			[
+				"lst",
+				"lst	list-style-type: none"
+			],
+			[
+				"td",
+				"td	text-decoration: none"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"pt",
+				"pt	padding-top"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"db",
+				"d:b	display:block"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"nueva",
+				"nuevas-tecnologias-color"
+			],
+			[
+				"inse",
+				"insecticidas-biologicos-color"
+			],
+			[
+				"product",
+				"product_list"
+			],
+			[
+				"clear",
+				"clearfix"
+			],
+			[
+				"o",
+				"o	overflow: hidden"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"d",
+				"d	display: block"
+			],
+			[
+				"line",
+				"line-height	zen:css_properties"
+			],
+			[
+				"n",
+				"normal	(n)"
+			],
+			[
+				"li",
+				"line-height	zen:css_properties"
+			],
+			[
+				"fon",
+				"font-weight	zen:css_properties"
+			],
+			[
+				"ba",
+				"background	zen:css_properties"
+			],
+			[
+				"le",
+				"letter-spacing	zen:css_properties"
+			],
+			[
+				"blo",
+				"bloginfo"
+			],
+			[
+				"php",
+				"phpversion"
+			],
+			[
+				"ri",
+				"right	zen:css_properties"
+			],
+			[
+				"di",
+				"display	zen:css_properties"
+			],
+			[
+				"ech",
+				"echo"
+			],
+			[
+				"float",
+				"float-left"
+			],
+			[
+				"col",
+				"text-color-2"
+			],
+			[
+				"the",
+				"the_date"
+			],
+			[
+				"single",
+				"single-obra"
+			],
+			[
+				"wp_uni",
+				"wp_unique_term_slug"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"echo",
+				"echo"
+			],
+			[
+				"reset",
+				"wp_reset_query"
+			],
+			[
+				"the_ti",
+				"the_title"
+			],
+			[
+				"rewin",
+				"rewind_posts"
+			],
+			[
+				"get_the_ti",
+				"get_the_title"
+			],
+			[
+				"get_post",
+				"get_post_permalink"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"heh",
+				"height"
+			],
+			[
+				"loo",
+				"Loop"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"get_ti",
+				"get_the_ID"
+			],
+			[
+				"welcome",
+				"welcome"
+			],
+			[
+				"cl",
+				"class"
+			],
+			[
+				"c",
+				"css"
+			],
+			[
+				"sli",
+				"slide2"
+			],
+			[
+				"cla",
+				"class"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"word",
+				"WordPress Codex: Search Selection"
+			],
+			[
+				"templa",
+				"Create file from Template"
+			],
+			[
+				"template",
+				"Create file from Template"
+			],
+			[
+				"html",
+				"Snippet: html"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"lint",
+				"JSLint: Run JSLint"
+			],
+			[
+				"wordpre",
+				"WordPress Codex: Search Selection"
+			],
+			[
+				"php",
+				"Snippet: <?php … ?>"
+			],
+			[
+				"post",
+				"Snippet: Post Template"
+			],
+			[
+				"post ",
+				"Snippet: Post Template"
+			],
+			[
+				"Post",
+				"Snippet: Post Template"
+			],
+			[
+				"loop",
+				"Snippet: The Loop"
+			],
+			[
+				"tidy",
+				"Tidy PHP"
+			],
+			[
+				"pic",
+				"Color picker"
+			],
+			[
+				"discover",
+				"Package Control: Discover Packages"
+			],
+			[
+				"Snippet: php",
+				"Snippet: <?php else: ?>"
+			]
+		],
+		"width": 602.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/benjaminarnedo/Downloads/php-memory-control/cache.php",
+		"/Users/benjaminarnedo/Dropbox/htdocs/og/tratamiento/melanoma.html",
+		"/Users/benjaminarnedo/Dropbox/htdocs/og/tipos/no-melanoma.html",
+		"/Users/benjaminarnedo/Dropbox/htdocs/og/tipos/prostata.html",
+		"/Users/benjaminarnedo/Dropbox/htdocs/og/tipos/melanoma.html",
+		"/Users/benjaminarnedo/Dropbox/htdocs/og/tipos/meduloblastoma.html",
+		"/Users/benjaminarnedo/Dropbox/htdocs/og/tipos/tumor-medula-espinal.html",
+		"/Users/benjaminarnedo/Dropbox/htdocs/og/tratamiento/tumor-medula-espinal.html",
+		"/Users/benjaminarnedo/Dropbox/htdocs/sp/wp-content/themes/sp/images/main-bg-3.png",
+		"/Users/benjaminarnedo/Dropbox/htdocs/sp/wp-content/themes/sp/sass/helpers.scss",
+		"/Users/benjaminarnedo/Dropbox/htdocs/sp/wp-content/themes/sp/js/jquery.easing.1.3.js",
+		"/Users/benjaminarnedo/Downloads/jquery.bxSlider/source/jquery.bxSlider.js",
+		"/Users/benjaminarnedo/Dropbox/htdocs/sp/wp-content/themes/sp/sass/easySlider.scss",
+		"/Users/benjaminarnedo/Dropbox/htdocs/cavallo/wp-content/themes/jccda/functions.php",
+		"/Users/benjaminarnedo/Dropbox/htdocs/proimi/wp-content/themes/proimi/style.css",
+		"/Users/benjaminarnedo/Dropbox/htdocs/sp/wp-content/themes/sp/functions.php",
+		"/Users/benjaminarnedo/Dropbox/htdocs/aycontenidos/wp/config.rb",
+		"/Users/benjaminarnedo/Dropbox/htdocs/aycontenidos/wp/sass/style.scss",
+		"/Users/benjaminarnedo/Dropbox/htdocs/erca/wp-content/themes/erca/config.rb",
+		"/Users/benjaminarnedo/Dropbox/htdocs/Barenbreuker/wp/wp-content/themes/barenbreuker/sass/style.scss",
+		"/Users/benjaminarnedo/Dropbox/htdocs/erca/wp-content/themes/erca/style.css",
+		"/Users/benjaminarnedo/Dropbox/htdocs/erca/wp-content/themes/erca/sass/style.scss",
+		"/Users/benjaminarnedo/Dropbox/htdocs/erca/wp-content/themes/erca/sass/helpers.scss",
+		"/Users/benjaminarnedo/Dropbox/htdocs/erca/wp-content/themes/erca/functions.php",
+		"/Users/benjaminarnedo/Dropbox/htdocs/Barenbreuker/wp/wp-content/themes/barenbreuker/single.php",
+		"/Users/benjaminarnedo/Dropbox/htdocs/erca/wp-config.php",
+		"/Users/benjaminarnedo/Dropbox/htdocs/erca/wp-content/themes/erca-theme/style.css",
+		"/Users/benjaminarnedo/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/benjaminarnedo/Dropbox/htdocs/erca/wp-content/themes/erca/sass/screen.scss",
+		"/Users/benjaminarnedo/Dropbox/htdocs/erca/wp-content/themes/erca/style.scss",
+		"/Users/benjaminarnedo/Dropbox/htdocs/Barenbreuker/wp/wp-content/themes/barenbreuker/category-novedades.php",
+		"/Users/benjaminarnedo/Dropbox/htdocs/Barenbreuker/wp/wp-content/themes/barenbreuker/js/custom.js",
+		"/Users/benjaminarnedo/Dropbox/htdocs/Barenbreuker/wp/wp-content/themes/barenbreuker/index.php",
+		"/Users/benjaminarnedo/Dropbox/htdocs/Barenbreuker/wp/wp-content/themes/barenbreuker/search.php",
+		"/Users/benjaminarnedo/Dropbox/htdocs/Barenbreuker/wp/wp-content/themes/barenbreuker/single-obra.php",
+		"/Users/benjaminarnedo/Dropbox/htdocs/Barenbreuker/wp/wp-content/themes/barenbreuker/includes/menus.php",
+		"/Users/benjaminarnedo/Dropbox/htdocs/Barenbreuker/wp/wp-content/themes/barenbreuker/page-home.php",
+		"/Users/benjaminarnedo/Dropbox/htdocs/Barenbreuker/wp/wp-content/themes/barenbreuker/page-sistema.php",
+		"/Users/benjaminarnedo/Dropbox/htdocs/ache/wp-content/themes/Acheral/search.php",
+		"/Users/benjaminarnedo/Dropbox/htdocs/Barenbreuker/wp/wp-content/themes/barenbreuker/page.php",
+		"/Users/benjaminarnedo/Dropbox/htdocs/Barenbreuker/wp/wp-content/themes/barenbreuker/page-servicios.php",
+		"/Users/benjaminarnedo/Dropbox/htdocs/Barenbreuker/wp/wp-content/themes/barenbreuker/page-novedades.php",
+		"/Users/benjaminarnedo/Dropbox/htdocs/Barenbreuker/wp/wp-content/themes/barenbreuker/taxonomy-tipo-industrial.php",
+		"/Users/benjaminarnedo/Dropbox/htdocs/Barenbreuker/wp/wp-content/themes/barenbreuker/taxonomy-tipo-locales.php",
+		"/Users/benjaminarnedo/Dropbox/htdocs/Barenbreuker/wp/wp-content/themes/barenbreuker/taxonomy-tipo-edificios.php",
+		"/Users/benjaminarnedo/Dropbox/htdocs/Barenbreuker/wp/wp-content/themes/barenbreuker/taxonomy-tipo-casas.php",
+		"/Users/benjaminarnedo/Dropbox/htdocs/Barenbreuker/wp/wp-content/themes/barenbreuker/taxonomy-tipo-destacadas.php",
+		"/Users/benjaminarnedo/Dropbox/htdocs/Barenbreuker/wp/wp-content/themes/barenbreuker/loop-imagen-destacada-lista.php",
+		"/Users/benjaminarnedo/Dropbox/htdocs/Barenbreuker/wp/wp-content/themes/barenbreuker/page-obras.php",
+		"/Users/benjaminarnedo/Dropbox/htdocs/Barenbreuker/wp/wp-content/themes/barenbreuker/loop-imagenes-home.php",
+		"/Users/benjaminarnedo/Dropbox/htdocs/Barenbreuker/wp/wp-content/themes/barenbreuker/loop-miniaturas-ficha.php",
+		"/Users/benjaminarnedo/Dropbox/htdocs/Barenbreuker/wp/wp-content/themes/barenbreuker/loop-imagenes-listado.php",
+		"/Users/benjaminarnedo/Dropbox/htdocs/Barenbreuker/wp/wp-content/themes/barenbreuker/archive-obras.php",
+		"/Users/benjaminarnedo/Dropbox/htdocs/Barenbreuker/wp/wp-content/themes/barenbreuker/loop-imagenes-ficha.php",
+		"/Users/benjaminarnedo/Dropbox/htdocs/Barenbreuker/wp/wp-content/themes/barenbreuker/taxonomy.php",
+		"/Users/benjaminarnedo/Dropbox/htdocs/Barenbreuker/wp/wp-content/themes/barenbreuker/404.php",
+		"/Users/benjaminarnedo/Dropbox/htdocs/Barenbreuker/wp/wp-content/themes/barenbreuker/archive.php",
+		"/Users/benjaminarnedo/Dropbox/htdocs/Barenbreuker/wp/wp-content/themes/barenbreuker/functions.php",
+		"/Users/benjaminarnedo/Dropbox/htdocs/Barenbreuker/wp/wp-content/themes/barenbreuker/page-contacto.php",
+		"/Users/benjaminarnedo/Dropbox/htdocs/Barenbreuker/wp/wp-content/themes/barenbreuker/sass/grid.scss",
+		"/Users/benjaminarnedo/Dropbox/htdocs/Barenbreuker/wp/wp-content/themes/barenbreuker/includes/addons.php",
+		"/Users/benjaminarnedo/Dropbox/htdocs/Barenbreuker/wp/wp-content/themes/barenbreuker/js/fancybox/jquery.fancybox.css",
+		"/Users/benjaminarnedo/Dropbox/htdocs/Barenbreuker/wp/wp-content/plugins/prettyphoto-media/prettyphoto-media_settings.php",
+		"/Users/benjaminarnedo/Dropbox/htdocs/Barenbreuker/wp/wp-content/plugins/prettyphoto-media/prettyphoto-media_functions.php",
+		"/Users/benjaminarnedo/Dropbox/htdocs/Barenbreuker/wp/wp-content/plugins/prettyphoto-media/prettyphoto-media.php",
+		"/Users/benjaminarnedo/Dropbox/htdocs/Barenbreuker/wp/wp-content/themes/barenbreuker/Barenbreuker.sublime-project",
+		"/Users/benjaminarnedo/Clientes/2012/Budeguer/Website/demo/html/Budeguer.sublime-workspace",
+		"/Users/benjaminarnedo/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/benjaminarnedo/Library/Application Support/Sublime Text 2/Packages/User/CSS.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"knife",
+			"síntomas",
+			"right",
+			"li",
+			"Cyberknife",
+			"cirugía",
+			"p",
+			"Síntomas y diagnóstico clínico",
+			"link-color",
+			"widget",
+			"sidebar",
+			"ultimos-cargados",
+			"widget",
+			"size-medium",
+			"size",
+			"border:1px",
+			"attachmen",
+			"bx",
+			"slider",
+			"row-5",
+			"logos",
+			"footer_menu",
+			"menu-pie-3",
+			"row-5",
+			"footer",
+			"$packs-color",
+			"medium",
+			"alignleft",
+			".page",
+			"size-medium",
+			"255",
+			"$packs-color",
+			"post-thumbnail",
+			"product_thumb_clipper",
+			"#pack-slider",
+			"slider",
+			"shadow",
+			"slider",
+			"attachment-product_thumbnail",
+			"wp-post-image",
+			"120px",
+			"pack-slider",
+			"155px",
+			"pack-slider",
+			"140",
+			"220",
+			"250",
+			"entry-content",
+			"row-3",
+			"footer",
+			"widget",
+			"position-y",
+			"widget-area",
+			"pager",
+			"45%",
+			"pager-active",
+			"40",
+			"45",
+			"50px",
+			"15px",
+			"bx-wrapper",
+			".row-3",
+			"140px",
+			"130px",
+			"150px",
+			"120px",
+			"padding-bottom:130px",
+			"padding-bottom:140px",
+			"padding-bottom:120px",
+			"padding-bottom:100px",
+			"padding-bottom:150px",
+			"pack-slider",
+			"boton-pdf",
+			"#3DC3CE",
+			"news-slider",
+			"link-color",
+			"clipper",
+			"news-",
+			"news-slider",
+			".read-more",
+			".read-",
+			"read-more",
+			"220px",
+			"product-bg",
+			"product-b",
+			"product-bf",
+			"inoculantes",
+			"packs-color",
+			"packs-colro",
+			"wrapperWidth",
+			"140px",
+			"padding:20px 0 100px 0;",
+			"block-conten",
+			"sidebar",
+			"255",
+			"entry",
+			"140px",
+			"220px",
+			"120px",
+			"130px",
+			"footer",
+			"agroquimicos-color",
+			"$agroquimicos-color",
+			"$coadyuvantes-color",
+			"$funguicidas-biologicos-color",
+			"$coadyuvantes-color",
+			"$potenciador-de-Bacterias-color",
+			"$biofertilizantes-color",
+			"$inoculantes-color",
+			"$packs-color",
+			"#b3b3b3",
+			"#fc0014",
+			"#a58fb7",
+			"#b7d292",
+			"#23cb98",
+			"#fd98a5",
+			"#c7a474",
+			"$biofertilizantes-color",
+			"#ff8000",
+			"#35afff",
+			"ul",
+			"0",
+			"echo",
+			"fc0014",
+			"28",
+			"a58fb7",
+			"43",
+			"b7d292"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.jslint_result_view":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"melano",
+				"tratamiento/melanoma.html"
+			],
+			[
+				"medulobl",
+				"tipos/meduloblastoma.html"
+			],
+			[
+				"medulaes",
+				"tratamiento/tumor-medula-espinal.html"
+			],
+			[
+				"medula",
+				"tipos/tumor-medula-espinal.html"
+			],
+			[
+				"styl",
+				"sass/style.scss"
+			],
+			[
+				"custom",
+				"js/custom.js"
+			],
+			[
+				"archi",
+				"archive.php"
+			],
+			[
+				"ba",
+				"Budeguer.sublime-workspace"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 308.0,
+	"status_bar_visible": true
+}
