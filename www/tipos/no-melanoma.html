@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>OncoGuía</title>
+		<meta charset="utf-8" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" href="../css/jquery.mobile-1.1.0.min.css" />
+		<link rel="stylesheet" href="../css/jquery.mobile.scrollview.css" />
+		<link rel="stylesheet" href="../css/imo.css"/>
+		<link rel="stylesheet" href="../css/custom.css"/>
+		<link rel="stylesheet" href="../css/grid/jquery-mobile-fluid960.min.css"/>
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/general.functions.js"></script>
+		<script src="../js/jquery.mobile-1.1.0.min.js"></script>
+		<script src="../js/jquery.easing.1.3.js"></script>
+		<script src="../js/jquery.mobile.scrollview.js"></script>
+		<script src="../js/scrollview.js"></script>
+	</head>
+	<body>
+		<div data-role="page" id="detalle-cancer" data-theme="c">
+			<div data-role="header" data-id="cabecera"  data-position="fixed">
+			<a href="#" data-theme="c" data-icon="back" data-rel="back" data-position="inline">Volver</a>
+				<h1>
+					OncoGuía - Tipos de cáncer
+				</h1>
+			</div>
+			<div data-role="content" class="container_12 ui-scrollview-clip">
+			<div class="grid_4">
+				<div data-scroll="y" class="scrolling-content w-background">
+				<ul id="cancer-list" data-filter="true" data-filter-theme="f" data-role="listview" data-theme="a" data-inset="true">
+					<li>
+					<a href="adenoma-de-hipofisis.html">
+					<img src="../images/cancer/adenoma-hipofisis-thumb.jpg" alt="Adenoma de Hipófisis" />
+					<div class="ui-li-heading">Adenoma de Hipófisis</div>
+					<div class="ui-li-desc">Glándula situada en la silla turca</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="colon.html">
+					<img src="../images/cancer/colon-thumb.jpg" alt="Colon" />
+					<div class="ui-li-heading">Colon</div>
+					<div class="ui-li-desc">La última porción del aparato digestivo</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="cuello-uterino-cervix.html">
+					<img src="../images/cancer/cuello-uterino-cervix-thumb.jpg" alt="Cuello Uterino/Cérvix" />
+					<div class="ui-li-heading">Cuello Uterino/Cérvix</div>
+					<div class="ui-li-desc">parte más inferior del aparato rep. femenino</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="endometrio-utero.html">
+						<img src="../images/cancer/endometrio-utero-thumb.jpg" alt="Endometrio/útero" />
+					<div class="ui-li-heading">Endometrio/útero</div>
+					<div class="ui-li-desc">órgano hueco, situado en la pelvis.</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="esofago.html">
+						<img src="../images/cancer/esofago-thumb.jpg" alt="Esófago" />
+					<div class="ui-li-heading">Esófago</div>
+					<div class="ui-li-desc">tubo hueco que transporta los alimentos</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="estomago.html">
+						<img src="../images/cancer/estomago-thumb.jpg" alt="Estómago" />
+					<div class="ui-li-heading">Estómago</div>
+					<div class="ui-li-desc">sitúado en la parte alta del abdomen</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="gliomas.html">
+						<img src="../images/cancer/gliomas-thumb.jpg" alt="Gliomas" />
+					<div class="ui-li-heading">Gliomas</div>
+					<div class="ui-li-desc">Se produce en el cerebro o en la médula espinal</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="mama.html">
+						<img src="../images/cancer/mama-thumb.jpg" alt="Mama" />
+					<div class="ui-li-heading">Mama</div>
+					<div class="ui-li-desc">Glándula destinada a la producción de leche</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="tumor-medula-espinal.html">
+						<img src="../images/cancer/medula-espinal-thumb.jpg" alt="Tumor Médula Espinal" />
+					<div class="ui-li-heading">Médula Espinal</div>
+					<div class="ui-li-desc">el tejido nervioso más extenso del cuerpo</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="meduloblastoma.html">
+						<img src="../images/cancer/meduloblastoma-thumb.jpg" alt="Meduloblastoma" />
+					<div class="ui-li-heading">Meduloblastoma</div>
+					<div class="ui-li-desc">tumores malignos en la fosa posterior del cerebro</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="melanoma.html">
+						<img src="../images/cancer/melanoma-thumb.jpg" alt="Melanoma" />
+					<div class="ui-li-heading">Melanoma</div>
+					<div class="ui-li-desc">Crecimiento de los melanocitos</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="meningiomas.html">
+						<img src="../images/cancer/meningiomas-thumb.jpg" alt="Meningiomas" />
+					<div class="ui-li-heading">Meningiomas</div>
+					<div class="ui-li-desc">Tumor cerebral usualmente benigno</div>
+					</a>
+					</li>
+				
+					<li data-theme="b">
+					<a href="no-melanoma.html">
+						<img src="../images/cancer/no-melanoma-thumb.jpg" alt="No Melanoma" />
+					<div class="ui-li-heading">No Melanoma</div>
+					<div class="ui-li-desc">El tumor más frecuente del ser humano</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="pancreas.html">
+						<img src="../images/cancer/pancreas-thumb.jpg" alt="Páncreas" />
+					<div class="ui-li-heading">Páncreas</div>
+					<div class="ui-li-desc">Glándula que participa en el proceso de la digestión</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="prostata.html">
+						<img src="../images/cancer/prostata-thumb.jpg" alt="Próstata" />
+					<div class="ui-li-heading">Próstata</div>
+					<div class="ui-li-desc">Glándula sexual exclusiva de los varones</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="recto.html">
+						<img src="../images/cancer/recto-thumb.jpg" alt="Recto" />
+					<div class="ui-li-heading">Recto</div>
+					<div class="ui-li-desc">La última porción del aparato digestivo</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="vejiga.html">
+						<img src="../images/cancer/vejiga-thumb.jpg" alt="Vejiga" />
+					<div class="ui-li-heading">Vejiga</div>
+					<div class="ui-li-desc">órgano situado en la parte baja de la pelvis</div>
+					</a>
+					</li>
+				</ul>
+				</div>
+			</div><!--fin container_4-->
+				<div class="grid_8 info-cancer">
+					<div data-scroll="y" class="scrolling-content">
+						<h1>Cáncer de piel no Melanoma</h1>
+						<!--Menu de navegación-->
+						<div data-role="controlgroup" data-type="horizontal">
+							<a href="../tipos/no-melanoma.html" data-role="button" class="ui-btn-active">Ficha</a>
+							<a href="../tratamiento/no-melanoma.html" data-role="button">Tratamiento</a>
+						</div>
+						<h2>Introducción</h2>
+
+						<p>La piel es el órgano más extenso del ser humano, su función principal es la de protección frente agresiones externas <em>(traumatismos, radiación solar, calor, etc)</em>. Consta de dos capas, una más externa llamada epidermis que se encuentra en constante recambio (descamación), y otra capa más interna denominada dermis. Por debajo se encuentra el tejido subcutáneo.</p>
+
+						<!--imagen-->
+						<div class="full-width-image-container float-left">
+						<a href="#"><img src="../images/cancer/no-melanoma-01.jpg" alt="Cáncer No Melanoma" class="full-width-image float-left"/></a>
+						</div>	
+
+						<p>Los melanocitos se encuentran localizados en la parte más profunda de la epidermis. Contienen un pigmento llamado melanina que se extiende por toda la epidermis y da a la piel su color.</p>
+
+						<!--imagen-->
+						<div class="full-width-image-container float-left">
+						<a href="#"><img src="../images/cancer/no-melanoma-02.jpg" alt="Cáncer No Melanoma" class="full-width-image float-left"/></a>
+						</div>	
+
+						<p>Los tumores  de tipo no melanoma se producen en la capa más externa de la piel, y suponen el 95 % de los cánceres que pueden aparecer en la piel. Se dividen a su vez en 2 tipos:</p>
+
+						<ul>
+							<li><strong>Carcinoma escamoso</strong>, que supone el 20 % de los cánceres de piel no melanoma y que proviene de la malignización de las células escamosas de la epidermis. Ocasionalmente puede afectar a los ganglios locorregionales.</li>
+
+							<li><strong>Carcinoma basocelular,</strong> que supone el 80% restante y que proviene de la malignización de las células basales de la epidermis.</li>
+						</ul>
+
+						<!--imagen-->
+						<div class="full-width-image-container float-left">
+						<a href="#"><img src="../images/cancer/no-melanoma-03.jpg" alt="Cáncer No Melanoma" class="full-width-image float-left"/></a>
+						</div>	
+
+						<p>El cáncer de piel no melanoma es el tumor más frecuente del ser humano llegando a diagnosticarse cada año hasta 2 ó 3 millones de casos nuevos. Sin embargo el diagnóstico es muy sencillo y el porcentaje de curación muy elevado.</p>
+
+						<h3>Prevención</h3>
+
+						<p>El factor de riesgo más importante para este tipo de tumor es la exposición crónica y prolongada a la radiación ultravioleta del sol <em>(especialmente las personas con fototipo cutáneo bajo: piel blanca, pelirrojos, rubios, ojos claros…)</em>.</p>
+
+						<!--imagen-->
+						<div class="half-width-image-container float-left">
+						<a href="#"><img src="../images/cancer/no-melanoma-07.jpg" alt="Cáncer No Melanoma" class="half-width-image float-left"/></a>
+						</div>	
+
+						<p>Es frecuente en las personas que trabajan expuestas al aire libre <em>(labradores, marinos, etc.)</em>.Suele aparecer a partir de los 50-60 años, siendo poco frecuente que se desarrolle en gente más joven.</p>
+
+						<p>La luz ultravioleta <em>(UV)</em> llega a la piel y atraviesa las capas más superficiales. Es absorbida por el DNA de las células de la piel y puede acusar daños en el mismo. Si este daño no es reparado por los genes que realizan este trabajo, las alteraciones genéticas se acumulan y con el paso del tiempo <em>(generalmente años)</em> puede producirse su transformación maligna.</p>
+
+						<p>Asimismo, si en los genes encargados de la reparación del ADN se producen mutaciones, se favorece el desarrollo de los tumores en la piel.</p>
+
+						<p>La mejor prevención del cáncer de piel es limitar la exposición al sol. Para ello se recomienda:</p>
+
+						<ul>
+							<li>Permanecer en la sombra, evitando en la medida de lo posible exposiciones prolongadas al sol, particularmente al mediodía.</li>
+
+							<li>Cubrir la piel expuesta al sol <em>(manga larga, pantalones largos y gorras).</em></li>
+
+							<li>Utilizar cremas de protección solar adecuadas: factor de protección 15 o superior en áreas de la piel expuestas al sol, sobre todo en las horas en las que la luz solar es más fuerte <em>(entre las 10 y las 14 horas)</em>. Seguir las instrucciones del fabricante para su correcta aplicación y recordar que no se deben utilizar para prolongar el tiempo de exposición a la radiación ultravioleta.</li>
+
+							<li>Utilizar gafas de sol homologadas.</li>
+
+							<li>Evitar otras fuentes de luz ultravioleta, especialmente lámparas de rayos UVA.</li>
+
+							<li>Evitar la exposición excesiva al sol de los niños <em>(de manera especial en menores de 3 años)</em>, y utilizar un factor de protección solar adecuado a sus necesidades. Es importante fomentar el hábito de la protección solar desde la infancia.</li>
+
+							<li>Identificar lesiones cutáneas sospechosas y acudir al especialista para su diagnóstico y extirpación si fuese necesario.</li>
+						</ul>
+
+						<h3>Diagnóstico precoz</h3>
+
+						<p>Las personas con más riesgo de desarrollar cáncer de piel deben realizarse exámenes periódicos de la piel de todo el cuerpo, combinando la autoexploración con exámenes médicos <em>(por ejemplo mediante dermatoscopia)</em></p>
+
+						<!--imagen-->
+						<div class="full-width-image-container float-left">
+						<a href="#"><img src="../images/cancer/no-melanoma-08.jpg" alt="Cáncer No Melanoma" class="full-width-image float-left"/></a>
+						</div>	
+
+						<h3>Síntomas y Diagnóstico Clínico</h3>
+
+						<p>Ante la sospecha de una lesión cutánea que pudiera ser un cáncer de piel,  el dermatólogo elaborará una historia clínica en la que se reflejará la evolución de la lesión así como todos los detalles referentes a los síntomas, factores de riesgo o antecedentes familiares. Posteriormente, se procederá a realizar un examen físico general y en particular de la lesión sospechosa.</p>
+
+						<p>Suele presentarse como un nódulo o una lesión cutánea no dolorosa, ulcerada y costrosa que no cura. Su crecimiento es muy lento y muy raramente se extiende a otros órganos del cuerpo.</p>
+
+						<p>Las lesiones se suelen localizar en las zonas del cuerpo expuestas durante todo el año a la radiación solar, como la cara, las orejas, el cuero cabelludo, el cuello o las manos. La mejor prevención es una adecuada fotoprotección a lo largo de todo el año.</p>
+
+						<p>El diagnóstico de estas lesiones es sencillo, ante la sospecha de cáncer de piel por una lesión cutánea que crece y persiste, el dermatólogo realizará la toma de una muestra de dicha lesión (biopsia) para confirmar si hay células malignas.</p>
+
+						<a id="btn_tratamiento" data-icon="pill" data-iconpos="left" data-role="button" href="../tratamiento/no-melanoma.html" data-theme="c">Tratamiento</a>	
+					</div>
+				</div><!--fin grid_8 -->
+			</div><!--fin container_12-->
+		<div data-role="footer" id="footer" data-id="main-footer" class="ui-body-d" data-position="fixed" role="contentinfo">
+			<div data-role="navbar" data-iconpos="top">
+				<ul>
+					<li>
+						<a href="../index.html" id="tab-bar-home" data-icon="libro">
+							Oncoguia
+						</a>
+					</li>
+					<li>
+						<a href="../prevencion.html" id="tab-bar-prevencion" data-icon="cruz">
+							El cáncer. Prevención
+						</a>
+					</li>
+					<li>
+						<a href="#" id="tab-bar-tipos" data-icon="ficha" class="ui-btn-active ui-state-persist" >
+							Tipos de cáncer
+						</a>
+					</li>
+					<li>
+						<a href="../apoyo.html" id="tab-bar-apoyo" data-icon="corazon">
+							Apoyo Psicológico
+						</a>
+					</li>
+					<li>
+						<a href="../imo.html" id="tab-bar-imo" data-icon="imo">
+							Fundación Grupo IMO
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div><!--fin footer-->
+		</div><!--fin home-->
+	</body>
+	</html>

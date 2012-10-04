@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>OncoGuía</title>
+		<meta charset="utf-8" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" href="../css/jquery.mobile-1.1.0.min.css" />
+		<link rel="stylesheet" href="../css/jquery.mobile.scrollview.css" />
+		<link rel="stylesheet" href="../css/imo.css"/>
+		<link rel="stylesheet" href="../css/custom.css"/>
+		<link rel="stylesheet" href="../css/grid/jquery-mobile-fluid960.min.css"/>
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/general.functions.js"></script>
+		<script src="../js/jquery.mobile-1.1.0.min.js"></script>
+		<script src="../js/jquery.easing.1.3.js"></script>
+		<script src="../js/jquery.mobile.scrollview.js"></script>
+		<script src="../js/scrollview.js"></script>
+	</head>
+	<body>
+		<div data-role="page" id="detalle-cancer" data-theme="c">
+			<div data-role="header" data-id="cabecera"  data-position="fixed">
+			<a href="#" data-theme="c" data-icon="back" data-rel="back" data-position="inline">Volver</a>
+				<h1>
+					OncoGuía - Tipos de cáncer
+				</h1>
+			</div>
+			<div data-role="content" class="container_12 ui-scrollview-clip">
+			<div class="grid_4">
+				<div data-scroll="y" class="scrolling-content w-background">
+				<ul id="cancer-list" data-filter="true" data-filter-theme="f" data-role="listview" data-theme="a" data-inset="true">
+					<li>
+					<a href="adenoma-de-hipofisis.html">
+					<img src="../images/cancer/adenoma-hipofisis-thumb.jpg" alt="Adenoma de Hipófisis" />
+					<div class="ui-li-heading">Adenoma de Hipófisis</div>
+					<div class="ui-li-desc">Glándula situada en la silla turca</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="colon.html">
+					<img src="../images/cancer/colon-thumb.jpg" alt="Colon" />
+					<div class="ui-li-heading">Colon</div>
+					<div class="ui-li-desc">La última porción del aparato digestivo</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="cuello-uterino-cervix.html">
+					<img src="../images/cancer/cuello-uterino-cervix-thumb.jpg" alt="Cuello Uterino/Cérvix" />
+					<div class="ui-li-heading">Cuello Uterino/Cérvix</div>
+					<div class="ui-li-desc">parte más inferior del aparato rep. femenino</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="endometrio-utero.html">
+						<img src="../images/cancer/endometrio-utero-thumb.jpg" alt="Endometrio/útero" />
+					<div class="ui-li-heading">Endometrio/útero</div>
+					<div class="ui-li-desc">órgano hueco, situado en la pelvis.</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="esofago.html">
+						<img src="../images/cancer/esofago-thumb.jpg" alt="Esófago" />
+					<div class="ui-li-heading">Esófago</div>
+					<div class="ui-li-desc">tubo hueco que transporta los alimentos</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="estomago.html">
+						<img src="../images/cancer/estomago-thumb.jpg" alt="Estómago" />
+					<div class="ui-li-heading">Estómago</div>
+					<div class="ui-li-desc">sitúado en la parte alta del abdomen</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="gliomas.html">
+						<img src="../images/cancer/gliomas-thumb.jpg" alt="Gliomas" />
+					<div class="ui-li-heading">Gliomas</div>
+					<div class="ui-li-desc">Se produce en el cerebro o en la médula espinal</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="mama.html">
+						<img src="../images/cancer/mama-thumb.jpg" alt="Mama" />
+					<div class="ui-li-heading">Mama</div>
+					<div class="ui-li-desc">Glándula destinada a la producción de leche</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="tumor-medula-espinal.html">
+						<img src="../images/cancer/medula-espinal-thumb.jpg" alt="Tumor Médula Espinal" />
+					<div class="ui-li-heading">Médula Espinal</div>
+					<div class="ui-li-desc">el tejido nervioso más extenso del cuerpo</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="meduloblastoma.html">
+						<img src="../images/cancer/meduloblastoma-thumb.jpg" alt="Meduloblastoma" />
+					<div class="ui-li-heading">Meduloblastoma</div>
+					<div class="ui-li-desc">tumores malignos en la fosa posterior del cerebro</div>
+					</a>
+					</li>
+
+					<li data-theme="b">
+					<a href="melanoma.html">
+						<img src="../images/cancer/melanoma-thumb.jpg" alt="Melanoma" />
+					<div class="ui-li-heading">Melanoma</div>
+					<div class="ui-li-desc">Crecimiento de los melanocitos</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="meningiomas.html">
+						<img src="../images/cancer/meningiomas-thumb.jpg" alt="Meningiomas" />
+					<div class="ui-li-heading">Meningiomas</div>
+					<div class="ui-li-desc">Tumor cerebral usualmente benigno</div>
+					</a>
+					</li>
+				
+					<li>
+					<a href="no-melanoma.html">
+						<img src="../images/cancer/no-melanoma-thumb.jpg" alt="No Melanoma" />
+					<div class="ui-li-heading">No Melanoma</div>
+					<div class="ui-li-desc">El tumor más frecuente del ser humano</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="pancreas.html">
+						<img src="../images/cancer/pancreas-thumb.jpg" alt="Páncreas" />
+					<div class="ui-li-heading">Páncreas</div>
+					<div class="ui-li-desc">Glándula que participa en el proceso de la digestión</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="prostata.html">
+						<img src="../images/cancer/prostata-thumb.jpg" alt="Próstata" />
+					<div class="ui-li-heading">Próstata</div>
+					<div class="ui-li-desc">Glándula sexual exclusiva de los varones</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="recto.html">
+						<img src="../images/cancer/recto-thumb.jpg" alt="Recto" />
+					<div class="ui-li-heading">Recto</div>
+					<div class="ui-li-desc">La última porción del aparato digestivo</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="vejiga.html">
+						<img src="../images/cancer/vejiga-thumb.jpg" alt="Vejiga" />
+					<div class="ui-li-heading">Vejiga</div>
+					<div class="ui-li-desc">órgano situado en la parte baja de la pelvis</div>
+					</a>
+					</li>
+				</ul>
+				</div>
+			</div><!--fin container_4-->
+				<div class="grid_8 info-cancer">
+					<div data-scroll="y" class="scrolling-content">
+						<h1>Cáncer de piel Melanoma</h1>
+						<!--Menu de navegación-->
+						<div data-role="controlgroup" data-type="horizontal">
+							<a href="../tipos/melanoma.html" data-role="button" class="ui-btn-active">Ficha</a>
+							<a href="../tratamiento/melanoma.html" data-role="button">Tratamiento</a>
+						</div>
+						<h2>Introducción</h2>
+						<p>La piel es el órgano más extenso del ser humano.  Su función principal es la de protección frente agresiones externas <em>(traumatismos, radiación solar, calor, etc)</em>. Consta de dos capas, una más externa llamada epidermis que se encuentra en constante recambio (descamación), y otra capa más interna denominada dermis. Por debajo se encuentra el tejido subcutáneo.</p>
+						
+						<!--imagen-->
+						<div class="full-width-image-container float-left">
+						<a href="#"><img src="../images/cancer/melanoma-09.jpg" alt="Melanoma" class="full-width-image float-left"/></a>
+						</div>	
+
+						<p>Los melanocitos se encuentran localizados en la parte más profunda de la epidermis. Contienen un pigmento llamado melanina que se extiende por toda la epidermis y da a la piel su color. </p>
+
+						<!--imagen-->
+						<div class="full-width-image-container float-left">
+						<a href="#"><img src="../images/cancer/melanoma-11.jpg" alt="Melanoma" class="full-width-image float-left"/></a>
+						</div>	
+
+						<p>El <strong>melanoma</strong> es un crecimiento descontrolado de los melanocitos. Mientras el melanoma permanece en la epidermis es raro que se extienda a otras partes del cuerpo, pero si no es extirpado quirúrgicamente puede crecer hacia la dermis y las células tumorales pueden diseminarse a otras zonas del cuerpo <em>(metástasis)</em>, de ahí la importancia de la detección precoz en este tumor.</p>
+
+						<!--imagen-->
+						<div class="full-width-image-container float-left">
+						<a href="#"><img src="../images/cancer/melanoma-10.jpg" alt="Melanoma" class="full-width-image float-left"/></a>
+						</div>	
+
+						<p>Habitualmente, el <strong>melanoma</strong> aparece en zonas de la piel expuestas al sol, en los varones en la espalda o en el pecho, mientras que en mujeres se suele localizar con más frecuencia en la parte inferior de las piernas. Sin embargo, el melanoma ocasionalmente puede desarrollarse en zonas de la piel no expuestas a radiaciones ultravioleta <em>(UV)</em> o en las mucosas <em>(ojos, boca, órganos internos)</em>.</p>
+
+						<p>Hay distintos tipos de melanoma:</p>
+						<ul>
+							<li>
+								<strong>Melanoma de extensión superficial: </strong>es el más frecuente, suele comenzar como un lunar que crece superficialmente.
+							</li>
+
+							<li>
+								<strong>Melanoma nodular:</strong> ocurre en un 10% de los casos. Presenta un crecimiento en profundidad.
+							</li>
+
+							<li>
+								<strong>Léntigo maligno:</strong> suele surgir en personas de edad madura en zonas de la piel expuestas a la irradiación solar.
+							</li>
+
+							<li>
+								<strong>Melanoma lentiginoso acral: </strong>no suele estar asociado con la aparición de lunares. Puede ocurrir en personas con todo tipo de piel y se observa en las palmas de las manos, las plantas de los pies, la parte interna de los dedos, y en uñas de manos y pies.
+							</li>
+						</ul>
+
+						<p>Aunque la mayoría de melanomas se asocian a lesiones oscuras, ocasionalmente pueden presentarse sin pigmento, lo que dificulta que sean reconocidos.</p>
+
+						<p>
+							Cada año se diagnostican en España aproximadamente 3.600 nuevos casos de <strong>melanoma</strong>, siendo ligeramente más frecuente en mujeres que en varones.
+						</p>
+
+						<h3>Prevención</h3>
+
+						<p>La exposición excesiva a las radiaciones ultravioletas y las quemaduras solares, especialmente en la infancia y adolescencia, son un factor de riesgo para el desarrollo de melanomas. Las lámparas UVA de bronceado son incluso más perjudiciales para la salud que las radiaciones UV procedentes del sol.</p>
+
+						<!--imagen-->
+						<div class="full-width-image-container float-left">
+						<a href="#"><img src="../images/cancer/melanoma-08.jpg" alt="Melanoma" class="full-width-image float-left"/></a>
+						</div>	
+
+						<p>El riesgo de desarrollar un <strong>melanoma</strong> es 20 veces mayor en las personas de raza caucásica porque tienen menos pigmento protector en su piel. La gente de pelo claro (pelirrojos o rubios), de piel blanca, pecosa o que se quema fácilmente con el sol, tienen un mayor riesgo de desarrollar un <strong>melanoma</strong>.</p>
+
+						<p>En la aparición de un melanoma existen, además,  otra serie de factores predisponentes:</p>
+						<ul>
+							<li><strong>Nevus displásicos (lunares):</strong>: Generalmente no están presentes en el nacimiento, pero comienzan a aparecer en la infancia y la adolescencia, generalmente  hasta los cuarenta años. La mayoría de los nevus son normales (sin displasia) y no se convierten en melanomas. La gente que tiene muchos lunares o son grandes tiene mayor riesgo de desarrollar melanoma.</li>
+
+							<li><strong>Historia familiar:</strong> Aproximadamente el 10% de los pacientes diagnosticados de un melanoma tienen un antecedente en algún miembro próximo de su familia.</li>
+
+							<li><strong>Inmunosupresión:</strong> Los pacientes que tienen enfermedades que suprimen el sistema inmune, o bien toman medicación inmunosupresora tienen mayor riesgo de desarrollar melanoma.</li>
+
+							<li><strong>Edad:</strong> La mitad de todos los melanomas aparecen en personas de alrededor de 50 años, aunque también es el cáncer más comúnmente diagnosticado en gente de menos de 30 años <em>(probablemente por la exposición prolongada a radiación ultravioleta ofrecida por las lámparas de rayos UVA ).</em></li>
+
+							<li><strong>Xeroderma pigmentoso:</strong> Se trata de una rara enfermedad hereditaria con una extrema sensibilidad a la radiación ultravioleta que tiene alto riesgo de desarrollar melanomas y otros tumores de la piel.</li>
+						</ul>
+
+						<p>La mejor prevención del melanoma es limitar la exposición al sol. Para ello se recomienda:</p>
+
+						<ul>
+							<li>Permanecer en la sombra, evitando, en la medida de lo posible, exposiciones prolongadas al sol, especialmente al mediodía.</li>
+
+							<li>Cubrir la piel expuesta al sol <em>(manga larga, pantalones largos y gorras)</em>.</li>
+
+							<li>Utilizar cremas de protección solar adecuadas: factor de protección 15 o superior en áreas de la piel expuestas al sol, sobre todo en las horas en las que la luz solar es más fuerte <em>(entre las 10 y las 14 horas)</em>. Seguir las instrucciones del fabricante para su correcta aplicación y recordar que no se deben utilizar para prolongar el tiempo de exposición a la radiación ultravioleta.</li>
+
+							<li>Usar gafas de sol homologadas.</li>
+
+							<li>Evitar otras fuentes de luz ultravioleta, especialmente lámparas de rayos UVA.</li>
+
+							<li>Evitar la exposición excesiva al sol de los niños <em>(menores de 3 años de manera especial)</em>, y utilizar un factor de protección solar adecuado a sus necesidades. Es importante crear el hábito de la protección solar desde la infancia.</li>
+
+							<li>Identificar lesiones cutáneas sospechosas y acudir al especialista para su diagnóstico y extirpación si fuese necesario.</li>
+						</ul>
+
+						<!--imagen-->
+						<div class="half-width-image-container float-left">
+						<a href="#"><img src="../images/cancer/melanoma-06.jpg" alt="Melanoma" class="half-width-image float-left"/></a>
+						</div>	
+
+						<h3>Diagnóstico precoz </h3>
+
+						<p>Las personas con más riesgo de desarrollar melanoma deben realizarse exámenes periódicos de la piel de todo el cuerpo combinando la autoexploración con exámenes médicos (por ejemplo mediante dermatoscopia). Hay que buscar cambios en el tamaño, la forma o el color de las manchas de la piel, así como los cambios en su comportamiento, como picor, dolor, sangrado…</p>
+
+						<p>La regla del ABCDE permite recordar fácilmente cómo distinguir un lunar de un melanoma:</p>
+
+						<ul>
+							<li><strong>A</strong> de Asimetría: La mitad del lunar no es simétrica con la otra</li>
+
+							<li><strong>B</strong> de Bordes irregulares. </li>
+
+							<li><strong>C</strong> de Color variado: El color no es el mismo en todo el lunar</li>
+
+							<li><strong>D</strong> de diámetro: la lesión tiene más de 6 mm de diámetro <em>(aunque se han diagnosticado melanomas de menor diámetro)</em></li>
+
+							<li><strong>E</strong> de Evolución o cambio de aspecto del lunar</li>
+						</ul>
+
+						<!--imagen-->
+						<div class="full-width-image-container float-left">
+						<a href="#"><img src="../images/cancer/melanoma-07.jpg" alt="Melanoma" class="full-width-image float-left"/></a>
+						</div>
+
+						<p>Es fundamental acudir al especialista en el caso de apreciar cambios en un nevus.</p>
+
+						<h3>Síntomas y Diagnóstico Clínico</h3>
+
+						<p>Ante la sospecha de una lesión cutánea que pudiera ser un melanoma, el dermatólogo elaborará una historia clínica en la que se reflejará la evolución de la lesión así como todos los detalles referentes a los síntomas, factores de riesgo y/o antecedentes familiares. Posteriormente, se procederá a realizar un examen físico general y en particular de la lesión sospechosa.</p>
+
+						<p>Para obtener confirmación de la naturaleza de la lesión, se realizará una biopsia <em>(se toma una pequeña muestra de tejido de la lesión y se estudia al microscopio).</em></p>
+
+						<p>En el caso de confirmarse la presencia de un melanoma, es preciso realizar una serie de pruebas diagnósticas para determinar si el melanoma se ha extendido a los ganglios linfáticos regionales o a alguna otra parte del cuerpo. Estás pruebas incluirán analíticas sanguíneas y pruebas radiológicas, como el TAC o scanner, la Resonancia Magnética o el PET. Son pruebas poco agresivas que no suelen tener efectos secundarios y exponen a pequeñas cantidades de radiación.</p>
+						
+						<a id="btn_tratamiento" data-icon="pill" data-iconpos="left" data-role="button" href="../tratamiento/melanoma.html" data-theme="c">Tratamiento</a>	
+					</div>
+				</div><!--fin grid_8 -->
+			</div><!--fin container_12-->
+		<div data-role="footer" id="footer" data-id="main-footer" class="ui-body-d" data-position="fixed" role="contentinfo">
+			<div data-role="navbar" data-iconpos="top">
+				<ul>
+					<li>
+						<a href="../index.html" id="tab-bar-home" data-icon="libro">
+							Oncoguia
+						</a>
+					</li>
+					<li>
+						<a href="../prevencion.html" id="tab-bar-prevencion" data-icon="cruz">
+							El cáncer. Prevención
+						</a>
+					</li>
+					<li>
+						<a href="#" id="tab-bar-tipos" data-icon="ficha" class="ui-btn-active ui-state-persist" >
+							Tipos de cáncer
+						</a>
+					</li>
+					<li>
+						<a href="../apoyo.html" id="tab-bar-apoyo" data-icon="corazon">
+							Apoyo Psicológico
+						</a>
+					</li>
+					<li>
+						<a href="../imo.html" id="tab-bar-imo" data-icon="imo">
+							Fundación Grupo IMO
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div><!--fin footer-->
+		</div><!--fin home-->
+	</body>
+	</html>

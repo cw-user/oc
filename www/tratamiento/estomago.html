@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>OncoGuía</title>
+		<meta charset="utf-8" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" href="../css/jquery.mobile-1.1.0.min.css" />
+		<link rel="stylesheet" href="../css/jquery.mobile.scrollview.css" />
+		<link rel="stylesheet" href="../css/imo.css"/>
+		<link rel="stylesheet" href="../css/custom.css"/>
+		<link rel="stylesheet" href="../css/grid/jquery-mobile-fluid960.min.css"/>
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/general.functions.js"></script>
+		<script src="../js/jquery.mobile-1.1.0.min.js"></script>
+		<script src="../js/jquery.easing.1.3.js"></script>
+		<script src="../js/jquery.mobile.scrollview.js"></script>
+		<script src="../js/scrollview.js"></script>
+	</head>
+	<body>
+		<div data-role="page" id="detalle-cancer" data-theme="c">
+			<div data-role="header" data-id="cabecera"  data-position="fixed">
+			<a href="#" data-theme="c" data-icon="back" data-rel="back" data-position="inline">Volver</a>
+				<h1>
+					OncoGuía - Tratamientos contra el cáncer
+				</h1>
+			</div>
+			<div data-role="content" class="container_12 ui-scrollview-clip">
+			<div class="grid_4">
+				<div data-scroll="y" class="scrolling-content w-background">
+				<ul id="cancer-list" data-filter="true" data-filter-theme="f" data-role="listview" data-theme="a" data-inset="true">
+					<li>
+					<a href="../adenoma-de-hipofisis.html">
+					<img src="../images/cancer/adenoma-hipofisis-thumb.jpg" alt="Adenoma de Hipófisis" />
+					<div class="ui-li-heading">Adenoma de Hipófisis</div>
+					<div class="ui-li-desc">Glándula situada en la silla turca</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/colon.html">
+					<img src="../images/cancer/colon-thumb.jpg" alt="Colon" />
+					<div class="ui-li-heading">Colon</div>
+					<div class="ui-li-desc">La última porción del aparato digestivo</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/cuello-uterino-cervix.html">
+					<img src="../images/cancer/cuello-uterino-cervix-thumb.jpg" alt="Cuello Uterino/Cérvix" />
+					<div class="ui-li-heading">Cuello Uterino/Cérvix</div>
+					<div class="ui-li-desc">parte más inferior del aparato rep. femenino</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/endometrio-utero.html">
+						<img src="../images/cancer/endometrio-utero-thumb.jpg" alt="Endometrio/útero" />
+					<div class="ui-li-heading">Endometrio/útero</div>
+					<div class="ui-li-desc">órgano hueco, situado en la pelvis.</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/esofago.html">
+						<img src="../images/cancer/esofago-thumb.jpg" alt="Esófago" />
+					<div class="ui-li-heading">Esófago</div>
+					<div class="ui-li-desc">tubo hueco que transporta los alimentos</div>
+					</a>
+					</li>
+					
+					<li data-theme="b">
+					<a href="../tipos/estomago.html">
+						<img src="../images/cancer/estomago-thumb.jpg" alt="Estómago" />
+					<div class="ui-li-heading">Estómago</div>
+					<div class="ui-li-desc">sitúado en la parte alta del abdomen</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/gliomas.html">
+						<img src="../images/cancer/gliomas-thumb.jpg" alt="Gliomas" />
+					<div class="ui-li-heading">Gliomas</div>
+					<div class="ui-li-desc">Se produce en el cerebro o en la médula espinal</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/mama.html">
+						<img src="../images/cancer/mama-thumb.jpg" alt="Mama" />
+					<div class="ui-li-heading">Mama</div>
+					<div class="ui-li-desc">Glándula destinada a la producción de leche</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="../tipos/tumor-medula-espinal.html">
+						<img src="../images/cancer/medula-espinal-thumb.jpg" alt="Tumor Médula Espinal" />
+					<div class="ui-li-heading">Médula Espinal</div>
+					<div class="ui-li-desc">el tejido nervioso más extenso del cuerpo</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="../tipos/meduloblastoma.html">
+						<img src="../images/cancer/meduloblastoma-thumb.jpg" alt="Meduloblastoma" />
+					<div class="ui-li-heading">Meduloblastoma</div>
+					<div class="ui-li-desc">tumores malignos en la fosa posterior del cerebro</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="../tipos/melanoma.html">
+						<img src="../images/cancer/melanoma-thumb.jpg" alt="Melanoma" />
+					<div class="ui-li-heading">Melanoma</div>
+					<div class="ui-li-desc">Crecimiento de los melanocitos</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="../tipos/meningiomas.html">
+						<img src="../images/cancer/meningiomas-thumb.jpg" alt="Meningiomas" />
+					<div class="ui-li-heading">Meningiomas</div>
+					<div class="ui-li-desc">Tumor cerebral usualmente benigno</div>
+					</a>
+					</li>
+				
+					<li>
+					<a href="../tipos/no-melanoma.html">
+						<img src="../images/cancer/no-melanoma-thumb.jpg" alt="No Melanoma" />
+					<div class="ui-li-heading">No Melanoma</div>
+					<div class="ui-li-desc">El tumor más frecuente del ser humano</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="../tipos/pancreas.html">
+						<img src="../images/cancer/pancreas-thumb.jpg" alt="Páncreas" />
+					<div class="ui-li-heading">Páncreas</div>
+					<div class="ui-li-desc">Glándula que participa en el proceso de la digestión</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/prostata.html">
+						<img src="../images/cancer/prostata-thumb.jpg" alt="Próstata" />
+					<div class="ui-li-heading">Próstata</div>
+					<div class="ui-li-desc">Glándula sexual exclusiva de los varones</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/recto.html">
+						<img src="../images/cancer/recto-thumb.jpg" alt="Recto" />
+					<div class="ui-li-heading">Recto</div>
+					<div class="ui-li-desc">La última porción del aparato digestivo</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/vejiga.html">
+						<img src="../images/cancer/vejiga-thumb.jpg" alt="Vejiga" />
+					<div class="ui-li-heading">Vejiga</div>
+					<div class="ui-li-desc">órgano situado en la parte baja de la pelvis</div>
+					</a>
+					</li>
+				</ul>
+				</div>
+			</div><!--fin container_4-->
+			<div class="grid_8 info-cancer">
+				<div data-scroll="y" class="scrolling-content">
+				<h1>Cáncer de estómago</h1>
+				<div data-role="controlgroup" data-type="horizontal">
+					<a href="../tipos/estomago.html" data-role="button">Ficha</a>
+					<a href="../tratamiento/estomago.html" data-role="button" class="ui-btn-active">Tratamiento</a>
+				</div>
+				<h2>Tratamiento</h2>
+				<p>El tratamiento del cáncer gástrico es multidisciplinar y depende de la fase en la que se encuentre la enfermedad en el momento del diagnóstico, edad del paciente, y localización del tumor.</p>
+				<p> En general, el tratamiento está basado en la combinación de alguno de estos tratamientos: cirugía, tratamiento con radiaciones y quimioterapia</p>
+				
+				<!--imagen-->
+				<div class="half-width-image-container float-right">
+				<img src="../images/cancer/estomago-06.jpg" alt="cáncer de estomago" class="half-width-image float-right"/>
+				</div>
+				
+				<h3>Cirugía</h3>
+				<p>El tipo de cirugía depende de la extensión y de la  localización del tumor.</p>
+				
+				<ul>
+					<li>En los tumores localizados en el tercio superior y cardias, se realiza gastrectomía total (extirpación completa del estómago y los ganglios linfáticos cercanos). En este caso se une el esófago con el intestino delgado, para reestablecer la continuidad del tubo digestivo.</li>
+					<li>Los localizados en el tercio medio e inferior, se realiza gastrectomía subtotal (se extirpa la parte del estómago que contiene el cáncer, los ganglios linfáticos cercanos y las partes de otros tejidos y órganos cercanos al tumor). Posteriormente se une el estómago que ha quedado con el intestino delgado.</li>
+				</ul>
+				
+				<h3>Tratamientos farmacológicos y con radiaciones</h3>
+				<p>Aquellos pacientes a los que se les ha podido resecar el tumor,  pero con lesión localmente avanzada o con afectación ganglionar, son candidatos a tratamiento complementario tras la cirugía (adyuvante) con quimioterapia y/o radioterapia. </p>
+				<p>Los pacientes que son inoperables o con lesiones irresecables, son tratan con quimioterapia y radioterapia concomitantes como primera opción terapéutica.</p>
+				
+				<!--imagen-->
+				<div class="half-width-image-container float-left">
+				<img src="../images/cancer/estomago-07.jpg" alt="cáncer de estomago" class="half-width-image float-left"/>
+				</div>
+				
+				<h3>Quimioterapia</h3>
+				<p>La quimioterapia es un tratamiento sistémico, administrado bien por vía oral o intravenosa (principalmente) y los agentes más utilizados en cáncer gástrico son el 5 fluorouracilo y el leucovorin.</p>
+				<p> Actualmente, existen otros agentes quimioterápicos que pueden administrase solos o en combinación con otros fármacos, y son activos tanto como tratamiento neoadyuvante (antes de la cirugía) como adyuvante (tras la cirugía).</p>
+				<p>Cuando se utilizan concomitantes con la radioterapia tienen un doble papel: por un lado sensibilizan las células a la radiación aumentando la eficacia de esta última y, por otro favorece el control sistémico.</p>
+				
+				<h3>Tratamiento con Radiaciones</h3>
+				<p>La Radioterapia (terapia que utiliza radiaciones ionizantes) ha tenido un papel clave, sobre todo a nivel adyuvante y asociada a quimioterapia, mejorando el control local tras la cirugía. En aquellos pacientes con Tumor Gástrico irresecable, la quimioradioterapia tiene un papel fundamental en el control local de la enfermedad.</p>
+				<!--imagen-->
+				<div class="full-width-image-container float-left">
+				<img src="../images/cancer/estomago-08.jpg" alt="cáncer de estomago" class="full-width-image float-left"/>
+				</div>
+				<p>La evolución tecnológica ha favorecido el desarrollo de técnicas de radioterapia más precisas y con menos efectos secundarios. Las técnicas más utilizadas son:</p>
+				<ul>
+					<li> <strong>Radioterapia 3D conformada:</strong> se realiza mediante una planificación con TAC, y se administra con aceleradores lineales.</li>
+					<li><strong>Radioterapia con intensidad modulada de dosis (IMRT):</strong> Es una forma de radiación más precisa que la radioterapia 3D, consigue reducir dosis sobre el tejido sano que rodea al tumor el intestino delgado, riñones, médula, hígado, pulmones, corazón y  bazo.</li>
+					<li><strong>Radioterapia Guiada por Imagen-IGRT-Tomoterapia:</strong> Es el procedimiento más avanzado con alta tecnología que permite administrar un tratamiento de radioterapia helicoidal, altamente adaptado a cada paciente. Con esta técnica se consigue reducir al máximo la dosis de radiación que llega a los órganos sanos vecinos (intestino delgado, pulmones, riñones, médula, hígado, bazo y corazón) que rodean el tumor.</li>
+					<li><strong>La Tomoterapia</strong> incluye un sistema de TAC (scanner) que se realiza diariamente para conocer la posición exacta del tumor, de los órganos sanos y del paciente. Con este TAC, se ajusta la posición de tratamiento y se minimiza el riesgo de error de colocación. Los efectos secundarios derivados de este tratamiento son mínimos, por lo que la calidad de vida del paciente, durante y tras el tratamiento es excelente.</li>
+					<li><strong>Los pacientes con afectación metastásica única</strong>, o una recidiva, pero con buen estado general, se pueden beneficiar de un innovador tratamiento de radioterapia externa de altísima precisión como es la Radioterapia Robotizada con Control de Imagen-  CyberKnife. Con esta técnica es posible administrar una dosis alta de radiación en muy pocas sesiones controlando el movimiento de los órganos y del paciente en cada sesión.</li>
+				</ul>
+				
+				<p>En aquellos casos en los que la enfermedad está diseminada (afecta a otros órganos), la quimioterapia es el tratamiento de elección.</p>
+				<p>La Radioterapia, en esta fase de la enfermedad, tiene una finalidad más paliativa que curativa y es fundamental en el control de síntomas como el dolor, la hemorragia o la obstrucción intestinal, mejorando la calidad de vida de los pacientes.</p>
+				
+				<h3>Pronóstico</h3>
+				<p>El desarrollo tecnológico de los últimos años ha permitido una mejora en el diagnóstico y tratamiento del cáncer gástrico, lo que se traduce en cifras de supervivencia global (sin tener en cuenta el estadio, edad, o histología) en España del 32% a los 5 años tras el diagnóstico, frente a la media europea, que se sitúa en torno al 25% a los 5 años. España  con Italia, Alemania y Austria registran las tasas de supervivencia más altas de Europa. </p>
+				<p> La incidencia de este tumor ha descendido en las últimas décadas debido a la mejora en la conservación de alimentos.</p>
+				<h3>Aspecto Psico-Oncológico</h3>
+				<p>La supervivencia y la calidad de vida del paciente con cáncer de estómago han mejorado en la última década y la tendencia continúa gracias a los avances en las técnicas de diagnóstico y alternativas terapéuticas.</p>
+				<p>Las estrategias quirúrgicas del cáncer de estómago (gastrectomía subtotal o radical) han avanzado notablemente, aunque pueden condicionar la calidad de vida del paciente. El paciente tendrá que afrontar ciertos cambios en sus hábitos dietéticos y adaptarse a las posibles modificaciones en las pautas de alimentación.</p>
+				<p>Reacciones emocionales de inseguridad, preocupación y dudas ante el diagnóstico y los efectos de los tratamientos son normales y frecuentes. Compartirlas con el equipo médico y el entorno más cercano puede ayudar al paciente a evitar situaciones de aislamiento y mejorar la comunicación con su entorno.</p>
+				<p>Si necesita más información sobre cómo afrontar un diagnóstico de un cáncer de cuello de útero, le ofrecemos unas pautas que le podrán ayudar a asumir y a adaptarse a la nueva situación. Puede consultarlas en el apartado de <a href="../apoyo.html">Apoyo Psicológico</a>. Asimismo, si quiere conocer las experiencias y testimonios de personas que han superado esta enfermedad puede consultar en <a href="http://www.curadosdecancer.com">Curados de cáncer</a>.</p>
+			</div>
+		</div><!--fin container_12-->
+	<div data-role="footer" id="footer" data-id="main-footer" class="ui-body-d" data-position="fixed" role="contentinfo">
+		<div data-role="navbar" data-iconpos="top">
+			<ul>
+				<li>
+					<a href="../index.html" id="tab-bar-home" data-icon="libro">
+						Oncoguia
+					</a>
+				</li>
+				<li>
+					<a href="../prevencion.html" id="tab-bar-prevencion" data-icon="cruz">
+						El cáncer. Prevención
+					</a>
+				</li>
+				<li>
+					<a href="#" id="tab-bar-tipos" data-icon="ficha" class="ui-btn-active ui-state-persist" >
+						Tipos de cáncer
+					</a>
+				</li>
+				<li>
+					<a href="../apoyo.html" id="tab-bar-apoyo" data-icon="corazon">
+						Apoyo Psicológico
+					</a>
+				</li>
+				<li>
+					<a href="../imo.html" id="tab-bar-imo" data-icon="imo">
+						Fundación Grupo IMO
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div><!--fin footer-->
+	</div><!--fin home-->
+</body>
+</html>

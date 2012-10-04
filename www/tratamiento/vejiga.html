@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>OncoGuía</title>
+		<meta charset="utf-8" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" href="../css/jquery.mobile-1.1.0.min.css" />
+		<link rel="stylesheet" href="../css/jquery.mobile.scrollview.css" />
+		<link rel="stylesheet" href="../css/imo.css"/>
+		<link rel="stylesheet" href="../css/custom.css"/>
+		<link rel="stylesheet" href="../css/grid/jquery-mobile-fluid960.min.css"/>
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/general.functions.js"></script>
+		<script src="../js/jquery.mobile-1.1.0.min.js"></script>
+		<script src="../js/jquery.easing.1.3.js"></script>
+		<script src="../js/jquery.mobile.scrollview.js"></script>
+		<script src="../js/scrollview.js"></script>
+	</head>
+	<body>
+		<div data-role="page" id="detalle-cancer" data-theme="c">
+			<div data-role="header" data-id="cabecera"  data-position="fixed">
+			<a href="#" data-theme="c" data-icon="back" data-rel="back" data-position="inline">Volver</a>
+				<h1>
+					OncoGuía - Tipos de cáncer
+				</h1>
+			</div>
+			<div data-role="content" class="container_12 ui-scrollview-clip">
+			<div class="grid_4">
+				<div data-scroll="y" class="scrolling-content w-background">
+				<ul id="cancer-list" data-filter="true" data-filter-theme="f" data-role="listview" data-theme="a" data-inset="true">
+					<li>
+					<a href="../adenoma-de-hipofisis.html">
+					<img src="../images/cancer/adenoma-hipofisis-thumb.jpg" alt="Adenoma de Hipófisis" />
+					<div class="ui-li-heading">Adenoma de Hipófisis</div>
+					<div class="ui-li-desc">Glándula situada en la silla turca</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/colon.html">
+					<img src="../images/cancer/colon-thumb.jpg" alt="Colon" />
+					<div class="ui-li-heading">Colon</div>
+					<div class="ui-li-desc">La última porción del aparato digestivo</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/cuello-uterino-cervix.html">
+					<img src="../images/cancer/cuello-uterino-cervix-thumb.jpg" alt="Cuello Uterino/Cérvix" />
+					<div class="ui-li-heading">Cuello Uterino/Cérvix</div>
+					<div class="ui-li-desc">parte más inferior del aparato rep. femenino</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/endometrio-utero.html">
+						<img src="../images/cancer/endometrio-utero-thumb.jpg" alt="Endometrio/útero" />
+					<div class="ui-li-heading">Endometrio/útero</div>
+					<div class="ui-li-desc">órgano hueco, situado en la pelvis.</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/esofago.html">
+						<img src="../images/cancer/esofago-thumb.jpg" alt="Esófago" />
+					<div class="ui-li-heading">Esófago</div>
+					<div class="ui-li-desc">tubo hueco que transporta los alimentos</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/estomago.html">
+						<img src="../images/cancer/estomago-thumb.jpg" alt="Estómago" />
+					<div class="ui-li-heading">Estómago</div>
+					<div class="ui-li-desc">sitúado en la parte alta del abdomen</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/gliomas.html">
+						<img src="../images/cancer/gliomas-thumb.jpg" alt="Gliomas" />
+					<div class="ui-li-heading">Gliomas</div>
+					<div class="ui-li-desc">Se produce en el cerebro o en la médula espinal</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/mama.html">
+						<img src="../images/cancer/mama-thumb.jpg" alt="Mama" />
+					<div class="ui-li-heading">Mama</div>
+					<div class="ui-li-desc">Glándula destinada a la producción de leche</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="../tipos/tumor-medula-espinal.html">
+						<img src="../images/cancer/medula-espinal-thumb.jpg" alt="Tumor Médula Espinal" />
+					<div class="ui-li-heading">Médula Espinal</div>
+					<div class="ui-li-desc">el tejido nervioso más extenso del cuerpo</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="../tipos/meduloblastoma.html">
+						<img src="../images/cancer/meduloblastoma-thumb.jpg" alt="Meduloblastoma" />
+					<div class="ui-li-heading">Meduloblastoma</div>
+					<div class="ui-li-desc">tumores malignos en la fosa posterior del cerebro</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="../tipos/melanoma.html">
+						<img src="../images/cancer/melanoma-thumb.jpg" alt="Melanoma" />
+					<div class="ui-li-heading">Melanoma</div>
+					<div class="ui-li-desc">Crecimiento de los melanocitos</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="../tipos/meningiomas.html">
+						<img src="../images/cancer/meningiomas-thumb.jpg" alt="Meningiomas" />
+					<div class="ui-li-heading">Meningiomas</div>
+					<div class="ui-li-desc">Tumor cerebral usualmente benigno</div>
+					</a>
+					</li>
+				
+					<li>
+					<a href="../tipos/no-melanoma.html">
+						<img src="../images/cancer/no-melanoma-thumb.jpg" alt="No Melanoma" />
+					<div class="ui-li-heading">No Melanoma</div>
+					<div class="ui-li-desc">El tumor más frecuente del ser humano</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="../tipos/pancreas.html">
+						<img src="../images/cancer/pancreas-thumb.jpg" alt="Páncreas" />
+					<div class="ui-li-heading">Páncreas</div>
+					<div class="ui-li-desc">Glándula que participa en el proceso de la digestión</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/prostata.html">
+						<img src="../images/cancer/prostata-thumb.jpg" alt="Próstata" />
+					<div class="ui-li-heading">Próstata</div>
+					<div class="ui-li-desc">Glándula sexual exclusiva de los varones</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/recto.html">
+						<img src="../images/cancer/recto-thumb.jpg" alt="Recto" />
+					<div class="ui-li-heading">Recto</div>
+					<div class="ui-li-desc">La última porción del aparato digestivo</div>
+					</a>
+					</li>
+					
+					<li data-theme="b">
+					<a href="../tipos/vejiga.html">
+						<img src="../images/cancer/vejiga-thumb.jpg" alt="Vejiga" />
+					<div class="ui-li-heading">Vejiga</div>
+					<div class="ui-li-desc">órgano situado en la parte baja de la pelvis</div>
+					</a>
+					</li>
+				</ul>
+				</div>
+			</div><!--fin container_4-->
+			<div class="grid_8 info-cancer">
+				<div data-scroll="y" class="scrolling-content">
+					<h1>Cáncer de Vejiga</h1>
+					<div data-role="controlgroup" data-type="horizontal">
+						<a href="../tipos/vejiga.html" data-role="button">Ficha</a>
+						<a href="../tratamiento/vejiga.html" data-role="button" class="ui-btn-active">Tratamiento</a>
+					</div>
+					<h2>Tratamiento</h2>
+					
+					<p>El tratamiento del cáncer de vejiga, como  ocurre en la mayoría de los tumores, es un tratamiento <strong>multidisciplinar</strong>.  Se debe tener en cuenta una serie de factores como la fase de la enfermedad, el  grado de las células, la edad y otras enfermedades, para seleccionar el  tratamiento más adecuado.</p>
+					<p> Los tratamientos empleados en el cáncer de  vejiga son, fundamentalmente, la cirugía, la radioterapia, la inmunoterapia y  la quimioterapia.</p>
+					
+					<h3>Cirugía</h3>						
+					<p>La cirugía de la vejiga  por un cáncer requiere ingreso hospitalario. Las técnicas más empleadas&nbsp;son las siguientes:</p>
+					<ul>
+					<li><strong>RTU (resección transuretral): </strong>Esta técnica  consiste en resecar el tumor a través de la uretra, empleando un equipo denominado Resector.<strong> Sólo está indicado como tratamiento exclusivo en tumores superficiales  (que no afectan a la capa muscular). </strong>Tras la intervención es preciso dejar una  sonda vesical que permita realizar lavados hasta que desaparezca la hemorragia.</li>
+					<li><strong>Cistectomía: </strong>Si el tumor       infiltra la capa muscular, no es suficiente realizar una RTU, por lo que       se realiza una cirugía más radical. La cistectomía consiste en la       extirpación parcial o completa de la vejiga y la extracción de los       ganglios linfáticos de la pelvis.</li>
+					</ul>
+					<p>La <strong>cistectomía  radical </strong>es la técnica más empleada. Además de la totalidad de  la vejiga, en el hombre se extrae la próstata con vesículas seminales,  y en la mujer el útero y ovarios. Con esta  técnica es necesario derivar la orina desde los uréteres hacia el exterior a  través de la pared abdominal (<strong>urostomía</strong>).</p>
+					<h3>Tratamiento con radiaciones</h3>
+					<p>La  radioterapia se emplea en pacientes no subsidiarios de cirugía por causas  médicas o por rechazo del paciente, pero con   tumor confinado a la vejiga. Generalmente, en estos casos se asocia a  quimioterapia sensibilizante, que permite incrementar las tasas de control de  la enfermedad. </p>
+					<p> La  asociación de radioterapia y quimioterapia en el cáncer de vejiga, también se  emplea en aquellos casos en que, a pesar de ser operable, la prioridad es la<strong> &quot;preservación vesical&quot;.</strong> El objetivo es mantener una supervivencia equivalente a la cirugía radical,  mejorando la calidad de vida de los pacientes con cáncer de vejiga infiltrante.  Cuando un paciente acepta esta modalidad de tratamiento debe realizar&nbsp;seguimientos  médicos frecuentes, con procedimientos invasivos (como la RTU) y la realización de  cistectomía radical si el tumor recidivara.</p>
+					<!--imagen-->
+					<div class="full-width-image-container float-left">
+					<a href="#"><img src="../images/cancer/vejiga-06.jpg" alt="Cáncer de vejiga" class="full-width-image float-left"/></a>
+					</div>
+					
+					<p> La evolución tecnológica ha favorecido el  desarrollo de técnicas de radioterapia, cada vez más eficaces, precisas y con  menos efectos secundarios: </p>
+					<ul>
+					<li><strong>Radioterapia 3D conformada</strong>: Se realiza la planificación empleando un TAC (Tomografía Axial Computerizada o scanner). Para administrar el tratamiento se utiliza aceleradores lineales.</li>
+					<li><strong>Radioterapia con intensidad modulada de dosis (IMRT)</strong>: Es una forma de radiación más avanzada que la radioterapia 3D, consigue reducir dosis sobre el tejido sano que rodea al tumor como el recto, asas intestinales y cabezas femorales.</li>
+					<li><strong>Radioterapia  Guiada por Imagen-IGRT-Tomoterapia</strong>: Es el procedimiento más avanzado  con alta tecnología que permite administrar  un tratamiento de radioterapia helicoidal, altamente adaptado a cada paciente,  que consigue reducir al máximo la dosis de radiación que llega a los órganos  sanos vecinos mientras que el tumor recibe la dosis prescrita. La Tomoterapia incluye un  sistema de TAC (scanner) que se realiza diariamente para conocer la  posición  exacta de la  vejiga, de los órganos sanos y del paciente.  Con este TAC, se ajusta la posición de tratamiento  y minimiza el riesgo de error de colocación.  Los efectos secundarios derivados de este tratamiento son mínimos, por lo que  la calidad de vida del paciente, durante y tras el tratamiento son excelentes.</li>
+					</ul>
+					<p>La radioterapia tiene también, un papel  fundamental en el tratamiento paliativo de los pacientes. En estos casos, la  finalidad es controlar los síntomas derivados de la enfermedad oncológica (hematuria,  dolor) y  mejorar la calidad de vida del  paciente.</p>
+					<h3>Quimioterapia</h3>
+					<p>La quimioterapia se puede  administrar antes de la cirugía (quimioterapia neoadyuvante) para reducir el  tamaño tumoral y facilitar la extirpación de la vejiga, o bien asociada a la  radioterapia y permitir la conservación de la vejiga.<br>
+					Asimismo, se emplea después  de la cirugía para prevenir la recidiva de la enfermedad para tratar la  enfermedad metastásica.</p>
+					<!--imagen-->
+					<div class="half-width-image-container float-left">
+					<a href="#"><img src="../images/cancer/vejiga-05.jpg" alt="Cáncer de vejiga" class="half-width-image float-left"/></a>
+					</div>
+					<p>La quimioterapia en el cáncer de vejiga  puede administrarse por vía intravesical para el tratamiento de tumores  superficiales (los fármacos se introducen directamente en la vejiga una vez a  la semana) o por vía intravenosa en el caso de tumores infiltrantes.<br>
+					La  combinación de gemcitabina y cisplatino es muy efectiva y con efectos  secundarios aceptables. Otra combinación muy utilizada es la de paclitaxel y  carboplatino.</p>
+					<p>Para evitar la recidiva del cáncer de  vejiga superficial tras la RTU  se puede emplear lo que se conoce como <strong>inmunoterapia intravesical</strong>. Los  medicamentos que se administran hacen que el sistema inmunológico del paciente  ataque y destruya las células del tumor.</p>
+					<p>La inmunoterapia intravesical, se emplea para evitar la recidiva local en caso  de tumores superficiales. Se usa el <strong>bacilo de Calmette-Guerin </strong>(BCG),  que es una solución del bacilo causante de la tuberculosis pero <strong>modificado</strong> <strong>genéticamente </strong><strong>que se</strong> instila directamente en el interior de la vejiga. </p>
+					<h3>Pronóstico</h3>
+					<p>El desarrollo tecnológico de los últimos años ha  permitido una mejora en el diagnóstico y tratamiento del cáncer de vejiga, lo  que se traduce en cifras de supervivencia global (sin tener en cuenta el  estadio, edad, o histología) en España del 75% a los 5 años tras el diagnóstico,  frente a la media europea, que se sitúa en torno al 69% a los 5 años. España  con Islandia, Alemania y Austria registran las  tasas de supervivencia más altas de Europa. </p>
+					<p> Aproximadamente el 75% de los hombres y el  70% de las mujeres que sufren un cáncer de vejiga en España sobreviven más de 5  años. Se trata de una supervivencia global, sin tener en cuenta edad, tipo  histológico o fase de la enfermedad. </p>
+					<p>La mortalidad desciende en España desde los años 90, que  comenzó ligeramente más tarde que en el resto de Europa debido al descenso del número  de fumadores, a la prevención de riesgos laborales, a la mejora de los tratamientos  y a los diagnósticos cada vez mas precoces.</p>
+					<!--imagen-->
+					<div class="half-width-image-container float-right">
+					<a href="#"><img src="../images/cancer/vejiga-03.jpg" alt="Cáncer de vejiga" class="half-width-image float-right"/></a>
+					</div>
+					<h3>Aspecto Psico-Oncológico</h3>
+					<p>La detección precoz del cáncer de vejiga mejora las probabilidades de  que la enfermedad se pueda tratar con éxito y con cirugías conservadoras que  mejoran indudablemente la calidad de vida del paciente. </p>
+					<p>Ante el diagnóstico de un cáncer de vejiga, la reacción inicial en el  paciente es de incertidumbre, miedo y un estado de ánimo decaído ante un  diagnóstico y unos tratamientos desconocidos.<br>
+					Sin embargo, los avances tecnológicos y científicos empleados  actualmente en el cáncer de vejiga   alteran cada vez menos el funcionamiento urinario y sexual del paciente,  afectando mínimamente a su imagen corporal y autoestima.</p>
+					<p>En aquellos casos en los que es necesario realizar una cirugía radical  (cistectomía) pueden aparecer reacciones de vergüenza y ansiedad ante los  cuidados y manejo de la urostomía, tendencia al aislamiento por miedo a las  reacciones del entorno familiar, social y laboral ante la posibilidad de  desprender olor y ciertas dificultades en la aceptación de los cambios sufridos  en la imagen corporal que pueden conllevar problemas de autoestima. La  información y apoyo que los médicos y los especialistas del paciente (urólogos,  radioterapeutas, oncólogos, psico-oncólogos, enfermería…) ofrecen sobre su  estado, enfermedad, manejo de la urostomía y abordaje de las dificultades,  miedos y temores que su manejo y adaptación a la vida cotidiana conlleva,  ayudan al paciente a sentirse mejor y afrontar con éxito su enfermedad.                                        </p>
+					<p>Si necesita más información sobre cómo afrontar un diagnóstico de un cáncer de vejiga, le ofrecemos unas pautas que le podrán ayudar a asumir y a adaptarse a la nueva situación. Puede consultarlas en el apartado de <a href="../apoyo.html">Apoyo Psicológico</a>.</p>
+					
+					<p>Asimismo, si quiere conocer las experiencias y testimonios de personas que han superado esta enfermedad puede consultar en <a href="http://www.curadosdecancer.com/">Curados de cáncer</a></p>	
+				</div>
+			</div><!--fin grid_8-->
+		</div><!--fin container_12-->
+	<div data-role="footer" id="footer" data-id="main-footer" class="ui-body-d" data-position="fixed" role="contentinfo">
+		<div data-role="navbar" data-iconpos="top">
+			<ul>
+				<li>
+					<a href="../index.html" id="tab-bar-home" data-icon="libro">
+						Oncoguia
+					</a>
+				</li>
+				<li>
+					<a href="../prevencion.html" id="tab-bar-prevencion" data-icon="cruz">
+						El cáncer. Prevención
+					</a>
+				</li>
+				<li>
+					<a href="#" id="tab-bar-tipos" data-icon="ficha" class="ui-btn-active ui-state-persist" >
+						Tipos de cáncer
+					</a>
+				</li>
+				<li>
+					<a href="../apoyo.html" id="tab-bar-apoyo" data-icon="corazon">
+						Apoyo Psicológico
+					</a>
+				</li>
+				<li>
+					<a href="../imo.html" id="tab-bar-imo" data-icon="imo">
+						Fundación Grupo IMO
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div><!--fin footer-->
+	</div><!--fin home-->
+</body>
+</html>

@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>OncoGuía</title>
+		<meta charset="utf-8" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" href="../css/jquery.mobile-1.1.0.min.css" />
+		<link rel="stylesheet" href="../css/jquery.mobile.scrollview.css" />
+		<link rel="stylesheet" href="../css/imo.css"/>
+		<link rel="stylesheet" href="../css/custom.css"/>
+		<link rel="stylesheet" href="../css/grid/jquery-mobile-fluid960.min.css"/>
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/general.functions.js"></script>
+		<script src="../js/jquery.mobile-1.1.0.min.js"></script>
+		<script src="../js/jquery.easing.1.3.js"></script>
+		<script src="../js/jquery.mobile.scrollview.js"></script>
+		<script src="../js/scrollview.js"></script>
+	</head>
+	<body>
+		<div data-role="page" id="detalle-cancer" data-theme="c">
+			<div data-role="header" data-id="cabecera"  data-position="fixed">
+			<a href="#" data-theme="c" data-icon="back" data-rel="back" data-position="inline">Volver</a>
+				<h1>
+					OncoGuía - Tipos de cáncer
+				</h1>
+			</div>
+			<div data-role="content" class="container_12 ui-scrollview-clip">
+			<div class="grid_4">
+				<div data-scroll="y" class="scrolling-content w-background">
+				<ul id="cancer-list" data-filter="true" data-filter-theme="f" data-role="listview" data-theme="a" data-inset="true">
+					<li>
+					<a href="adenoma-de-hipofisis.html">
+					<img src="../images/cancer/adenoma-hipofisis-thumb.jpg" alt="Adenoma de Hipófisis" />
+					<div class="ui-li-heading">Adenoma de Hipófisis</div>
+					<div class="ui-li-desc">Glándula situada en la silla turca</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="colon.html">
+					<img src="../images/cancer/colon-thumb.jpg" alt="Colon" />
+					<div class="ui-li-heading">Colon</div>
+					<div class="ui-li-desc">La última porción del aparato digestivo</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="cuello-uterino-cervix.html">
+					<img src="../images/cancer/cuello-uterino-cervix-thumb.jpg" alt="Cuello Uterino/Cérvix" />
+					<div class="ui-li-heading">Cuello Uterino/Cérvix</div>
+					<div class="ui-li-desc">parte más inferior del aparato rep. femenino</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="endometrio-utero.html">
+						<img src="../images/cancer/endometrio-utero-thumb.jpg" alt="Endometrio/útero" />
+					<div class="ui-li-heading">Endometrio/útero</div>
+					<div class="ui-li-desc">órgano hueco, situado en la pelvis.</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="esofago.html">
+						<img src="../images/cancer/esofago-thumb.jpg" alt="Esófago" />
+					<div class="ui-li-heading">Esófago</div>
+					<div class="ui-li-desc">tubo hueco que transporta los alimentos</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="estomago.html">
+						<img src="../images/cancer/estomago-thumb.jpg" alt="Estómago" />
+					<div class="ui-li-heading">Estómago</div>
+					<div class="ui-li-desc">sitúado en la parte alta del abdomen</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="gliomas.html">
+						<img src="../images/cancer/gliomas-thumb.jpg" alt="Gliomas" />
+					<div class="ui-li-heading">Gliomas</div>
+					<div class="ui-li-desc">Se produce en el cerebro o en la médula espinal</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="mama.html">
+						<img src="../images/cancer/mama-thumb.jpg" alt="Mama" />
+					<div class="ui-li-heading">Mama</div>
+					<div class="ui-li-desc">Glándula destinada a la producción de leche</div>
+					</a>
+					</li>
+
+					<li data-theme="b">
+					<a href="tumor-medula-espinal.html">
+						<img src="../images/cancer/medula-espinal-thumb.jpg" alt="Tumor Médula Espinal" />
+					<div class="ui-li-heading">Médula Espinal</div>
+					<div class="ui-li-desc">el tejido nervioso más extenso del cuerpo</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="meduloblastoma.html">
+						<img src="../images/cancer/meduloblastoma-thumb.jpg" alt="Meduloblastoma" />
+					<div class="ui-li-heading">Meduloblastoma</div>
+					<div class="ui-li-desc">tumores malignos en la fosa posterior del cerebro</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="melanoma.html">
+						<img src="../images/cancer/melanoma-thumb.jpg" alt="Melanoma" />
+					<div class="ui-li-heading">Melanoma</div>
+					<div class="ui-li-desc">Crecimiento de los melanocitos</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="meningiomas.html">
+						<img src="../images/cancer/meningiomas-thumb.jpg" alt="Meningiomas" />
+					<div class="ui-li-heading">Meningiomas</div>
+					<div class="ui-li-desc">Tumor cerebral usualmente benigno</div>
+					</a>
+					</li>
+				
+					<li>
+					<a href="no-melanoma.html">
+						<img src="../images/cancer/no-melanoma-thumb.jpg" alt="No Melanoma" />
+					<div class="ui-li-heading">No Melanoma</div>
+					<div class="ui-li-desc">El tumor más frecuente del ser humano</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="pancreas.html">
+						<img src="../images/cancer/pancreas-thumb.jpg" alt="Páncreas" />
+					<div class="ui-li-heading">Páncreas</div>
+					<div class="ui-li-desc">Glándula que participa en el proceso de la digestión</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="prostata.html">
+						<img src="../images/cancer/prostata-thumb.jpg" alt="Próstata" />
+					<div class="ui-li-heading">Próstata</div>
+					<div class="ui-li-desc">Glándula sexual exclusiva de los varones</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="recto.html">
+						<img src="../images/cancer/recto-thumb.jpg" alt="Recto" />
+					<div class="ui-li-heading">Recto</div>
+					<div class="ui-li-desc">La última porción del aparato digestivo</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="vejiga.html">
+						<img src="../images/cancer/vejiga-thumb.jpg" alt="Vejiga" />
+					<div class="ui-li-heading">Vejiga</div>
+					<div class="ui-li-desc">órgano situado en la parte baja de la pelvis</div>
+					</a>
+					</li>
+				</ul>
+				</div>
+			</div><!--fin container_4-->
+				<div class="grid_8 info-cancer">
+					<div data-scroll="y" class="scrolling-content">
+						<h1>Tumor Médula Espinal</h1>
+						<!--Menu de navegación-->
+						<div data-role="controlgroup" data-type="horizontal">
+							<a href="../tipos/tumor-medula-espinal.html" data-role="button" class="ui-btn-active">Ficha</a>
+							<a href="../tratamiento/tumor-medula-espinal.html" data-role="button">Tratamiento</a>
+						</div>
+						<h2>Introducción</h2>
+
+						<p>La médula espinal se considera el tejido nervioso más extenso del cuerpo humano. Con un peso de aproximadamente 30 gramos,  la médula espinal alcanza la longitud de unos 45 cm.</p>
+
+						<!--imagen-->
+						<div class="full-width-image-container float-left">
+						<a href="#"><img src="../images/cancer/medula-espinal-07.jpg" alt="Tumor Médula Espinal" class="full-width-image float-left"/></a>
+						</div>	
+
+						<p>Se localiza en el conducto raquídeo dentro de las vértebras. Se extiende desde el agujero magno, a la altura de la primera vértebra cervical hasta la primera o segunda vértebra lumbar. Se encuentra rodeado por unas membranas denominadas meninges, entre las que circula libremente el líquido cefalorraquídeo. En su porción más inferior adelgaza rápidamente para terminar en punta de cono, conocido como cono terminal.</p>
+
+						<p>Los tumores que comienzan en el tejido medular se denominan tumores medulares primarios. Se desconoce la causa que los origina, algunos ocurren por defectos genéticos. Constituyen el 15% de los tumores del sistema nervioso. Los tumores más frecuentes que podemos encontrar son los Neurinomas, Meningioma, Ependimoma, Astrocitomas, Hemangioblastoma.</p>
+
+						<p>La mayoría de los cánceres de la médula espinal son cánceres metastásicos o secundarios, lo que significa que surgen de los cánceres que se han extendido a la médula espinal. Los cánceres que pueden generar  metástasis en la médula espinal  incluyen pulmón, mama, próstata, cabeza y cuello, ginecológico, digestivo, tiroides, melanoma, carcinoma de células renales y otros.</p>
+
+						<p>Los tumores medulares pueden ocurrir:</p>
+
+						<ul>
+							<li>Entre la meninge externa y la médula <em>(intradurales)</em>: En estos grupos encontramos ependimomas, neurofibromas, astrocitomas, schwannomas, hemangioblastomas, entre otros.</li>
+
+							<li>Entre las meninges y los huesos de la columna <em>(extradurales)</em>: Los más frecuentes en esta localización son los tumores secundarios o metástasis del linfoma, del cáncer de  pulmón, mama y próstata. Le siguen lesiones primarias originadas en el canal raquídeo, como sarcoma primario, mieloma, neurofibroma y meningiona.</li>
+						</ul>
+
+						<h3>Prevención</h3>
+
+						<p>Se desconocen los factores que favorecen el origen y desarrollo de los tumores medulares. No se ha podido demostrar una relación en la aparición de estos tumores con factores ambientales.</p>
+						
+						<h3>Diagnóstico precoz</h3>	
+
+						<p>En la actualidad no existe ninguna prueba ni programa de screening que permita realizar un diagnóstico precoz de los tumores originados en la médula.</p>
+
+						<!--imagen-->
+						<div class="full-width-image-container float-left">
+						<a href="#"><img src="../images/cancer/medula-espinal-05.jpg" alt="Tumor Médula Espinal" class="full-width-image float-left"/></a>
+						</div>	
+
+						<p>No obstante, es importante acudir al médico ante cualquier síntoma que perdure en el tiempo.</p>
+
+						<h3>Síntomas y Diagnóstico Clínico</h3>
+
+						<p>Los signos clínicos de la mayoría de estos tumores reflejan un lento crecimiento, cuyas manifestaciones clínicas son variables y están determinadas por la localización del tumor.</p>
+
+						<p>Los síntomas pueden abarcar:</p>
+
+						<ul>
+							<li>Alteraciones sensitivas como pérdida de la sensibilidad fundamentalmente en las piernas acompañado, en ocasiones, por dolor fulgurante en las piernas, sensación de frío en las piernas, manos o pies fríos, o bien sensación de frío en otras áreas.</li>
+
+							<li>Dolor de espalda que empeora con el tiempo. La zona en la que es más frecuente la a parición de este síntoma es en la mitad o en la parte inferior de la espalda, generalmente, el dolor es  severo y no mejora con analgésicos, empeora al acostarse, empeora con esfuerzo, tos y estornudo. Puede irradiarse a la cadera, miembros inferiores o superiores o a todas las extremidades o puede permanecer en la columna vertebral.</li>
+
+							<li>Puede acompañarse de incompetencia de los esfínteres, por lo que puede aparecer incontinencia fecal o urinaria. Otro síntoma secundario a estos tumores son los espasmos o contracciones musculares <em>(fasciculaciones)</em> y alteración de la función muscular como disminución de fuerza y dificultad para la marcha.</li>
+						</ul>
+
+						<p>Ante estos síntomas, la exploración neurológica puede ayudar a determinar la localización del tumor.  Sin embargo es preciso un estudio radiológico que aporte información más precisa:</p>
+
+						<ul>
+							<li>Radiografía simple de Columna puede mostrar alguna anomalía en las vértebras en casi la mitad de los tumores medulares.</li>
+
+							<li>La punción lumbar es útil para determinar la permeabilidad del canal vertebral y precisar si hay bloqueo. Asimismo, permite evaluar el líquido cefalorraquídeo y cuantificar la cantidad de proteína.</li>
+
+							<li>Tomografía Axial de Columna <em>(escáner o TAC)</em> es un examen radiológico no invasivo  con rayos X, que permite determinar con mejor calidad la estructura ósea, la médula y los tumores extramedulares. Este examen se puede asociar a una mielografía con la que podemos, con precisión, diagnosticar la naturaleza y extensión del tumor. La resolución espacial de la tomografía computarizada tras una mielografía es superior a una Resonancia Magnética Nuclear.</li>
+
+							<li>La Resonancia Magnética Nuclear <em>(RMN)</em> es el mejor método de diagnóstico para la patología de columna vertebral. Se trata de una prueba no invasiva y exenta de radiación ya que emplea ondas de radiofrecuencia y permite visualizar mejor el canal vertebral y la relación con el resto de estructuras. Además, permite identificar el tamaño del tumor, su naturaleza y el compromiso de tejidos próximos.</li>
+						</ul>
+						<a id="btn_tratamiento" data-icon="pill" data-iconpos="left" data-role="button" href="../tratamiento/tumor-medula-espinal.html" data-theme="c">Tratamiento</a>	
+					</div>
+				</div><!--fin grid_8 -->
+			</div><!--fin container_12-->
+		<div data-role="footer" id="footer" data-id="main-footer" class="ui-body-d" data-position="fixed" role="contentinfo">
+			<div data-role="navbar" data-iconpos="top">
+				<ul>
+					<li>
+						<a href="../index.html" id="tab-bar-home" data-icon="libro">
+							Oncoguia
+						</a>
+					</li>
+					<li>
+						<a href="../prevencion.html" id="tab-bar-prevencion" data-icon="cruz">
+							El cáncer. Prevención
+						</a>
+					</li>
+					<li>
+						<a href="#" id="tab-bar-tipos" data-icon="ficha" class="ui-btn-active ui-state-persist" >
+							Tipos de cáncer
+						</a>
+					</li>
+					<li>
+						<a href="../apoyo.html" id="tab-bar-apoyo" data-icon="corazon">
+							Apoyo Psicológico
+						</a>
+					</li>
+					<li>
+						<a href="../imo.html" id="tab-bar-imo" data-icon="imo">
+							Fundación Grupo IMO
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div><!--fin footer-->
+		</div><!--fin home-->
+	</body>
+	</html>

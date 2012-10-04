@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>OncoGuía</title>
+		<meta charset="utf-8" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" href="../css/jquery.mobile-1.1.0.min.css" />
+		<link rel="stylesheet" href="../css/jquery.mobile.scrollview.css" />
+		<link rel="stylesheet" href="../css/imo.css"/>
+		<link rel="stylesheet" href="../css/custom.css"/>
+		<link rel="stylesheet" href="../css/grid/jquery-mobile-fluid960.min.css"/>
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/general.functions.js"></script>
+		<script src="../js/jquery.mobile-1.1.0.min.js"></script>
+		<script src="../js/jquery.easing.1.3.js"></script>
+		<script src="../js/jquery.mobile.scrollview.js"></script>
+		<script src="../js/scrollview.js"></script>
+	</head>
+	<body>
+		<div data-role="page" id="detalle-cancer" data-theme="c">
+			<div data-role="header" data-id="cabecera"  data-position="fixed">
+			<a href="#" data-theme="c" data-icon="back" data-rel="back" data-position="inline">Volver</a>
+				<h1>
+					OncoGuía - Tipos de cáncer
+				</h1>
+			</div>
+			<div data-role="content" class="container_12 ui-scrollview-clip">
+			<div class="grid_4">
+				<div data-scroll="y" class="scrolling-content w-background">
+				<ul id="cancer-list" data-filter="true" data-filter-theme="f" data-role="listview" data-theme="a" data-inset="true">
+					<li>
+					<a href="adenoma-de-hipofisis.html">
+					<img src="../images/cancer/adenoma-hipofisis-thumb.jpg" alt="Adenoma de Hipófisis" />
+					<div class="ui-li-heading">Adenoma de Hipófisis</div>
+					<div class="ui-li-desc">Glándula situada en la silla turca</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="colon.html">
+					<img src="../images/cancer/colon-thumb.jpg" alt="Colon" />
+					<div class="ui-li-heading">Colon</div>
+					<div class="ui-li-desc">La última porción del aparato digestivo</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="cuello-uterino-cervix.html">
+					<img src="../images/cancer/cuello-uterino-cervix-thumb.jpg" alt="Cuello Uterino/Cérvix" />
+					<div class="ui-li-heading">Cuello Uterino/Cérvix</div>
+					<div class="ui-li-desc">parte más inferior del aparato rep. femenino</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="endometrio-utero.html">
+						<img src="../images/cancer/endometrio-utero-thumb.jpg" alt="Endometrio/útero" />
+					<div class="ui-li-heading">Endometrio/útero</div>
+					<div class="ui-li-desc">órgano hueco, situado en la pelvis.</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="esofago.html">
+						<img src="../images/cancer/esofago-thumb.jpg" alt="Esófago" />
+					<div class="ui-li-heading">Esófago</div>
+					<div class="ui-li-desc">tubo hueco que transporta los alimentos</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="estomago.html">
+						<img src="../images/cancer/estomago-thumb.jpg" alt="Estómago" />
+					<div class="ui-li-heading">Estómago</div>
+					<div class="ui-li-desc">sitúado en la parte alta del abdomen</div>
+					</a>
+					</li>
+					
+					<li data-theme="b">
+					<a href="gliomas.html">
+						<img src="../images/cancer/gliomas-thumb.jpg" alt="Gliomas" />
+					<div class="ui-li-heading">Gliomas</div>
+					<div class="ui-li-desc">Se produce en el cerebro o en la médula espinal</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="mama.html">
+						<img src="../images/cancer/mama-thumb.jpg" alt="Mama" />
+					<div class="ui-li-heading">Mama</div>
+					<div class="ui-li-desc">Glándula destinada a la producción de leche</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="tumor-medula-espinal.html">
+						<img src="../images/cancer/medula-espinal-thumb.jpg" alt="Tumor Médula Espinal" />
+					<div class="ui-li-heading">Médula Espinal</div>
+					<div class="ui-li-desc">el tejido nervioso más extenso del cuerpo</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="meduloblastoma.html">
+						<img src="../images/cancer/meduloblastoma-thumb.jpg" alt="Meduloblastoma" />
+					<div class="ui-li-heading">Meduloblastoma</div>
+					<div class="ui-li-desc">tumores malignos en la fosa posterior del cerebro</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="melanoma.html">
+						<img src="../images/cancer/melanoma-thumb.jpg" alt="Melanoma" />
+					<div class="ui-li-heading">Melanoma</div>
+					<div class="ui-li-desc">Crecimiento de los melanocitos</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="meningiomas.html">
+						<img src="../images/cancer/meningiomas-thumb.jpg" alt="Meningiomas" />
+					<div class="ui-li-heading">Meningiomas</div>
+					<div class="ui-li-desc">Tumor cerebral usualmente benigno</div>
+					</a>
+					</li>
+				
+					<li>
+					<a href="no-melanoma.html">
+						<img src="../images/cancer/no-melanoma-thumb.jpg" alt="No Melanoma" />
+					<div class="ui-li-heading">No Melanoma</div>
+					<div class="ui-li-desc">El tumor más frecuente del ser humano</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="pancreas.html">
+						<img src="../images/cancer/pancreas-thumb.jpg" alt="Páncreas" />
+					<div class="ui-li-heading">Páncreas</div>
+					<div class="ui-li-desc">Glándula que participa en el proceso de la digestión</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="prostata.html">
+						<img src="../images/cancer/prostata-thumb.jpg" alt="Próstata" />
+					<div class="ui-li-heading">Próstata</div>
+					<div class="ui-li-desc">Glándula sexual exclusiva de los varones</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="recto.html">
+						<img src="../images/cancer/recto-thumb.jpg" alt="Recto" />
+					<div class="ui-li-heading">Recto</div>
+					<div class="ui-li-desc">La última porción del aparato digestivo</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="vejiga.html">
+						<img src="../images/cancer/vejiga-thumb.jpg" alt="Vejiga" />
+					<div class="ui-li-heading">Vejiga</div>
+					<div class="ui-li-desc">órgano situado en la parte baja de la pelvis</div>
+					</a>
+					</li>
+				</ul>
+				</div>
+			</div><!--fin container_4-->
+			<div class="grid_8 info-cancer">
+				<div data-scroll="y" class="scrolling-content">
+					<h1>Gliomas</h1>
+					<!--Menu de navegación-->
+					<div data-role="controlgroup" data-type="horizontal">
+						<a href="../tipos/gliomas.html" data-role="button" class="ui-btn-active">Ficha</a>
+						<a href="../tratamiento/gliomas.html" data-role="button">Tratamiento</a>
+					</div>
+					
+					<h2>Introducción</h2>
+					<p>El sistema nervioso central está formado por dos estructuras básicas: el encéfalo y la médula espinal, que se encargan de controlar todas las funciones del organismo.</p>
+					<p> El encéfalo, a su vez está integrado por el cerebro, el cerebelo y el tronco cerebral. Se encuentra rodeado por unas membranas, denominadas meninges, entre las que circula libremente el líquido cefalorraquídeo. Se encuentra contenido en una estructura ósea rígida, que lo protege denominada cráneo.</p>
+					
+					<!--imagen-->
+					<div class="full-width-image-container float-right">
+					<a href="#"><img src="../images/cancer/gliomas-01.jpg" alt="Gliomas" class="full-width-image float-right"/></a>
+					</div>
+					
+					
+					<p><strong>Cerebro: </strong>Se encarga de las funciones cognitivas, entre otras, la capacidad del habla, el pensamiento, el aprendizaje y la memoria, además de determinadas respuestas motoras y emocionales. Está formado por dos hemisferios, derecho e izquierdo, que se encuentran separados entre sí por un surco central (cisura longitudinal). A su vez, cada hemisferio se divide en 4 lóbulos: frontal, temporal, parietal y occipital. Cada uno de ellos interviene en determinadas funciones superiores:</p>
+					<ul>
+					<li> <strong>El lóbulo frontal:</strong> Situado en la parte más anterior del cerebro.  Interviene en las características de la personalidad, la inteligencia, el lenguaje y la escritura.</li>
+					<li><strong>El lóbulo temporal:</strong> Juega un papel básico en la capacidad de memoria, del lenguaje y en las sensaciones auditivas.</li>
+					<li><strong>El lóbulo occipital:</strong> Se encuentra localizado en la parte más posterior. Se encarga de procesar y analizar la información visual. </li>
+					<li> <strong>El lóbulo parietal:</strong> Situado lateralmente en el cerebro. Interviene en la capacidad de identificar objetos y las relaciones espaciales del cuerpo en relación al exterior.
+					</li>
+					</ul>
+					</li>
+					</ul>
+	
+					<ul>
+					<li><strong>Cerebelo:</strong> Situado en la parte más posterior e inferior del cráneo. Es el encargado de regular de forma automática determinados  movimientos y de mantener la postura, la estabilidad y el equilibrio. </li>
+					<li> <strong>Tronco cerebral:</strong> Situado por delante del cerebelo, conecta el cerebro  con la médula espinal. Es una estructura fundamental, ya que es el encargado de funciones vitales como la respiración, la tos, el latido cardiaco, la tensión arterial, la temperatura corporal y la deglución.</li>
+					<li><strong>La médula espinal</strong> se encuentra en el interior de la columna vertebral y,  como el encéfalo, está rodeada por las meninges y el líquido cefalorraquídeo. Es la encargada de la transmisión de la información sensorial desde todo el organismo hasta el cerebro y de los impulsos motores desde el cerebro a los músculos.</li>
+					<li><strong>Las células nerviosas.</strong> Las células encargadas de transmitir los impulsos nerviosos son las neuronas. El cerebro contiene más de 40 billones de estas células, que se encuentran englobadas por un tejido constituido por células denominadas gliales.
+					Existen varios tipos: astrocitos, oligodendrocitos y células ependimales.</li>
+					</ul>
+					
+					<p>Dependiendo de la célula en la que se origine los tumores cerebrales reciben diferentes nombres. Los gliomas proceden de las células gliales. Aproximadamente el <strong>40% de los tumores del sistema nervioso central son gliomas.</strong></p>
+	
+					<h3>Prevención</h3>
+					<p>Se desconocen los factores que favorecen el origen y desarrollo de los tumores cerebrales. No se ha podido demostrar una relación en la aparición de los gliomas con factores ambientales o virales. Tampoco queda clara la relación con la telefonía móvil y antenas, ya que los estudios actuales son contradictorios.</p>
+					
+					<!--imagen-->
+					<div class="half-width-image-container float-right">
+					<a href="#"><img src="../images/cancer/gliomas-02.jpg" alt="Gliomas" class="half-width-image float-right"/></a>
+					</div>
+					
+					<h3>Diagnóstico Precoz</h3>
+					<p>En la actualidad no existe ninguna prueba ni programa de screening que permita realizar un diagnóstico precoz de los tumores del sistema nervioso central.<br>
+					No obstante, es importante acudir al médico ante cualquier síntoma que perdure en el tiempo.<br>
+					</p>
+					
+					<h3>Síntomas y Diagnóstico Clínico</h3>
+									
+					<p>En general, cuando el tumor es pequeño, no suele producir síntomas salvo que afecte una zona muy sensible del cerebro. </p>
+					<p>Gracias al empleo frecuente y precoz de la TC (Tomografía computerizada o escáner), prueba diagnóstica que se solicita cuando aparecen síntomas, se  pueden diagnosticar en sus fases iniciales.  El síntoma más frecuente es la epilepsia (90%), siendo rara la aparición de hipertensión intracraneal (5-10%), que se produce como consecuencia del crecimiento tumoral. Aparece un compromiso de espacio, ya que el cerebro se encuentra en el interior de una estructura ósea rígida, por lo que aumenta la presión en el interior. Los síntomas derivados del  aumento de la presión intracraneal son los siguientes: </p>
+					<ul>
+					<li>Cefalea intensa (dolor de cabeza). </li>
+					<li> Vómitos (generalmente por la mañana), que pueden o no ir acompañados de náuseas.</li>
+					<li>Alteración del nivel de conciencia y somnolencia.</li>
+					</ul>
+					<p>A estos síntomas se añaden otros que serán diferentes en función de la localización del tumor: es muy frecuente la presencia de los trastornos de conducta, la desorientación témporo - espacial, trastornos del lenguaje, y la focalidad neurológica según la localización de la  lesión.</p>
+					<ul>
+					<li>Lóbulo frontal: cuando un tumor crece en esta localización los síntomas se relacionan con alteraciones de la personalidad, de la memoria y del lenguaje. Otros síntomas pueden ser parálisis o disminución de fuerza en la mitad del cuerpo (hemiplejia izda. o dcha.) y mareo.</li>
+					<li>Lóbulo parietal: en este caso se observa dificultad en la coordinación de determinados movimientos, en la orientación del cuerpo en el espacio y reconocer las distintas partes del cuerpo. Asimismo puede aparecer dificultad  para hablar o entender el significado de las palabras y alteración de las funciones de lectura y  escritura.</li>
+					<li>Lóbulo occipital: El síntoma fundamental es la pérdida o alteración de la visión, además de mareos.</li>
+					<li>Lóbulo temporal: Los tumores en esta zona suelen ser más silentes, pueden causar mareos y alteraciones en el lenguaje.</li>
+					<li>Tronco del encéfalo: en esta localización suelen aparecer muchos síntomas como vómitos, cefalea, marcha descoordinada, dificultad para hablar y para tragar, alteraciones en la visión y audición, y somnolencia.</li>
+					<li>Cerebelo: Inestabilidad en la marcha, ausencia de coordinación en los movimientos, alteraciones del habla y vértigos.</li>
+					</ul>
+					
+					<!--imagen-->
+					<div class="full-width-image-container float-right">
+					<a href="#"><img src="../images/cancer/gliomas-03.jpg" alt="Gliomas" class="full-width-image float-right"/></a>
+					</div>
+					<p class="epigrafe">Glioma grado IV - Glioblastoma multiforme</p>
+					<p>Cuando el médico sospecha la posibilidad de un tumor cerebral es fundamental la realización de una serie de pruebas como:</p>
+					<ul>
+					<li>TAC o Tomografía computerizada (escáner) basada en la utilización de rayos X que generan imágenes detalladas del cráneo y cerebro. En ocasiones, es preciso utilizar contraste para resaltar alguna estructura como los vasos sanguíneos. Con esta prueba, se puede ver la lesión y su situación en relación con otras estructuras cerebrales.</li>
+					<li>Resonancia magnética (RM) cerebral: procedimiento basado en el uso de radiofrecuencias en un campo magnético, en la que se puede utilizar contraste para definir mejor los tejidos a explorar. Es la prueba más útil para valorar la lesión así como el resto del tejido cerebral. En este tipo de tumor se aprecia una masa sólida en línea media con intensa captación de contraste.
+					El desarrollo de la tecnología ha hecho posible la utilización de la RM con espectroscopia, denominada: RM funcional, así como el PET (Tomografía de Emisión por Positrones)  para afinar mejor el diagnóstico y el grado de malignidad de los gliomas. Hoy en día estas técnicas de diagnostico son imprescindibles.</li>
+					</ul>
+					<h3>Fases </h3>
+					<p>El sistema de clasificación por estadios o fases más ampliamente utilizada  para los tumores de otra localización del organismo es el TNM, que son las siglas en inglés de (Tumor- Nodes- Metastasis) y hace indicación al T (tamaño) al N (afectación o no ganglionar) y M (presencia o no de metástasis a distancia) no se adapta a la estadificación de los tumores del sistema nervioso.</p>
+					<p> La afectación o no de ganglios (N), no se puede aplicar en los tumores del SNC (Sistema Nervioso Central)  porque esta estructura carece de ganglios regionales. Por otro lado,  las metástasis (M) extracraneales de los tumores del SNC son excepcionales.</p>
+					<p> Los gliomas se clasifican en función de las características de las células y de su agresividad (velocidad de división). Los gliomas se dividen en 4 grados:</p>
+					<ul>
+					<li>Grado 1 y 2: también denominados gliomas de bajo grado o astrocitomas. Generalmente suelen ser tumores poco agresivos, aunque con el tiempo viran y se transforman en tumores grado 3-4.</li>
+					<li>Grado 3 y 4: o gliomas de alto grado (el grado 3 se denomina astrocitoma anaplásico y el 4 glioblastoma multiforme). Son de mayor malignidad que los gliomas grado 1 y 2.</li>
+					</ul>
+					<p>En adultos, el 80% de los gliomas son grado 3-4.
+					</p>
+					</p>
+					<a id="btn_tratamiento" data-icon="pill" data-iconpos="left" data-role="button" href="../tratamiento/gliomas.html" data-theme="c">
+					Tratamiento
+					</a>
+				</div>
+			</div><!--fin grid_8 -->
+		</div><!--fin container_12-->
+<div data-role="footer" id="footer" data-id="main-footer" class="ui-body-d" data-position="fixed" role="contentinfo">
+	<div data-role="navbar" data-iconpos="top">
+		<ul>
+			<li>
+				<a href="../index.html" id="tab-bar-home" data-icon="libro">
+					Oncoguia
+				</a>
+			</li>
+			<li>
+				<a href="../prevencion.html" id="tab-bar-prevencion" data-icon="cruz">
+					El cáncer. Prevención
+				</a>
+			</li>
+			<li>
+				<a href="#" id="tab-bar-tipos" data-icon="ficha" class="ui-btn-active ui-state-persist" >
+					Tipos de cáncer
+				</a>
+			</li>
+			<li>
+				<a href="../apoyo.html" id="tab-bar-apoyo" data-icon="corazon">
+					Apoyo Psicológico
+				</a>
+			</li>
+			<li>
+				<a href="../imo.html" id="tab-bar-imo" data-icon="imo">
+					Fundación Grupo IMO
+				</a>
+			</li>
+		</ul>
+	</div>
+</div><!--fin footer-->
+</div><!--fin home-->
+</body>
+</html>

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>OncoGuía</title>
+		<meta charset="utf-8" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" href="../css/jquery.mobile-1.1.0.min.css" />
+		<link rel="stylesheet" href="../css/jquery.mobile.scrollview.css" />
+		<link rel="stylesheet" href="../css/imo.css"/>
+		<link rel="stylesheet" href="../css/custom.css"/>
+		<link rel="stylesheet" href="../css/grid/jquery-mobile-fluid960.min.css"/>
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/general.functions.js"></script>
+		<script src="../js/jquery.mobile-1.1.0.min.js"></script>
+		<script src="../js/jquery.easing.1.3.js"></script>
+		<script src="../js/jquery.mobile.scrollview.js"></script>
+		<script src="../js/scrollview.js"></script>
+	</head>
+	<body>
+		<div data-role="page" id="detalle-cancer" data-theme="c">
+			<div data-role="header" data-id="cabecera"  data-position="fixed">
+			<a href="#" data-theme="c" data-icon="back" data-rel="back" data-position="inline">Volver</a>
+				<h1>
+					OncoGuía - Tipos de cáncer
+				</h1>
+			</div>
+			<div data-role="content" class="container_12 ui-scrollview-clip">
+			<div class="grid_4">
+				<div data-scroll="y" class="scrolling-content w-background">
+				<ul id="cancer-list" data-filter="true" data-filter-theme="f" data-role="listview" data-theme="a" data-inset="true">
+					<li>
+					<a href="../adenoma-de-hipofisis.html">
+					<img src="../images/cancer/adenoma-hipofisis-thumb.jpg" alt="Adenoma de Hipófisis" />
+					<div class="ui-li-heading">Adenoma de Hipófisis</div>
+					<div class="ui-li-desc">Glándula situada en la silla turca</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/colon.html">
+					<img src="../images/cancer/colon-thumb.jpg" alt="Colon" />
+					<div class="ui-li-heading">Colon</div>
+					<div class="ui-li-desc">La última porción del aparato digestivo</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/cuello-uterino-cervix.html">
+					<img src="../images/cancer/cuello-uterino-cervix-thumb.jpg" alt="Cuello Uterino/Cérvix" />
+					<div class="ui-li-heading">Cuello Uterino/Cérvix</div>
+					<div class="ui-li-desc">parte más inferior del aparato rep. femenino</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/endometrio-utero.html">
+						<img src="../images/cancer/endometrio-utero-thumb.jpg" alt="Endometrio/útero" />
+					<div class="ui-li-heading">Endometrio/útero</div>
+					<div class="ui-li-desc">órgano hueco, situado en la pelvis.</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/esofago.html">
+						<img src="../images/cancer/esofago-thumb.jpg" alt="Esófago" />
+					<div class="ui-li-heading">Esófago</div>
+					<div class="ui-li-desc">tubo hueco que transporta los alimentos</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/estomago.html">
+						<img src="../images/cancer/estomago-thumb.jpg" alt="Estómago" />
+					<div class="ui-li-heading">Estómago</div>
+					<div class="ui-li-desc">sitúado en la parte alta del abdomen</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/gliomas.html">
+						<img src="../images/cancer/gliomas-thumb.jpg" alt="Gliomas" />
+					<div class="ui-li-heading">Gliomas</div>
+					<div class="ui-li-desc">Se produce en el cerebro o en la médula espinal</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/mama.html">
+						<img src="../images/cancer/mama-thumb.jpg" alt="Mama" />
+					<div class="ui-li-heading">Mama</div>
+					<div class="ui-li-desc">Glándula destinada a la producción de leche</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="../tipos/tumor-medula-espinal.html">
+						<img src="../images/cancer/medula-espinal-thumb.jpg" alt="Tumor Médula Espinal" />
+					<div class="ui-li-heading">Médula Espinal</div>
+					<div class="ui-li-desc">el tejido nervioso más extenso del cuerpo</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="../tipos/meduloblastoma.html">
+						<img src="../images/cancer/meduloblastoma-thumb.jpg" alt="Meduloblastoma" />
+					<div class="ui-li-heading">Meduloblastoma</div>
+					<div class="ui-li-desc">tumores malignos en la fosa posterior del cerebro</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="../tipos/melanoma.html">
+						<img src="../images/cancer/melanoma-thumb.jpg" alt="Melanoma" />
+					<div class="ui-li-heading">Melanoma</div>
+					<div class="ui-li-desc">Crecimiento de los melanocitos</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="../tipos/meningiomas.html">
+						<img src="../images/cancer/meningiomas-thumb.jpg" alt="Meningiomas" />
+					<div class="ui-li-heading">Meningiomas</div>
+					<div class="ui-li-desc">Tumor cerebral usualmente benigno</div>
+					</a>
+					</li>
+				
+					<li>
+					<a href="../tipos/no-melanoma.html">
+						<img src="../images/cancer/no-melanoma-thumb.jpg" alt="No Melanoma" />
+					<div class="ui-li-heading">No Melanoma</div>
+					<div class="ui-li-desc">El tumor más frecuente del ser humano</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="../tipos/pancreas.html">
+						<img src="../images/cancer/pancreas-thumb.jpg" alt="Páncreas" />
+					<div class="ui-li-heading">Páncreas</div>
+					<div class="ui-li-desc">Glándula que participa en el proceso de la digestión</div>
+					</a>
+					</li>
+					
+					<li data-theme="b">
+					<a href="../tipos/prostata.html">
+						<img src="../images/cancer/prostata-thumb.jpg" alt="Próstata" />
+					<div class="ui-li-heading">Próstata</div>
+					<div class="ui-li-desc">Glándula sexual exclusiva de los varones</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/recto.html">
+						<img src="../images/cancer/recto-thumb.jpg" alt="Recto" />
+					<div class="ui-li-heading">Recto</div>
+					<div class="ui-li-desc">La última porción del aparato digestivo</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/vejiga.html">
+						<img src="../images/cancer/vejiga-thumb.jpg" alt="Vejiga" />
+					<div class="ui-li-heading">Vejiga</div>
+					<div class="ui-li-desc">órgano situado en la parte baja de la pelvis</div>
+					</a>
+					</li>
+				</ul>
+				</div>
+			</div><!--fin container_4-->
+			<div class="grid_8 info-cancer">
+				<div data-scroll="y" class="scrolling-content">
+					
+					<h1>Tratamiento</h1>
+					
+					<!--Menu de navegación-->
+					<div data-role="controlgroup" data-type="horizontal">
+						<a href="../tipos/prostata.html" data-role="button">Ficha</a>
+						<a href="../tratamiento/prostata.html" data-role="button" class="ui-btn-active">Tratamiento</a>
+						<a href="../video/prostata.html" data-role="button">Video</a>
+					</div>
+					
+					<p>El tratamiento del cáncer de próstata es multidisciplinar y depende del grupo de riesgo en el que se encuentre la enfermedad en el momento del diagnóstico, también depende de la edad del paciente  y su estado general.</p>
+					
+					
+					<p>El tratamiento está basado en la combinación de alguno de estos tratamientos: cirugía, tratamiento con radiaciones y Hormonoterapia. Con menor frecuencia se emplea quimioterapia.</p>
+					
+					<!--imagen-->
+					<div class="half-width-image-container float-left">
+					<a href="#"><img src="../images/cancer/prostata-05.jpg" alt="Cáncer de próstata" class="half-width-image float-left"/></a>
+					</div>
+					
+					<h3>Cirugía:</h3>
+					<p>En general consiste en la extirpación de la próstata y las vesículas seminales <em>(prostatectomía radical)</em>. Esta técnica está indicada en tumores confinados a la próstata y son de bajo riesgo. En general, obtiene  un excelente control de la enfermedad.</p>
+					 
+					<p>Se suele ofrecer a pacientes jóvenes. La linfadenectomía <em>(extracción de los ganglios de la pelvis)</em> no está indicada en tumores pequeños bien diferenciados.</p> 
+					
+					<p>Las complicaciones más frecuentes de la cirugía son incontinencia urinaria <em>(6% completa y 20% esporádica)</em>, disfunción eréctil <em>(la mayoría de los pacientes)</em>, y estenosis uretral.</p>
+					
+					<h3>Tratamiento Con Radiaciones</h3>
+					<p>Desempeña un papel fundamental en el tratamiento de este tumor.</p>
+					<p>Está indicada bien como tratamiento único en tumores de bajo riesgo o bien, asociada a tratamiento Hormonal cuando se trata de tumores confinados a la próstata pero de riesgo intermedio o de alto riesgo.</p>
+					
+					<p>También se administra tratamiento con radioterapia tras la cirugía si los bordes quirúrgicos están afectos o el tumor infiltra más allá de la cápsula prostática.</p> 
+					
+					<p>La evolución tecnológica ha favorecido el desarrollo de técnicas cada vez más eficaces, precisas y con menos efectos secundarios:</p> 
+					<!--imagen-->
+				
+					
+					<ul><li><strong>Radioterapia 3D conformada:</strong> Se realiza la planificación empleando un TAC. Para administrar el tratamiento se utiliza aceleradores lineales.</li>
+					<li><strong>Radioterapia con intensidad modulada de dosis (IMRT):</strong> Es una forma de radiación más precisa que la radioterapia 3D, consigue reducir dosis sobre el tejido sano que rodea al tumor como el recto, vejiga,  cabezas femorales  e intestino delgado.</li>
+					<li><strong>Radioterapia Guiada por Imagen-IGRT-Tomoterapia:</strong> Es una técnica novedosa y de alta tecnología que permite administrar un tratamiento de radioterapia helicoidal, altamente conformado y adaptado a cada paciente, por lo que consigue reducir al máximo la dosis de radiación que llegan a los órganos sanos que rodean el tumor. Una ventaja más de la tomoterapia es que diariamente se realiza una TC especial que permite conocer la posición exacta del tumor, de los órganos sanos y del paciente, por lo que se minimiza el riesgo de error en la colocación del paciente. Los efectos secundarios derivados de este tratamiento son mínimos, por lo que la calidad de vida del paciente durante el tratamiento es excelente.</li>
+					<li><strong>Radioterapia Robotizada Guiada por Imagen-CyberKnife: </strong>Es una técnica de radiocirugía robotizada guiada por imagen, que se administra en 5 sesiones. Requiere la inserción de cuatro semillas de oro en el interior de la próstata sin precisar ingreso hospitalario.  Estas semillas ayudarán al sistema a conseguir un alto nivel de precisión ya que permiten detectar los movimientos de la próstata durante todo el tratamiento. Corrige de manera automática la dirección del haz de radiación, lo que permite dar altas dosis en cada sesión, con muy buena tolerancia.<br />
+					Se consigue un control tumoral a 5 años en más del 90% de los pacientes. </li>
+						<div class="half-width-image-container float-left">
+					<a href="#"><img src="../images/cancer/prostata-04.jpg" alt="Cáncer de próstata" class="half-width-image float-left"/></a>
+					</div>
+					<li><strong>Braquiterapia:</strong> Consiste en insertar en el tejido de la próstata material radiactivo (braquiterapia intersticial). Puede ser permanente (semillas radiactivas) o intermitente. En el caso de Braquiterapia con semillas, requiere ingreso hospitalario (mínimo 24 horas) con anestesia epidural durante el proceso. 
+					Consigue un buen control local en pacientes con tumores de próstata considerados de bajo riesgo.</li></ul>
+
+					<h3>Pronóstico</h3>
+					<p>Desde la generalización del test de diagnóstico precoz de determinación de niveles de PSA en sangre, la incidencia del cáncer de próstata se ha incrementado en España, sin embargo también ha mejorado la supervivencia, ya que se diagnostican y tratan tumores muy pequeños, con un excelente pronóstico. De hecho, para casos diagnosticados entre 1980 y 1985 la supervivencia a 5 años era de un <strong>48%</strong> y para los diagnosticados entre 1990 y 1994 de un <strong>65,5%.</strong> Se espera que la tendencia de mejor expectativa en el pronóstico continúe. La supervivencia global <em>(sin tener en cuenta estadio, edad u otros factores)</em> en España es similar a la media europea, aproximadamente un 65,5% de los pacientes con cáncer de próstata en España sobreviven más de 5 años tras el diagnóstico.</p> 
+					<p>En general, es un tumor con alta incidencia especialmente en países desarrollados, sin embargo presenta una mortalidad moderada y su tendencia es a disminuir desde mediados de los años 90.</p>
+					<p>La mortalidad en España, comparada con el resto de países desarrollados, se puede considerar baja <em>(tasa ajustada mundial en 2002: 15 muertes/ 100.000 habitantes/año).</em></p> 
+					<h3>Aspecto Psico-Oncológico</h3>
+					
+					<p>La supervivencia y la calidad de vida del paciente con cáncer de próstata han mejorado en la última década y la tendencia continua gracias a los avances en las técnicas de diagnóstico y alternativas terapéuticas.</p>
+					<!--imagen-->
+					<div class="full-width-image-container float-left">
+					<a href="#"><img src="../images/cancer/prostata-06.jpg" alt="Cáncer de próstata" class="full-width-image float-left"/></a>
+					</div>
+					<p>A nivel psicológico, el cáncer de próstata implica un cierto nivel de estrés emocional, ante la amenaza a la masculinidad y autoimagen como hombre. Las principales preocupaciones y temores del paciente giran en torno a una posible incontinencia urinaria y disfunción sexual, aunque ello dependerá del tratamiento recibido. Los avances tecnológicos y científicos han permitido que estos efectos secundarios cada vez sean menos frecuentes.</p>
+					<p>Una buena comunicación con el médico para informarse sobre la enfermedad, los efectos de los tratamientos sobre la función urinaria y sexual y las posibles alternativas terapéuticas para mejorar las posibles secuelas, permite incrementar la tranquilidad y sensación de control del paciente.</p>
+					
+					<p>Si necesita más información sobre cómo afrontar un diagnóstico de un cáncer de próstata, le ofrecemos unas pautas que le podrán ayudar a asumir y a adaptarse a la nueva situación. Puede consultarlas en el apartado de <a href="../apoyo.html">Apoyo Psicológico</a></p>
+					<p>Asimismo, si quiere conocer las experiencias y testimonios de personas que han superado esta enfermedad puede consultar en <a href="http://www.curadosdecancer.com">Curados de cáncer</a></p>
+					
+					<a data-icon="arrow-r" data-iconpos="right" data-role="button" href="../video/prostata.html" data-theme="c">
+					Ver video
+					</a>
+				</div>
+			</div><!--fin grid_8-->
+		</div><!--fin container_12-->
+<div data-role="footer" id="footer" data-id="main-footer" class="ui-body-d" data-position="inline" role="contentinfo">
+	<div data-role="navbar" data-iconpos="top">
+		<ul>
+			<li><a href="../index.html" id="tab-bar-home" data-icon="libro">Oncoguia</a></li>
+			<li><a href="../prevencion.html" id="tab-bar-prevencion" data-icon="cruz">El cáncer. Prevención</a></li>
+			<li><a href="#" id="tab-bar-tipos" data-icon="ficha" class="ui-btn-active ui-state-persist" >Tipos de cáncer</a></li>
+			<li><a href="../apoyo.html" id="tab-bar-apoyo" data-icon="corazon">Apoyo Psicológico</a></li>
+			<li><a href="../imo.html" id="tab-bar-imo" data-icon="imo">Fundación Grupo IMO</a></li>
+		</ul>
+	</div>
+</div><!--fin footer-->
+</div><!--fin home-->
+</body>
+</html>

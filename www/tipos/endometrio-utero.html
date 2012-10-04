@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>OncoGuía</title>
+		<meta charset="utf-8" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" href="../css/jquery.mobile-1.1.0.min.css" />
+		<link rel="stylesheet" href="../css/jquery.mobile.scrollview.css" />
+		<link rel="stylesheet" href="../css/imo.css"/>
+		<link rel="stylesheet" href="../css/custom.css"/>
+		<link rel="stylesheet" href="../css/grid/jquery-mobile-fluid960.min.css"/>
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/general.functions.js"></script>
+		<script src="../js/jquery.mobile-1.1.0.min.js"></script>
+		<script src="../js/jquery.easing.1.3.js"></script>
+		<script src="../js/jquery.mobile.scrollview.js"></script>
+		<script src="../js/scrollview.js"></script>
+	</head>
+	<body>
+		<div data-role="page" id="detalle-cancer" data-theme="c">
+			<div data-role="header" data-id="cabecera"  data-position="fixed">
+			<a href="#" data-theme="c" data-icon="back" data-rel="back" data-position="inline">Volver</a>
+				<h1>
+					OncoGuía - Tipos de cáncer
+				</h1>
+			</div>
+			<div data-role="content" class="container_12 ui-scrollview-clip">
+			<div class="grid_4">
+				<div data-scroll="y" class="scrolling-content w-background">
+				<ul id="cancer-list" data-filter="true" data-filter-theme="f" data-role="listview" data-theme="a" data-inset="true">
+					<li>
+					<a href="adenoma-de-hipofisis.html">
+					<img src="../images/cancer/adenoma-hipofisis-thumb.jpg" alt="Adenoma de Hipófisis" />
+					<div class="ui-li-heading">Adenoma de Hipófisis</div>
+					<div class="ui-li-desc">Glándula situada en la silla turca</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="colon.html">
+					<img src="../images/cancer/colon-thumb.jpg" alt="Colon" />
+					<div class="ui-li-heading">Colon</div>
+					<div class="ui-li-desc">La última porción del aparato digestivo</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="cuello-uterino-cervix.html">
+					<img src="../images/cancer/cuello-uterino-cervix-thumb.jpg" alt="Cuello Uterino/Cérvix" />
+					<div class="ui-li-heading">Cuello Uterino/Cérvix</div>
+					<div class="ui-li-desc">parte más inferior del aparato rep. femenino</div>
+					</a>
+					</li>
+					
+					<li data-theme="b">
+					<a href="endometrio-utero.html">
+						<img src="../images/cancer/endometrio-utero-thumb.jpg" alt="Endometrio/útero" />
+					<div class="ui-li-heading">Endometrio/útero</div>
+					<div class="ui-li-desc">órgano hueco, situado en la pelvis.</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="esofago.html">
+						<img src="../images/cancer/esofago-thumb.jpg" alt="Esófago" />
+					<div class="ui-li-heading">Esófago</div>
+					<div class="ui-li-desc">tubo hueco que transporta los alimentos</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="estomago.html">
+						<img src="../images/cancer/estomago-thumb.jpg" alt="Estómago" />
+					<div class="ui-li-heading">Estómago</div>
+					<div class="ui-li-desc">sitúado en la parte alta del abdomen</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="gliomas.html">
+						<img src="../images/cancer/gliomas-thumb.jpg" alt="Gliomas" />
+					<div class="ui-li-heading">Gliomas</div>
+					<div class="ui-li-desc">Se produce en el cerebro o en la médula espinal</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="mama.html">
+						<img src="../images/cancer/mama-thumb.jpg" alt="Mama" />
+					<div class="ui-li-heading">Mama</div>
+					<div class="ui-li-desc">Glándula destinada a la producción de leche</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="tumor-medula-espinal.html">
+						<img src="../images/cancer/medula-espinal-thumb.jpg" alt="Tumor Médula Espinal" />
+					<div class="ui-li-heading">Médula Espinal</div>
+					<div class="ui-li-desc">el tejido nervioso más extenso del cuerpo</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="meduloblastoma.html">
+						<img src="../images/cancer/meduloblastoma-thumb.jpg" alt="Meduloblastoma" />
+					<div class="ui-li-heading">Meduloblastoma</div>
+					<div class="ui-li-desc">tumores malignos en la fosa posterior del cerebro</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="melanoma.html">
+						<img src="../images/cancer/melanoma-thumb.jpg" alt="Melanoma" />
+					<div class="ui-li-heading">Melanoma</div>
+					<div class="ui-li-desc">Crecimiento de los melanocitos</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="meningiomas.html">
+						<img src="../images/cancer/meningiomas-thumb.jpg" alt="Meningiomas" />
+					<div class="ui-li-heading">Meningiomas</div>
+					<div class="ui-li-desc">Tumor cerebral usualmente benigno</div>
+					</a>
+					</li>
+				
+					<li>
+					<a href="no-melanoma.html">
+						<img src="../images/cancer/no-melanoma-thumb.jpg" alt="No Melanoma" />
+					<div class="ui-li-heading">No Melanoma</div>
+					<div class="ui-li-desc">El tumor más frecuente del ser humano</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="pancreas.html">
+						<img src="../images/cancer/pancreas-thumb.jpg" alt="Páncreas" />
+					<div class="ui-li-heading">Páncreas</div>
+					<div class="ui-li-desc">Glándula que participa en el proceso de la digestión</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="prostata.html">
+						<img src="../images/cancer/prostata-thumb.jpg" alt="Próstata" />
+					<div class="ui-li-heading">Próstata</div>
+					<div class="ui-li-desc">Glándula sexual exclusiva de los varones</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="recto.html">
+						<img src="../images/cancer/recto-thumb.jpg" alt="Recto" />
+					<div class="ui-li-heading">Recto</div>
+					<div class="ui-li-desc">La última porción del aparato digestivo</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="vejiga.html">
+						<img src="../images/cancer/vejiga-thumb.jpg" alt="Vejiga" />
+					<div class="ui-li-heading">Vejiga</div>
+					<div class="ui-li-desc">órgano situado en la parte baja de la pelvis</div>
+					</a>
+					</li>
+				</ul>
+				</div>
+			</div><!--fin container_4-->
+			<div class="grid_8 info-cancer">
+						<div data-scroll="y" class="scrolling-content">
+							<h1>Cáncer de endometrio (útero)</h1>
+							<!--Menu de navegación-->
+							<div data-role="controlgroup" data-type="horizontal">
+								<a href="../tipos/endometrio-utero.html" data-role="button" class="ui-btn-active">Ficha</a>
+								<a href="../tratamiento/endometrio-utero.html" data-role="button">Tratamiento</a>
+							</div>						
+							
+							<h2>Introducción</h2>
+							<p>El útero es un órgano hueco, situado en la pelvis. Es donde crece y se desarrolla el feto. El útero está formado por dos partes, el cérvix, que es la parte más inferior situada en el interior de la vagina, y el cuerpo uterino. El cuerpo del útero posee dos capas, la más externa llamada miometrio, que se contrae durante el parto y, la más interna que es el endometrio.
+							</p>
+							
+							<!--imagen-->
+							<div class="full-width-image-container float-left">
+							<img src="../images/cancer/endometrio-utero-01.jpg" alt="Cáncer de endometrio (útero)" class="full-width-image float-left"/>
+							</div>
+							
+							<p>Más del 80% de los carcinomas de endometrio son adenocarcinomas endometrioides (Se parecen mucho a las células normales del endometrio). Otros tipos menos frecuentes son el adenocarcinoma de células claras o el seroso papilar. Si las células tumorales se desarrollan en el miometrio el tumor se denomina sarcoma.
+							</p>
+							
+							<!--imagen-->
+							<div class="full-width-image-container float-left">
+							<img src="../images/cancer/endometrio-utero-02.jpg" alt="Cáncer de endometrio (útero)" class="full-width-image float-left"/>
+							</div>
+							
+							
+							<p>Cada año se diagnostican en España más de 4300 casos nuevos de este tumor.</p>
+							<h3>Prevención</h3>
+							<p>La obesidad, la diabetes, una alimentación rica en grasa, los estrógenos externos y los ovarios poliquísticos son factores de riesgo para este tumor. Otros factores pueden ser el tratamiento con Tamoxifeno (fármaco empleado en el tratamiento del cáncer de mama) y los antecedentes familiares. </p>
+							<p>Aunque el cáncer de endometrio no se puede prevenir, es posible reducir el riesgo de padecerlo si se realiza una alimentación saludable, se controla el peso y otras enfermedades como la diabetes.</p>
+							
+							<!--imagen-->
+							<div class="half-width-image-container float-left">
+							<img src="../images/cancer/endometrio-utero-03.jpg" alt="Cáncer de endometrio (útero)" class="half-width-image float-left"/>
+							</div>
+							
+							<h3>Diagnóstico Precoz</h3>
+							<p>En la actualidad no existe una prueba específica que, dentro de un programa de screening, permita el diagnóstico precoz del cáncer de endometrio. Sin embargo, sí es posible diagnosticarlo en las fases iniciales, si se realizan con regularidad las revisiones ginecológicas o se acude al especialista ante determinados síntomas.<br>
+							</p>
+							
+							<h3>Síntomas y Diagnóstico Clínico</h3>
+														
+							<p>Los síntomas más frecuentes del carcinoma de endometrio son:</p>
+							<ul>
+							<li>Sangrado entre menstruaciones.</li>
+							<li>Dolor o sangrado durante o tras las relaciones sexuales.</li>
+							<li>Dolor en la pelvis.</li>
+							</ul>
+							<p>Antes estos síntomas es importante que la mujer acuda a su ginecólogo para realizar las pruebas necesarias que permitan descartar la existencia de un cáncer de endometrio. </p>
+							<p>Generalmente, no es posible diagnosticar el cáncer de endometrio con un test de Papanicolau. Con este test se obtienen células del cuello de útero  a través de un pequeño raspado sin alcanzar el endometrio, por lo que es necesario hacer otra serie de pruebas diagnósticas.</p>
+							<ul>
+							<li>Ecografía ginecológica: exploración por ultrasonidos a través de la vagina. Aporta información sobre el útero, su situación en la pelvis y la relación con otros órganos, sin embargo el dato más importante es la información sobre el grosor y espesor del endometrio (si este se encuentra engrosado existe la posibilidad de que sea debido a un cáncer). Es un procedimiento no doloroso que proporciona un diagnóstico de sospecha.</li>
+							<li>Ante la sospecha de un tumor de endometrio es necesario realizar una biopsia mediante la inserción de un tubo delgado y flexible a través del cérvix. Con este tubo se obtiene una pequeña cantidad de tejido del endometrio. Posteriormente este tejido es estudiado por un patólogo a través de un microscopio para verificar si existen o no células cancerosas. </li>
+							<li> Si con la biopsia anterior no es suficiente para llegar a un diagnóstico es preciso realizar una dilatación, legrado y biopsia dirigida para extraer muestras de tejido del revestimiento interno del útero. El cuello uterino se dilata y se inserta un instrumento en forma de cuchara para obtener el tejido. Se pueden tomar muestras de tejido para observarlas bajo un microscopio y determinar si hay señales de enfermedad.</li>
+							</ul>
+							<p>Una vez realizado el diagnóstico, es preciso determinar si el cáncer se ha diseminado a otras zonas u órganos, por lo que se realiza un estudio de extensión que consiste en varias pruebas:</p>
+							<ul>
+							<li>Resonancia magnética de la pelvis: con ella es posible determinar la extensión del tumor en el útero y si el recto y la vejiga están o no  afectadas por tumor.</li>
+							<li>RX tórax o Tac torácico: permite valorar si el tumor ha alcanzado otros órganos.</li>
+							</ul>
+							<h3>Fases del tumor</h3>
+							<p>Con el fin de determinar el tratamiento más adecuado para el cáncer de endometrio, es importante conocer la extensión de tumor. Dependiendo de si el tumor está confinado al útero, invade estructuras vecinas u órganos a distancia, el tumor se clasifica en diferentes estadios:</p>
+							<ul>
+							<li>Estadio I: El tumor está localizado en el útero. No se observa afectación de los ganglios linfáticos de la pelvis.</li>
+							<li> Se subdivide en A y B dependiendo de la profundidad de invasión de la pared del útero (menos de la mitad de la pared o más de la mitad, respectivamente).</li>
+							<li> Estadio II: el tumor se ha diseminado desde el cuerpo del útero hasta alcanzar el cérvix o cuello del útero. </li>
+							<li> Estadio III: la lesión alcanza otras estructuras fuera del útero (ovarios, vagina, ganglios de la pelvis) pero permanece confinado a la pelvis.</li>
+							<li> Estadio IV: el cáncer puede afectar al recto, vejiga y/o ha alcanzado otros órganos más alejados.</li>
+							</ul>
+							<p> La mayoría de las pacientes se diagnostican en los estadios iniciales, por lo que el pronóstico en esos casos es muy bueno.</p>
+							<p> Las células que constituyen el tumor de endometrio se dividen en función del grado (parecido que poseen las células tumorales con las células normales del endometrio), e indica la agresividad del tumor. La decisión terapéutica varía en función del grado y se distinguen:</p>
+							<ul>
+							<li> Grado 1 ó bien diferenciado: las células se asemejan mucho a las células normales y son tumores generalmente poco agresivos. </li>
+							<li>Grado 2 ó moderadamente diferenciado: Las células tumorales presentan cierta semejanza con las células normales, aunque su crecimiento es más rápido que en el grado 1.</li>
+							<li>Grado 3 ó indiferenciado: las células tumorales no guardan ninguna semejanza con las células de origen y son tumores, por lo general agresivos, de crecimiento rápido y con más frecuencia se diseminan.</li>
+							</ul>
+							<a id="btn_tratamiento" data-icon="pill" data-iconpos="left" data-role="button" href="../tratamiento/endometrio-utero.html" data-theme="c">
+							Tratamiento
+							</a>
+						</div>
+		  			</div><!--fin grid_6-->
+		  		</div><!--fin container_12-->
+		  	<div data-role="footer" id="footer" data-id="main-footer" class="ui-body-d" data-position="fixed" role="contentinfo">
+		  		<div data-role="navbar" data-iconpos="top">
+		  			<ul>
+		  				<li>
+		  					<a href="../index.html" id="tab-bar-home" data-icon="libro">
+		  						Oncoguia
+		  					</a>
+		  				</li>
+		  				<li>
+		  					<a href="../prevencion.html" id="tab-bar-prevencion" data-icon="cruz">
+		  						El cáncer. Prevención
+		  					</a>
+		  				</li>
+		  				<li>
+		  					<a href="#" id="tab-bar-tipos" data-icon="ficha" class="ui-btn-active ui-state-persist" >
+		  						Tipos de cáncer
+		  					</a>
+		  				</li>
+		  				<li>
+		  					<a href="../apoyo.html" id="tab-bar-apoyo" data-icon="corazon">
+		  						Apoyo Psicológico
+		  					</a>
+		  				</li>
+		  				<li>
+		  					<a href="../imo.html" id="tab-bar-imo" data-icon="imo">
+		  						Fundación Grupo IMO
+		  					</a>
+		  				</li>
+		  			</ul>
+		  		</div>
+		  	</div><!--fin footer-->
+		  	</div><!--fin home-->
+		  </body>
+		  </html>

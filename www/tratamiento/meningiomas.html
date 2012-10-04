@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>OncoGuía</title>
+		<meta charset="utf-8" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" href="../css/jquery.mobile-1.1.0.min.css" />
+		<link rel="stylesheet" href="../css/jquery.mobile.scrollview.css" />
+		<link rel="stylesheet" href="../css/imo.css"/>
+		<link rel="stylesheet" href="../css/custom.css"/>
+		<link rel="stylesheet" href="../css/grid/jquery-mobile-fluid960.min.css"/>
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/general.functions.js"></script>
+		<script src="../js/jquery.mobile-1.1.0.min.js"></script>
+		<script src="../js/jquery.easing.1.3.js"></script>
+		<script src="../js/jquery.mobile.scrollview.js"></script>
+		<script src="../js/scrollview.js"></script>
+	</head>
+	<body>
+		<div data-role="page" id="detalle-cancer" data-theme="c">
+			<div data-role="header" data-id="cabecera"  data-position="fixed">
+			<a href="#" data-theme="c" data-icon="back" data-rel="back" data-position="inline">Volver</a>
+				<h1>
+					OncoGuía - Tratamientos contra el cáncer
+				</h1>
+			</div>
+			<div data-role="content" class="container_12 ui-scrollview-clip">
+			<div class="grid_4">
+				<div data-scroll="y" class="scrolling-content w-background">
+				<ul id="cancer-list" data-filter="true" data-filter-theme="f" data-role="listview" data-theme="a" data-inset="true">
+					<li>
+					<a href="../adenoma-de-hipofisis.html">
+					<img src="../images/cancer/adenoma-hipofisis-thumb.jpg" alt="Adenoma de Hipófisis" />
+					<div class="ui-li-heading">Adenoma de Hipófisis</div>
+					<div class="ui-li-desc">Glándula situada en la silla turca</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/colon.html">
+					<img src="../images/cancer/colon-thumb.jpg" alt="Colon" />
+					<div class="ui-li-heading">Colon</div>
+					<div class="ui-li-desc">La última porción del aparato digestivo</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/cuello-uterino-cervix.html">
+					<img src="../images/cancer/cuello-uterino-cervix-thumb.jpg" alt="Cuello Uterino/Cérvix" />
+					<div class="ui-li-heading">Cuello Uterino/Cérvix</div>
+					<div class="ui-li-desc">parte más inferior del aparato rep. femenino</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/endometrio-utero.html">
+						<img src="../images/cancer/endometrio-utero-thumb.jpg" alt="Endometrio/útero" />
+					<div class="ui-li-heading">Endometrio/útero</div>
+					<div class="ui-li-desc">órgano hueco, situado en la pelvis.</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/esofago.html">
+						<img src="../images/cancer/esofago-thumb.jpg" alt="Esófago" />
+					<div class="ui-li-heading">Esófago</div>
+					<div class="ui-li-desc">tubo hueco que transporta los alimentos</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/estomago.html">
+						<img src="../images/cancer/estomago-thumb.jpg" alt="Estómago" />
+					<div class="ui-li-heading">Estómago</div>
+					<div class="ui-li-desc">sitúado en la parte alta del abdomen</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/gliomas.html">
+						<img src="../images/cancer/gliomas-thumb.jpg" alt="Gliomas" />
+					<div class="ui-li-heading">Gliomas</div>
+					<div class="ui-li-desc">Se produce en el cerebro o en la médula espinal</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/mama.html">
+						<img src="../images/cancer/mama-thumb.jpg" alt="Mama" />
+					<div class="ui-li-heading">Mama</div>
+					<div class="ui-li-desc">Glándula destinada a la producción de leche</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="../tipos/tumor-medula-espinal.html">
+						<img src="../images/cancer/medula-espinal-thumb.jpg" alt="Tumor Médula Espinal" />
+					<div class="ui-li-heading">Médula Espinal</div>
+					<div class="ui-li-desc">el tejido nervioso más extenso del cuerpo</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="../tipos/meduloblastoma.html">
+						<img src="../images/cancer/meduloblastoma-thumb.jpg" alt="Meduloblastoma" />
+					<div class="ui-li-heading">Meduloblastoma</div>
+					<div class="ui-li-desc">tumores malignos en la fosa posterior del cerebro</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="../tipos/melanoma.html">
+						<img src="../images/cancer/melanoma-thumb.jpg" alt="Melanoma" />
+					<div class="ui-li-heading">Melanoma</div>
+					<div class="ui-li-desc">Crecimiento de los melanocitos</div>
+					</a>
+					</li>
+
+					<li data-theme="b">
+					<a href="../tipos/meningiomas.html">
+						<img src="../images/cancer/meningiomas-thumb.jpg" alt="Meningiomas" />
+					<div class="ui-li-heading">Meningiomas</div>
+					<div class="ui-li-desc">Tumor cerebral usualmente benigno</div>
+					</a>
+					</li>
+				
+					<li>
+					<a href="../tipos/no-melanoma.html">
+						<img src="../images/cancer/no-melanoma-thumb.jpg" alt="No Melanoma" />
+					<div class="ui-li-heading">No Melanoma</div>
+					<div class="ui-li-desc">El tumor más frecuente del ser humano</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="../tipos/pancreas.html">
+						<img src="../images/cancer/pancreas-thumb.jpg" alt="Páncreas" />
+					<div class="ui-li-heading">Páncreas</div>
+					<div class="ui-li-desc">Glándula que participa en el proceso de la digestión</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/prostata.html">
+						<img src="../images/cancer/prostata-thumb.jpg" alt="Próstata" />
+					<div class="ui-li-heading">Próstata</div>
+					<div class="ui-li-desc">Glándula sexual exclusiva de los varones</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/recto.html">
+						<img src="../images/cancer/recto-thumb.jpg" alt="Recto" />
+					<div class="ui-li-heading">Recto</div>
+					<div class="ui-li-desc">La última porción del aparato digestivo</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="../tipos/vejiga.html">
+						<img src="../images/cancer/vejiga-thumb.jpg" alt="Vejiga" />
+					<div class="ui-li-heading">Vejiga</div>
+					<div class="ui-li-desc">órgano situado en la parte baja de la pelvis</div>
+					</a>
+					</li>
+				</ul>
+				</div>
+			</div><!--fin container_4-->
+			<div class="grid_8 info-cancer">
+				<div data-scroll="y" class="scrolling-content">
+					<h1>Meningiomas</h1>
+					<!--Menu de navegación-->
+					<div data-role="controlgroup" data-type="horizontal">
+						<a href="../tipos/meningiomas.html" data-role="button">Ficha</a>
+						<a href="../tratamiento/meningiomas.html" data-role="button" class="ui-btn-active">Tratamiento</a>
+						<a href="../video/meningiomas.html" data-role="button">Video</a>
+					</div>
+					<h2>Tratamiento</h2>
+					<p>El tratamiento de los meningiomas es  multidisciplinar y depende de la localización, del tamaño en el momento del diagnóstico,  y del estado general del paciente.</p>
+					<p> Aunque, el tratamiento de elección de los  meningiomas es la cirugía, en ocasiones es preciso añadir tratamiento con  radiaciones.</p>
+					
+					<!--imagen-->
+					<div class="full-width-image-container float-left">
+					<a href="#"><img src="../images/cancer/meningiomas-05.jpg" alt="Meningiomas" class="full-width-image float-left"/></a>
+					</div>
+					
+					<h3>Cirugía</h3>
+					<p>El objetivo de la cirugía es extirpar por completo la tumoración.  Desde el año 1957 se relaciona el grado de extirpación con el riesgo de  recidiva del meningioma a los 10 años. El grado de resección se clasifica del I  al IV, siendo el I la extirpación completa (incluyendo hueso) con un riesgo de  recidiva del 9%. En el grado IV, solo se consigue extirpación parcial del  tumor, con un riesgo de crecimiento del 40% a los 10 años. </p>
+					<p>Con frecuencia, cuando el meningioma está  localizado próximo a órganos de riesgo como el tronco cerebral, la vía óptica,  los nervios craneales o la base de cráneo, no es posible extirpar por completo  la tumoración por lo que, por un lado la cirugía resulta más compleja y con  mayor riesgo de complicaciones quirúrgicas y, por otro lado se incrementa el  índice de recidiva a 10 años.</p>
+					
+					<h3>Tratamiento con radiaciones</h3>
+					<!--imagen-->
+					<div class="full-width-image-container float-left">
+					<a href="#"><img src="../images/cancer/meningiomas-06.jpg" alt="Meningiomas" class="full-width-image float-left"/></a>
+					</div>
+					<p>El tratamiento <strong>radioterápico</strong> desempeña un papel primordial en el tratamiento de meningiomas inoperables,  irresecables o con alto riesgo de déficit neurológico, en pacientes que  rechazan la intervención quirúrgica y como tratamiento complementario en caso  de resecciones subtotales y de recidivas.</p>
+					<p> Los Meningiomas responden bien a  dosis únicas, con dosis relativamente bajas de radioterapia (radiocirugía). </p>
+					<p>La<strong> radiocirugía </strong>(convencional  o Robotizada Guiada por la   Imagen con CyberKnife)  puede utilizarse para el tratamiento de meningiomas en cualquier localización,  siempre que su tamaño no sea excesivo. Sin embargo, los meningiomas en contacto  con el nervio óptico y los meningiomas atípicos, requieren una valoración  separada.<br>
+					Pueden tratarse con radiocirugía meningiomas con tamaño de hasta 15 -  30 cm3. (3 - 4 cm.  de diámetro medio), pero siempre dependiendo de la localización y morfología  del tumor y de la dosis que se vaya a utilizar.</p>
+					<p> En el 95 – 100 % de los casos de meningiomas típicos, se consigue una reducción o detención del  crecimiento.<br>
+					La posible toxicidad del tratamiento está en relación con la dosis  utilizada y, fundamentalmente, con la localización de la lesión por la  inclusión o proximidad de nervios al tumor o de zonas sensibles como el hipotálamo o el tronco cerebral. En los casos  de inclusión de nervios craneales en el tumor, el riesgo de afectación del  nervio por la radiación puede estimarse en un valor máximo del 10 %, y muchas  veces es reversible.</p>
+					<p> Los meningiomas que no están próximos a nervios tienen un riesgo mucho  menor de efectos secundarios (edema en un 1 a 3% de los casos) </p>
+					<p>Aquellos meningiomas con diámetros superiores a los 3 – 4 cm. de diámetro medio,  además de cirugía, tienen otra alternativa de tratamiento con Radioterapia  Estereotáxica Fraccionada o Hipofraccionada, bien con Radioterapia Guiada por  Imagen-IGRT (Tomoterapia Estereotáxica) o con Radioterapia Estereotáxica  Robotizada Guiada por Imagen <strong>(CyberKnife)</strong>. </p>
+					
+					<ul>
+						<li><strong>Radioterapia Guiada por Imagen-IGRT-Tomoterapia: </strong>Es el procedimiento más avanzado con       alta tecnología que permite administrar un tratamiento de radioterapia       helicoidal, altamente adaptado a cada paciente con lo que se alcanza una excelente       dosis terapéutica sobre el tumor y se preserva el tejido neural normal       (menores secuelas). La        Tomoterapia incluye un sistema de TAC (scanner) que se       realiza diariamente para conocer la posición exacta del lecho quirúrgico o del tumor,       de los órganos sanos y del paciente. Con este TAC, se ajusta la posición       de tratamiento y minimiza el riesgo       de error de colocación. Los efectos secundarios derivados de este       tratamiento son mínimos, por lo que la calidad de vida del paciente,       durante y tras el tratamiento son excelentes.</li>
+						<li>En ocasiones se requiere una precisión aún mayor, cuando  administramos dosis únicas o el paciente ha recibido tratamiento previo con  radioterapia, por lo que se hace necesario un sistema de imágenes que nos  permita saber, durante todo el tratamiento, la posición del paciente y de la  lesión con una detección y corrección de los errores de forma automática. Esto  permite administrar altas dosis en pocas sesiones (de 1 a 5). El sistema de  Radiocirugía Robotizada Guiada por Imagen-<strong>CyberKnife</strong> cumple todos estos  criterios. </li>
+					</ul>
+					
+					<p><strong>Meningiomas  atípicos y/o malignos:</strong><br>
+					Estos meningiomas pueden presentarse bajo dos patrones morfológicos:  bien delimitados o de crecimiento infiltrante.<br>
+					En general, y a efectos del tratamiento con radiocirugía, deben  considerarse como tumores malignos, con posible crecimiento infiltrante y se  deberán abordar como tales con una estrategia combinada de:<br>
+					1º Cirugía lo  más radical posible.<br>
+					2º Radioterapia fraccionada si tras cirugía ha  quedado un resto o bien para cubrir el lecho donde estaba ubicado el tumor.</p>
+					
+					<h3>Pronóstico</h3>
+					<p>Con las técnicas quirúrgicas y de tratamiento con radioterapia  actuales, el pronóstico de estos tumores es, en general, excelente. La  supervivencia a los 5 años tras el diagnóstico es del 91%.</p>
+					<p>La recidiva tras la extirpación quirúrgica completa es del 11-15%, y del  29% en los casos de cirugía incompleta.</p>
+					<p>El índice de recidivas es mayor y la supervivencia  menor para los Meningiomas malignos.</p>
+					<h3>Aspecto psico-oncológico</h3>
+					<p>Los avances en el tratamiento del meningioma están permitiendo el  acceso y abordaje terapéutico de lesiones que previamente tenían una difícil  curación por la localización cerebral. Además, dicho avance está disminuyendo  notablemente los efectos secundarios y las secuelas asociadas a los  tratamientos recibidos.</p>
+					<p>Ante el diagnóstico de un meningioma, el paciente puede experimentar  reacciones emocionales relacionadas con la abrupta aparición de la  sintomatología clínica y con el temor a las consecuencias derivadas de la enfermedad. Sin  embargo, cada vez es menos frecuente la posibilidad de déficits  neuropsicológicos y cognitivos (fallos en memoria y funciones ejecutivas, alteraciones  conductuales, de personalidad y del pensamiento, disminución del nivel  funcional, etc.).</p>
+					<p>Por otra parte, los programas de rehabilitación neuropsicológica  permiten disminuir las posibles reacciones emocionales y secuelas de la  enfermedad, facilitando la adaptación a la vida diaria del paciente con  meningioma.</p>
+					
+					<p>Si necesita más información sobre cómo afrontar un diagnóstico de un <strong>meningioma</strong>, le ofrecemos unas pautas que le podrán ayudar a asumir y a adaptarse a la nueva situación. Puede consultarlas en el apartado de <a href="../apoyo.html">Apoyo Psicológico</a></p>
+					<p>Asimismo, si quiere conocer las experiencias y testimonios de personas que han superado esta enfermedad puede consultar en <a href="http://www.curadosdecancer.com">Curados de cáncer</a></p>
+					<a data-icon="arrow-r" data-iconpos="right" data-role="button" href="../video/meningiomas.html" data-theme="c">
+					Ver video
+					</a>
+				</div>
+			</div><!--fin grid_6-->
+		</div><!--fin container_12-->
+<div data-role="footer" id="footer" data-id="main-footer" class="ui-body-d" data-position="fixed" role="contentinfo">
+	<div data-role="navbar" data-iconpos="top">
+		<ul>
+			<li>
+				<a href="../index.html" id="tab-bar-home" data-icon="libro">
+					Oncoguia
+				</a>
+			</li>
+			<li>
+				<a href="../prevencion.html" id="tab-bar-prevencion" data-icon="cruz">
+					El cáncer. Prevención
+				</a>
+			</li>
+			<li>
+				<a href="#" id="tab-bar-tipos" data-icon="ficha" class="ui-btn-active ui-state-persist" >
+					Tipos de cáncer
+				</a>
+			</li>
+			<li>
+				<a href="../apoyo.html" id="tab-bar-apoyo" data-icon="corazon">
+					Apoyo Psicológico
+				</a>
+			</li>
+			<li>
+				<a href="../imo.html" id="tab-bar-imo" data-icon="imo">
+					Fundación Grupo IMO
+				</a>
+			</li>
+		</ul>
+	</div>
+</div><!--fin footer-->
+</div><!--fin home-->
+</body>
+</html>

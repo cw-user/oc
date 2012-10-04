@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>OncoGuía</title>
+		<meta charset="utf-8" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" href="../css/jquery.mobile-1.1.0.min.css" />
+		<link rel="stylesheet" href="../css/jquery.mobile.scrollview.css" />
+		<link rel="stylesheet" href="../css/imo.css"/>
+		<link rel="stylesheet" href="../css/custom.css"/>
+		<link rel="stylesheet" href="../css/grid/jquery-mobile-fluid960.min.css"/>
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/general.functions.js"></script>
+		<script src="../js/jquery.mobile-1.1.0.min.js"></script>
+		<script src="../js/jquery.easing.1.3.js"></script>
+		<script src="../js/jquery.mobile.scrollview.js"></script>
+		<script src="../js/scrollview.js"></script>
+	</head>
+	<body>
+		<div data-role="page" id="detalle-cancer" data-theme="c">
+			<div data-role="header" data-id="cabecera"  data-position="fixed">
+			<a href="#" data-theme="c" data-icon="back" data-rel="back" data-position="inline">Volver</a>
+				<h1>
+					OncoGuía - Tipos de cáncer
+				</h1>
+			</div>
+			<div data-role="content" class="container_12 ui-scrollview-clip">
+			<div class="grid_4">
+				<div data-scroll="y" class="scrolling-content w-background">
+				<ul id="cancer-list" data-filter="true" data-filter-theme="f" data-role="listview" data-theme="a" data-inset="true">
+					<li>
+					<a href="adenoma-de-hipofisis.html">
+					<img src="../images/cancer/adenoma-hipofisis-thumb.jpg" alt="Adenoma de Hipófisis" />
+					<div class="ui-li-heading">Adenoma de Hipófisis</div>
+					<div class="ui-li-desc">Glándula situada en la silla turca</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="colon.html">
+					<img src="../images/cancer/colon-thumb.jpg" alt="Colon" />
+					<div class="ui-li-heading">Colon</div>
+					<div class="ui-li-desc">La última porción del aparato digestivo</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="cuello-uterino-cervix.html">
+					<img src="../images/cancer/cuello-uterino-cervix-thumb.jpg" alt="Cuello Uterino/Cérvix" />
+					<div class="ui-li-heading">Cuello Uterino/Cérvix</div>
+					<div class="ui-li-desc">parte más inferior del aparato rep. femenino</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="endometrio-utero.html">
+						<img src="../images/cancer/endometrio-utero-thumb.jpg" alt="Endometrio/útero" />
+					<div class="ui-li-heading">Endometrio/útero</div>
+					<div class="ui-li-desc">órgano hueco, situado en la pelvis.</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="esofago.html">
+						<img src="../images/cancer/esofago-thumb.jpg" alt="Esófago" />
+					<div class="ui-li-heading">Esófago</div>
+					<div class="ui-li-desc">tubo hueco que transporta los alimentos</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="estomago.html">
+						<img src="../images/cancer/estomago-thumb.jpg" alt="Estómago" />
+					<div class="ui-li-heading">Estómago</div>
+					<div class="ui-li-desc">sitúado en la parte alta del abdomen</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="gliomas.html">
+						<img src="../images/cancer/gliomas-thumb.jpg" alt="Gliomas" />
+					<div class="ui-li-heading">Gliomas</div>
+					<div class="ui-li-desc">Se produce en el cerebro o en la médula espinal</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="mama.html">
+						<img src="../images/cancer/mama-thumb.jpg" alt="Mama" />
+					<div class="ui-li-heading">Mama</div>
+					<div class="ui-li-desc">Glándula destinada a la producción de leche</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="tumor-medula-espinal.html">
+						<img src="../images/cancer/medula-espinal-thumb.jpg" alt="Tumor Médula Espinal" />
+					<div class="ui-li-heading">Médula Espinal</div>
+					<div class="ui-li-desc">el tejido nervioso más extenso del cuerpo</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="meduloblastoma.html">
+						<img src="../images/cancer/meduloblastoma-thumb.jpg" alt="Meduloblastoma" />
+					<div class="ui-li-heading">Meduloblastoma</div>
+					<div class="ui-li-desc">tumores malignos en la fosa posterior del cerebro</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="melanoma.html">
+						<img src="../images/cancer/melanoma-thumb.jpg" alt="Melanoma" />
+					<div class="ui-li-heading">Melanoma</div>
+					<div class="ui-li-desc">Crecimiento de los melanocitos</div>
+					</a>
+					</li>
+
+					<li data-theme="b">
+					<a href="meningiomas.html">
+						<img src="../images/cancer/meningiomas-thumb.jpg" alt="Meningiomas" />
+					<div class="ui-li-heading">Meningiomas</div>
+					<div class="ui-li-desc">Tumor cerebral usualmente benigno</div>
+					</a>
+					</li>
+				
+					<li>
+					<a href="no-melanoma.html">
+						<img src="../images/cancer/no-melanoma-thumb.jpg" alt="No Melanoma" />
+					<div class="ui-li-heading">No Melanoma</div>
+					<div class="ui-li-desc">El tumor más frecuente del ser humano</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="pancreas.html">
+						<img src="../images/cancer/pancreas-thumb.jpg" alt="Páncreas" />
+					<div class="ui-li-heading">Páncreas</div>
+					<div class="ui-li-desc">Glándula que participa en el proceso de la digestión</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="prostata.html">
+						<img src="../images/cancer/prostata-thumb.jpg" alt="Próstata" />
+					<div class="ui-li-heading">Próstata</div>
+					<div class="ui-li-desc">Glándula sexual exclusiva de los varones</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="recto.html">
+						<img src="../images/cancer/recto-thumb.jpg" alt="Recto" />
+					<div class="ui-li-heading">Recto</div>
+					<div class="ui-li-desc">La última porción del aparato digestivo</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="vejiga.html">
+						<img src="../images/cancer/vejiga-thumb.jpg" alt="Vejiga" />
+					<div class="ui-li-heading">Vejiga</div>
+					<div class="ui-li-desc">órgano situado en la parte baja de la pelvis</div>
+					</a>
+					</li>
+				</ul>
+				</div>
+			</div><!--fin container_4-->
+				<div class="grid_8 info-cancer">
+					<div data-scroll="y" class="scrolling-content">
+						<h1>Meningiomas</h1>
+						<!--Menu de navegación-->
+						<div data-role="controlgroup" data-type="horizontal">
+							<a href="../tipos/meningiomas.html" data-role="button" class="ui-btn-active">Ficha</a>
+							<a href="../tratamiento/meningiomas.html" data-role="button">Tratamiento</a>
+							<a href="../video/meningiomas.html" data-role="button">Video</a>
+						</div>
+						
+						<h2>Introducción</h2>
+						
+						<p>El sistema nervioso  central está formado por dos estructuras básicas: el encéfalo y la médula  espinal.</p>
+						
+						<!--imagen-->
+						<div class="full-width-image-container float-left">
+						<a href="#"><img src="../images/cancer/meningiomas-01.jpg" alt="Meningiomas" class="full-width-image float-left"/></a>
+						</div>
+						
+						<p><strong>El encéfalo</strong>, está integrado por el  cerebro, el cerebelo y el tronco cerebral. Se encuentra rodeado por unas  membranas, denominadas <strong>meninges</strong>, entre las que circula libremente el líquido cefalorraquídeo. Se encuentra  contenido en una estructura ósea rígida, que lo protege, denominada cráneo.</p>
+						
+						<ul>
+							<li><strong>Cerebro:</strong> Se encarga de las funciones cognitivas, (el habla, el pensamiento, el aprendizaje y la memoria) además de determinadas respuestas motoras y emocionales.&nbsp;Está formado por dos hemisferios, derecho e izquierdo. Cada uno se divide en 4 lóbulos: frontal, temporal, parietal y occipital. </li>
+							<li><strong>Cerebelo:</strong> Situado en la parte más posterior e inferior del cráneo. Regula de forma automática determinados movimientos y mantiene la postura, la       estabilidad y el equilibrio. &nbsp;</li>
+							<li><strong>Tronco cerebral:</strong> Situado por delante del cerebelo, conecta el cerebro con la médula espinal. Se encarga de controlar funciones vitales como la respiración, la tos, el latido cardiaco, la tensión arterial, la temperatura corporal, y la deglución.</li>
+						</ul>
+						
+						<!--imagen-->
+						<div class="full-width-image-container float-left">
+						<a href="#"><img src="../images/cancer/meningiomas-02.jpg" alt="Meningiomas" class="full-width-image float-left"/></a>
+						</div>
+						
+						<!--imagen-->
+						<div class="full-width-image-container float-left">
+						<a href="#"><img src="../images/cancer/meningiomas-03.jpg" alt="Meningiomas" class="full-width-image float-left"/></a>
+						</div>
+						
+						<p><strong>La médula espinal</strong> se encuentra en el interior de la columna vertebral  y, como el encéfalo, está rodeada por las meninges y el líquido cefalorraquídeo.  Es la encargada de la transmisión de la información sensorial desde todo el organismo hasta el cerebro y de los impulsos motores  desde el cerebro a los músculos.</p>
+						<p> Los meningiomas son tumores benignos que se originan en una de las  capas que forman las meninges(aracnoides) y no suelen infiltrar el tejido cerebral.</p>
+						<p>Aunque la mayoría de los meningiomas son benignos y de lento  crecimiento, en ocasiones dependiendo de dónde se localicen y del tamaño que  hayan alcanzado, el tratamiento puede llegar a ser muy complejo y dejar  secuelas.</p>
+						
+						<p>Son los tumores benignos intracraneales más frecuentes. Su incidencia  es de 6 casos por cada 100.000 habitantes. Representan, aproximadamente el
+						el 20-27% de todos los tumores intracraneales. El pico de mayor frecuencia está  en los 40-70 años y son más frecuentes en mujeres, con una relación de 2:1 con  respecto a los varones. El 1,5 % de los meningiomas se diagnostican en edad  pediátrica y está relacionada en un 25% de los casos con la enfermedad de von  Recklinghausen.</p>
+						
+						<p>Los meningiomas de la médula espinal son menos frecuentes, suponen alrededor  del 12% de todos los meningiomas y el 40% de las lesiones tumorales espinales.</p>
+						<h3>Prevención</h3>
+						<p>Aunque la mayoría de los meningiomas son esporádicos y de etiología  desconocida, se han identificado determinados factores, incluyendo genéticos (asociado  al tipo 2 de neurofibromatosis), hormonales y la irradiación craneal para el  tratamiento de la tiña o tinea capitis (actualmente en desuso).</p>
+											
+						<h3>Diagnóstico Precoz</h3>
+						<p>En la actualidad no existe ninguna prueba  ni programa de screening que permita realizar un diagnóstico precoz de los meningiomas.					    No obstante, es importante acudir al médico  ante cualquier síntoma que perdure en el tiempo.</p>
+						
+
+						<h3>Síntomas y Diagnóstico Clínico</h3>
+						
+						<p>En general, cuando el tumor es pequeño, no suele producir síntomas  salvo que afecte una zona muy sensible del cerebro. Cuando su tamaño es mayor los  síntomas dependerán del lugar en el que se localice la lesión. <br>
+						Éste es uno de los pocos tumores que produce cambios en las  características del hueso del cráneo y que a veces se puede observar en radiografías  simples de cráneo.<br>
+						En general, son tumores  de lento crecimiento, por lo que los síntomas se suelen instaurar  progresivamente y rara vez causan compromiso de espacio. Los síntomas mas frecuentes  son:</p>
+						
+						<ul>
+							<li>Cefalea.</li>
+							<li>Crisis epilépticas.</li>
+							<li>Trastornos de personalidad.</li>
+							<li>Déficit neurológico progresivo.</li>
+							<li>Confusión.</li>
+							<li>Tendencia al sueño.</li>
+							<li>Pérdida de audición. </li>
+							<li>Debilidad de la musculatura.</li>
+							<li>Náuseas y vómitos.</li>
+							<li>Trastornos visuales.</li>
+						</ul>
+						
+						<p>Dependiendo de  los síntomas que presente el paciente se realizarán pruebas especializadas.  Estas pruebas incluyen la verificación del campo visual, la agudeza visual y la  audición.</p>
+						<p>El diagnóstico  por imagen es fundamental ya que nos orientará hacia un tumor maligno o  benigno:</p>
+						
+						<ul>
+							<li><strong>TC o Tomografía computerizada</strong> <em>(escáner)</em> basada en la utilización de rayos X que generan imágenes detalladas del cráneo y cerebro. En ocasiones, es preciso utilizar contraste para resaltar alguna estructura como los vasos sanguíneos. Con esta prueba, se puede visualizar la lesión       y su situación en relación a otras estructuras cerebrales.</li>
+						</ul>
+
+							<!--imagen-->
+							<div class="full-width-image-container float-left">
+							<a href="#"><img src="../images/cancer/meningiomas-04.jpg" alt="Meningiomas" class="full-width-image float-left"/></a>
+							</div>
+
+						<ul class="clearfix">
+							<li><strong>Resonancia magnética</strong> (RM) cerebral en T1 sin y con  contraste intravenoso, T2 y difusión: procedimiento basado en el uso de  radiofrecuencias en un campo magnético, en la que se puede utilizar contraste  para definir mejor los tejidos a explorar. Es la prueba más útil para valorar  la lesión así como el resto del tejido cerebral. En RM se observa una captación  intensa del contraste intravenoso debido a su alta vascularización y, en los  estudios sin contraste se pueden observar calcificaciones que demuestran la  naturaleza benigna de la lesión. </li>
+							<li>Ocasionalmente el diagnóstico se realiza durante la cirugía, en un estudio de anatomía patológica intraoperatoria.</li>
+						</ul>
+
+						<h3>Clasificación</h3>
+						Los meningiomas se clasifican en benignos, atípicos y malignos. Estos  dos últimos suponen el 10% de los meningiomas:</p>
+						<p>1.- Meningioma benigno (90%): </p>
+						<ul>
+							<li>Meningoendotelial.</li>
+							<li>Fibroso (Fibroblástico).</li>
+							<li>Transicional (mixto).</li>
+							<li>Psamomatoso.</li>
+							<li>Angiomatoso.</li>
+							<li>Microquístico.</li>
+							<li>Secretor.</li>
+							<li>Linfoplasmocítico.</li>
+							<li>Metaplásico.</li>
+						</ul>
+						<p>2.-Meningioma atípico (5-7 %)</p>
+						<p>3.-Meningioma anaplásico (maligno)&nbsp;(1-3 %)</p>
+
+						<!--imagen-->
+						<div class="full-width-image-container float-left">
+						<a href="#"><img src="../images/cancer/meningiomas-07.jpg" alt="Meningiomas" class="full-width-image float-left"/></a>
+						</div>
+						<p class="epigrafe">Meningioma Benigno - Tipo I</p>
+						
+						<a id="btn_tratamiento" data-icon="pill" data-iconpos="left" data-role="button" href="../tratamiento/meningiomas.html" data-theme="c">Tratamiento</a>
+						
+					</div><!--end scrollingcontent-->
+				</div><!--fin grid_8 -->
+			</div><!--fin container_12-->
+	<div data-role="footer" id="footer" data-id="main-footer" class="ui-body-d" data-position="fixed" role="contentinfo">
+		<div data-role="navbar" data-iconpos="top">
+			<ul>
+				<li>
+					<a href="../index.html" id="tab-bar-home" data-icon="libro">
+						Oncoguia
+					</a>
+				</li>
+				<li>
+					<a href="../prevencion.html" id="tab-bar-prevencion" data-icon="cruz">
+						El cáncer. Prevención
+					</a>
+				</li>
+				<li>
+					<a href="#" id="tab-bar-tipos" data-icon="ficha" class="ui-btn-active ui-state-persist" >
+						Tipos de cáncer
+					</a>
+				</li>
+				<li>
+					<a href="../apoyo.html" id="tab-bar-apoyo" data-icon="corazon">
+						Apoyo Psicológico
+					</a>
+				</li>
+				<li>
+					<a href="../imo.html" id="tab-bar-imo" data-icon="imo">
+						Fundación Grupo IMO
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div><!--fin footer-->
+	</div><!--fin home-->
+</body>
+</html>

@@ -1,0 +1,675 @@
+/* =============================================================================
+	Custom fonts
+   ========================================================================== */
+	@font-face {
+	    font-family: 'FuturaStdBold';
+	    src: url('../fonts/futurastd-bold-webfont.eot');
+	    src: url('../fonts/futurastd-bold-webfont.eot?#iefix') format('embedded-opentype'),
+	         url('../fonts/futurastd-bold-webfont.woff') format('woff'),
+	         url('../fonts/futurastd-bold-webfont.ttf') format('truetype'),
+	         url('../fonts/futurastd-bold-webfont.svg#FuturaStdBold') format('svg');
+	    font-weight: normal;
+	    font-style: normal;
+	
+	}
+	
+	@font-face {
+	    font-family: 'FuturaStdBoldOblique';
+	    src: url('../fonts/futurastd-boldoblique-webfont.eot');
+	    src: url('../fonts/futurastd-boldoblique-webfont.eot?#iefix') format('embedded-opentype'),
+	         url('../fonts/futurastd-boldoblique-webfont.woff') format('woff'),
+	         url('../fonts/futurastd-boldoblique-webfont.ttf') format('truetype'),
+	         url('../fonts/futurastd-boldoblique-webfont.svg#FuturaStdBoldOblique') format('svg');
+	    font-weight: normal;
+	    font-style: normal;
+	
+	}
+	
+	@font-face {
+	    font-family: 'FuturaStdBook';
+	    src: url('../fonts/futurastd-book-webfont.eot');
+	    src: url('../fonts/futurastd-book-webfont.eot?#iefix') format('embedded-opentype'),
+	         url('../fonts/futurastd-book-webfont.woff') format('woff'),
+	         url('../fonts/futurastd-book-webfont.ttf') format('truetype'),
+	         url('../fonts/futurastd-book-webfont.svg#FuturaStdBook') format('svg');
+	    font-weight: normal;
+	    font-style: normal;
+	
+	}
+	
+	@font-face {
+	    font-family: 'FuturaStdBookOblique';
+	    src: url('../fonts/futurastd-bookoblique-webfont.eot');
+	    src: url('../fonts/futurastd-bookoblique-webfont.eot?#iefix') format('embedded-opentype'),
+	         url('../fonts/futurastd-bookoblique-webfont.woff') format('woff'),
+	         url('../fonts/futurastd-bookoblique-webfont.ttf') format('truetype'),
+	         url('../fonts/futurastd-bookoblique-webfont.svg#FuturaStdBookOblique') format('svg');
+	    font-weight: normal;
+	    font-style: normal;
+	
+	}
+/* =============================================================================
+	Helpers
+   ========================================================================== */
+   /* maxvoltar.com/archive/-webkit-font-smoothing */
+   html { -webkit-font-smoothing: antialiased; }
+   	
+	/* For image replacement */
+	.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; }
+	.ir br { display: none; }
+	
+	/* Hide from both screenreaders and browsers: h5bp.com/u */
+	.hidden { display: none !important; visibility: hidden; }
+	
+	/* Hide only visually, but have it available for screenreaders: h5bp.com/v */
+	.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+	
+	/* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
+	.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+	
+	/* Hide visually and from screenreaders, but maintain layout */
+	.invisible { visibility: hidden; }
+	
+	/* Contain floats: h5bp.com/q */ 
+	.clearfix:before, .clearfix:after { content: ""; display: table; }
+	.clearfix:after { clear: both; }
+	.clearfix { zoom: 1; }
+	
+	.center {
+		margin: 0 auto;
+		text-align: center;
+	}
+	.float-left{
+		float: left;
+		margin-right: 2em;
+	}
+	.float-right {
+		float: right;
+		margin-left: 2em;
+	}
+	/*Image Scaling*/
+	img{max-width: 100%; height: auto;}
+	img{ -ms-interpolation-mode: bicubic; }
+
+
+	
+/* =============================================================================
+	Basic Styles
+   ========================================================================== */
+   h1, h2 {
+   	font-family:"FuturaStdBold";
+   	letter-spacing: -1px;
+   }
+   h3 {
+	font-family:"FuturaStdBook";
+	line-height: 1.4em;
+	font-size: 1.3em;
+   }
+   h3 strong {
+   	font-family:"FuturaStdBold";
+   }
+   p {
+   	font-family:"FuturaStdBook";
+   	line-height: 1.6em;
+   	font-size: 1.1em;
+   }
+   p strong {
+   	font-family:"FuturaStdBold";
+   }
+   li {
+   	margin-bottom: 1em;
+   	line-height: 120%;
+   	color: #505050;
+	font: 1em "FuturaStdBook";
+   }
+   li strong {
+   	color: #000;
+   }
+   .ui-btn-text {
+   	font-family:"FuturaStdBook";
+   }
+   .ui-link {
+   	font-family:"FuturaStdBold";
+   }
+   .ui-content {
+   	padding: 0;
+   }
+   .scrolling-content {
+   	padding-bottom: 20px;
+   }
+   .photo-scroller {
+   	height: 400px;
+   }
+
+   .epigrafe {
+      font-size: 12px;
+      font-style: italic;
+      color: #000000;
+      text-align: center;
+   }
+   .bullet {
+      clear: both;
+      padding-left: 20px;
+      background: url(../images/bullet.png) 0 10px no-repeat;
+   }
+/* =============================================================================
+	Welcome screen
+   ========================================================================== */
+   #logo {
+   	background: transparent url('../images/oncoguia-logo.png') no-repeat left top;
+   	width: 306px;
+   	height: 71px;
+   	margin: 40px auto;
+   }
+   #logo-fundacion{
+   	background: transparent url(../images/logo-fundacion-imo.png) no-repeat left top;
+   	width: 143px;
+   	height: 77px;
+   	margin: 10px auto;
+   }
+   .button-container {
+   	background-color: rgba(150, 150, 150, 0.19);
+	   padding-top: 10px;
+	   padding-bottom: 10px;
+	   margin-bottom: 50px;
+	   border: 2px solid #fff;
+	   border: 1px solid #d2d2d2;
+	   
+	   opacity: 1;
+       -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+       border-radius: 10px;
+	   -moz-box-shadow: 0 2px 1px #ffffff;
+	   -webkit-box-shadow: 0 2px 1px #ffffff;
+	   box-shadow: 0 2px 1px #ffffff;
+   }
+   .ui-page {
+	   	background:#fff url(../images/home-bg.png) repeat;
+   }
+   .welcome-text {
+   	line-height: 200%;
+   	margin: 30px 0;
+   	font-size: 1.2em;
+   }
+   
+   .footerinfo {
+   	text-align: center;
+   	font-size: 12px;
+   }
+/* =============================================================================
+	Home menu
+   ========================================================================== */
+   #home .ui-btn .ui-icon {
+   	width: 35px!important;
+   	height: 35px!important;
+   	background-size: 150px;
+   	overflow: hidden;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	}
+   #home #prevencion .ui-icon {
+   	background: url(../images/home-button-icons.png) no-repeat -20px 0 transparent;
+   }
+   #home #tipos .ui-icon {
+   	background: url(../images/home-button-icons.png) no-repeat -55px 0 transparent;
+   }
+   #home #apoyo .ui-icon {
+   	background: url(../images/home-button-icons.png) no-repeat -90px 0 transparent;
+   }
+   #home #btn_grupo_imo .ui-icon {
+   	background: url(../images/home-button-icons.png) no-repeat -125px 0 transparent;
+   }
+/* =============================================================================
+	Tab Bar
+   ========================================================================== */
+	#footer .ui-btn .ui-icon {
+		width: 33px!important;
+		height: 33px!important;
+		background-size: 150px;
+		overflow: hidden;
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		border-radius: 0;
+		}
+	#tab-bar-home .ui-icon {
+		background: url(../images/home-button-icons.png) no-repeat 5px 0 transparent;
+	}
+	#tab-bar-prevencion .ui-icon {
+		background: url(../images/home-button-icons.png) no-repeat -25px 0 transparent;
+	}
+	#tab-bar-tipos .ui-icon {
+		background: url(../images/home-button-icons.png) no-repeat -50px 0 transparent;
+	}
+	#tab-bar-apoyo .ui-icon {
+		background: url(../images/home-button-icons.png) no-repeat -85px 0 transparent;
+	}
+	#tab-bar-imo .ui-icon {
+		background: url(../images/home-button-icons.png) no-repeat -125px 0 transparent;
+	}
+/* =============================================================================
+	Custom icons
+   ========================================================================== */
+   #btn_tratamiento .ui-icon {
+   	background: url(../images/pill-icon.png) no-repeat 0 0 transparent;
+   	width: 30px;
+   	height: 12px;
+   	top: 22px;
+   }
+/* =============================================================================
+	Cancer list
+   ========================================================================== */
+   #cancer-list {
+   	margin-bottom: 10px;
+   }
+    #cancer-list .ui-li-heading {
+   	font-family:"FuturaStdBold";
+   	letter-spacing: -1px;
+   }
+    #cancer-list .ui-li-desc {
+   	color: #000;
+   }
+   #cancer-list .ui-li-thumb {
+   	-webkit-border-radius: 5px;
+   	-moz-border-radius: 5px;
+   	border-radius: 5px;
+   	width: 60px;
+   	top: 10px;
+   	left: 20px;
+	   -moz-box-shadow: 0 2px 3px #646464;
+	   -webkit-box-shadow: 0 2px 3px #646464;
+	   box-shadow: 0 2px 3px #646464;
+   }
+   .ui-icon-carta {
+   	background: transparent url('../images/icon-carta.png') no-repeat left top;
+   	width: 33px!important;
+   	height: 33px!important;
+   	overflow: hidden;
+   	-webkit-border-radius: 0;
+   	-moz-border-radius: 0;
+   	border-radius: 0;	
+   }
+   
+   .scrolling-content .ui-listview-filter  {
+   	padding-top: 10px;
+   }
+   
+   .scrolling-content.w-background {
+   	background-color: rgba(0, 0, 0, 0.6);
+   }
+   
+   .info-cancer .scrolling-content {
+   	padding-left: 40px;
+   	padding-right: 40px;
+   }
+   
+   /* =============================================================================
+	Alineación de imagen del Loader
+   ========================================================================== */
+   .ui-icon-loading {
+        background-position: center center;
+    }
+   
+/* =============================================================================
+	styles Portrait
+   ========================================================================== */   
+         
+   @media only screen and (orientation : portrait) {
+   
+   	#wrapper {
+   		width:250px;
+   		height:188px;
+   	
+   		float:left;
+   		position:relative;	/* On older OS versions "position" and "z-index" must be defined, */
+   		z-index:1;			/* it seems that recent webkit is less picky and works anyway. */
+   		overflow:hidden;
+   		background: url(../images/fondo-fotos.jpg) no-repeat 50% 50%;	
+   		}
+   
+   	#scroller.scroller-one-image {
+   		width: 250px;
+   	}
+   	
+   	#scroller.scroller-two-images {
+   		width: 500px;
+   	}
+   	
+   	#scroller.scroller-three-images {
+   		width: 750px;
+   	}
+   	#scroller.scroller-four-images {
+   		width: 1000px;
+   	}
+   	
+   	#scroller.scroller-five-images {
+   		width: 1250px;
+   	}
+   	
+   	#scroller.scroller-one-image img, #scroller.scroller-two-images img, #scroller.scroller-three-images img, #scroller.scroller-four-images img, #scroller.scroller-five-images img  {
+   		width: 250px;
+   		height: 188px;
+   	}		
+   		   	   
+   	#scroller ul {
+   		list-style:none;
+   		display:block;
+   		float:left;
+   		width:100%;
+   		height:100%;
+   		padding:0;
+   		margin:0;
+   		text-align:left;
+   	}
+   	
+   	#scroller li {
+   		-webkit-box-sizing:border-box;
+   		-moz-box-sizing:border-box;
+   		-o-box-sizing:border-box;
+   		box-sizing:border-box;
+   		display:block; float:left;
+   		width:250px;
+   		height: 188px;
+   	}
+   	
+   	#nav {
+   		width:250px;
+   		height: 35px;
+   		float:left;
+   	}
+   	   
+   	#indicator {
+   		clear:left;
+   		float:left;
+   		list-style:none;
+   		margin:0;
+   		padding:0;
+   		position:relative;
+   		left:50%;
+   		text-align:center;
+   		height: 35px;
+   		background:url('../images/bg.jpg') no-repeat left top;
+   	}
+   	
+   	#indicator > li {
+   		display:block;
+   		float:left;
+   		list-style:none;
+   		margin:0;
+   		padding:0;
+   		position:relative;
+   		right:50%;   	
+   		overflow:hidden;
+   		width: 35px;
+   		height: 35px;
+   		margin-right:2px;
+   		text-indent: -9999px;
+   	background:url(../images/carousel-bullet-normal.png) no-repeat center center;}
+   	
+   	#indicator > li.active {
+   	background-image: url(../images/carousel-bullet-active.png);}
+   	
+   	#indicator > li:last-child {
+   		margin:0;
+   	
+   }
+   
+   
+   .sidebar-image-container{
+   	background:url('../images/sombra.png') no-repeat center bottom;
+   	padding-bottom:18px;
+   	float: left;
+   	background-size: 100%;
+   }
+   	
+   .sidebar-image {
+   	width: 100%;
+   	height: auto;
+   	border: 1px solid #CCCCCC;
+   	border-bottom: 1px solid #adadad;
+   	border-top: 1px solid #e8e8e8;
+   }
+   
+   .half-width-image-container{
+   	-webkit-box-shadow:  3px 5px 10px 1px rgba(0, 00, 0, .3);
+   	box-shadow:  3px 5px 10px 1px rgba(0, 00, 0, .3);
+   	width: 50%;
+   	margin-bottom: 20px;
+   	margin-top: 20px;
+   }
+   .half-width-image {
+   	width: 100%;
+   	border: 1px solid #CCCCCC;
+   	border-bottom: 1px solid #adadad;
+   	border-top: 1px solid #fff;
+   }
+   
+   .full-width-image-container{
+   -webkit-box-shadow:  3px 5px 10px 1px rgba(0, 00, 0, .3);
+    box-shadow:  3px 5px 10px 1px rgba(0, 00, 0, .3);
+   	width: 100%;
+	margin-bottom: 20px;
+   	
+   }
+   .full-width-image {
+   	width: 100%;
+   	height: auto;
+   	border: 1px solid #CCCCCC;
+   	border-bottom: 1px solid #adadad;
+   	border-top: 1px solid #e8e8e8;
+   }
+   
+   .scrolling-content {
+   	height: 808px;
+   	overflow: hidden;
+   }
+   
+   .scrolling-content.standalone {
+   	height: 908px;
+   }
+   
+   /*Video player*/
+   .video-theater { 
+   	padding: 0 40px;
+   }
+   .videoplayer {
+   	width: 430px;
+   	height: 242px;
+   	border:1px solid #cecece;
+   	-webkit-box-shadow:0 5px 5px rgba(0, 00, 0, .3);
+   	box-shadow:0 5px 5px rgba(0, 00, 0, .3);
+	margin: 20px auto;
+   border-top-color:#cecece;border-top-width: 1px;border-left-width:1px;border-left-color: #cecece;border-right-color:#686666;border-right-width:1px;border-bottom-width:1px;border-bottom-color:#686666;
+   }
+
+   .videoplayer-small {
+   width: 250px;
+   height: 139px;
+   border:1px solid #cecece;
+   -webkit-box-shadow:0 5px 5px rgba(0, 00, 0, .3);
+   box-shadow:0 5px 5px rgba(0, 00, 0, .3);
+   margin: 20px auto;
+   border-top-color:#cecece;border-top-width: 1px;border-left-width:1px;border-left-color: #cecece;border-right-color:#686666;border-right-width:1px;border-bottom-width:1px;border-bottom-color:#686666;
+   }
+
+   }
+
+/* =============================================================================
+	styles Landscape
+   ========================================================================== */   
+
+   @media only screen and (orientation : landscape) {
+   
+   #wrapper {
+   	width:400px;
+   	height:300px;
+   	float:left;
+   	position:relative;	/* On older OS versions "position" and "z-index" must be defined, */
+   	z-index:1;			/* it seems that recent webkit is less picky and works anyway. */
+   	overflow:hidden;
+   	background: url(../images/fondo-fotos.jpg) no-repeat 50% 50%;
+   	}
+   	
+   	#scroller.scroller-one-image {
+   		width: 400px;
+   	}
+   	
+   	#scroller.scroller-two-images {
+   		width: 800px;
+   	}
+   	
+   	#scroller.scroller-three-images {
+   		width: 1200px;
+   	}
+   	#scroller.scroller-four-images {
+   		width: 1600px;
+   	}
+   	
+   	#scroller.scroller-five-images {
+   		width: 2000px;
+   	}
+   	
+   	#scroller.scroller-one-image img, #scroller.scroller-two-images img, #scroller.scroller-three-images img, #scroller.scroller-four-images img, #scroller.scroller-five-images img  {
+   		width: 400px;
+   		height: 300px;
+   	}		
+   		
+   	
+      
+   #scroller ul {
+   	list-style:none;
+   	display:block;
+   	float:left;
+   	width:100%;
+   	height:100%;
+   	padding:0;
+   	margin:0;
+   	text-align:left;
+   }
+   
+   #scroller li {
+   	-webkit-box-sizing:border-box;
+   	-moz-box-sizing:border-box;
+   	-o-box-sizing:border-box;
+   	box-sizing:border-box;
+   	display:block; float:left;
+   	width:400px; height:300px;
+   }
+   
+   #nav {
+   	width:400px;
+   	height: 35px;
+   	float:left;
+   }
+      
+   #indicator {
+   	clear:left;
+   	float:left;
+   	list-style:none;
+   	margin:0;
+   	padding:0;
+   	position:relative;
+   	left:50%;
+   	text-align:center;
+   	height: 35px;
+   	background:url('../images/bg.jpg') no-repeat left top;
+   }
+   
+   #indicator > li {
+   	display:block;
+   	float:left;
+   	list-style:none;
+   	margin:0;
+   	padding:0;
+   	position:relative;
+   	right:50%;   	
+   	overflow:hidden;
+   	width: 35px;
+   	height: 35px;
+   	margin-right:2px;
+   	text-indent: -9999px;
+   background:url(../images/carousel-bullet-normal.png) no-repeat center center;}
+   
+   #indicator > li.active {
+   background-image: url(../images/carousel-bullet-active.png);}
+   
+   #indicator > li:last-child {
+   	margin:0;
+   }
+   	
+   .sidebar-image-container{
+   	background:url('../images/sombra.png') no-repeat center bottom;
+   	padding-bottom:29px;
+   	float: left;
+   }
+   	
+   .sidebar-image {
+   	width: 100%;
+   	height: auto;
+   	border: 1px solid #CCCCCC;
+   	border-bottom: 1px solid #adadad;
+   	border-top: 1px solid #e8e8e8;
+   }
+   
+   .half-width-image-container{
+	-webkit-box-shadow:  3px 5px 10px 1px rgba(0, 00, 0, .3);
+	box-shadow:  3px 5px 10px 1px rgba(0, 00, 0, .3);
+   	width: 50%;
+   	margin-bottom: 10px;
+   }
+   .half-width-image {
+   	width: 100%;
+   	border: 1px solid #CCCCCC;
+   	border-bottom: 1px solid #adadad;
+   	border-top: 1px solid #fff;
+   }
+   
+   .full-width-image-container{
+   -webkit-box-shadow:  3px 5px 10px 1px rgba(0, 00, 0, .3);
+    box-shadow:  3px 5px 10px 1px rgba(0, 00, 0, .3);
+   	width: 100%;
+   	margin-bottom: 20px;
+   	margin-top: 20px;
+   	
+   }
+   .full-width-image {
+   	width: 100%;
+   	height: auto;
+   	border: 1px solid #CCCCCC;
+   	border-bottom: 1px solid #adadad;
+   	border-top: 1px solid #e8e8e8;
+   }
+   
+   .scrolling-content {
+   	height: 552px;
+   	overflow: hidden;
+   }
+   
+   .scrolling-content.standalone {
+   	height: 652px;
+   }
+   
+   /*Video player*/
+   .video-theater {
+   	padding: 0 40px;
+   }
+   .videoplayer {
+	width: 600px;
+	height: 338px;
+   	border:1px solid #cecece;
+   	-webkit-box-shadow:0 5px 5px rgba(0, 00, 0, .3);
+	box-shadow:0 5px 5px rgba(0, 00, 0, .3);
+	margin: 20px auto;
+   border-top-color:#cecece;border-top-width: 1px;border-left-width:1px;border-left-color: #cecece;border-right-color:#686666;border-right-width:1px;border-bottom-width:1px;border-bottom-color:#686666;
+   }
+   .videoplayer-small {
+   width: 400px;
+   height: 222px;
+      border:1px solid #cecece;
+      -webkit-box-shadow:0 5px 5px rgba(0, 00, 0, .3);
+   box-shadow:0 5px 5px rgba(0, 00, 0, .3);
+   margin: 20px auto;
+   border-top-color:#cecece;border-top-width: 1px;border-left-width:1px;border-left-color: #cecece;border-right-color:#686666;border-right-width:1px;border-bottom-width:1px;border-bottom-color:#686666;
+   }
+   
+   }
